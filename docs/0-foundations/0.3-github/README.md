@@ -56,9 +56,9 @@ Once we've cloned the repo we can make edits to it and track our changes with Gi
 
 `git push` allows us to share local changes by "pushing" local commits to GitHub for others to view. Video demo below.
 
-{% embed url="https://youtu.be/BJojbCFfOHU" %}
+[Video] (https://youtu.be/BJojbCFfOHU)
+
 Demonstration of how to push local changes to GitHub
-{% endembed %}
 
 ## Git Pull
 
@@ -82,17 +82,16 @@ GitHub provides an easy way to view past changes to a repo. For example, if we a
 4. (Below) GitHub Fork video from prior version of Rocket's Coding Basics course
 5. (Below) GitHub Repo Browsing video from prior version of Rocket's Coding Basics course
 
-{% embed url="https://www.youtube.com/watch?v=dn7r4333c4g" %}
+[video](https://www.youtube.com/watch?v=dn7r4333c4g)
 Intro to GitHub video from prior version of Rocket's Coding Basics course
-{% endembed %}
 
 
 > In the below GitHub Fork video we demonstrate `git push origin master`, but for most purposes `git push` will suffice.
 
-{% embed url="https://youtu.be/uMNcnLWTmZU" %}
+[video](https://youtu.be/uMNcnLWTmZU)
 GitHub Fork video from a prior version of Rocket's Coding Basics course
-{% endembed %}
 
-{% embed url="https://youtu.be/a-flBCpOmBU" %}
+
+[video](https://youtu.be/a-flBCpOmBU)
 GitHub Repo Browsing video from prior version of Rocket's Coding Basics course
-{% endembed %}
+
