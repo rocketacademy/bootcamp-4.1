@@ -86,9 +86,8 @@ GitHub provides an easy way to view past changes to a repo. For example, if we a
 Intro to GitHub video from prior version of Rocket's Coding Basics course
 {% endembed %}
 
-{% hint style="warning" %}
-In the below GitHub Fork video we demonstrate `git push origin master`, but for most purposes `git push` will suffice.
-{% endhint %}
+
+> In the below GitHub Fork video we demonstrate `git push origin master`, but for most purposes `git push` will suffice.
 
 {% embed url="https://youtu.be/uMNcnLWTmZU" %}
 GitHub Fork video from a prior version of Rocket's Coding Basics course
