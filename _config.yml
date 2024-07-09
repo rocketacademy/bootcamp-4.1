@@ -1,11 +1,3 @@
 theme: jekyll-theme-minimal
 title: Rocket Academy Bootcamp
 description: Bootcamp
-# plugins:
-#   - jekyll-relative-links
-# relative_links:
-#   enabled: true
-#   collections: true
-# include:
-#   - README.md
-#   - *.md
