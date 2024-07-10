@@ -65,6 +65,5 @@ The following exercises should help familiarise you with Git. We use text instea
 1. [Intro to Version Control by Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 2. (Below): Intro to Git video from a prior version of Rocket Academy's Coding Basics course
 
-{% embed url="https://youtu.be/GudllO59HJQ" %}
+{% include youtube.html id="GudllO59HJQ" %}
 Intro to Git video from a prior version of Rocket's Coding Basics course
-{% endembed %}
