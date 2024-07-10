@@ -144,53 +144,49 @@ CSS rules declared inline (aka "inline" styles) take precedence over CSS rules d
 
 Inline styles can be convenient for testing styles in development but are troublesome to maintain because it becomes difficult to keep track of which styles are declared where.
 
-{% code title="Inline styles" %}
-```html
-<p style="color: red;">This text is red</p>
-```
-{% endcode %}
+
+>```html
+><p style="color: red;">This text is red</p>
+>```
+
 
 Internal styles allow us to centralise styles for a given HTML file in `head`. Not often used because internal styles cannot be re-used across HTML files.
 
-{% code title="Internal styles" %}
-```html
-<html>
-  <head>
-    <style>
-      p {
-        color: green;
-      }
-    </style>
-  </head>
-  <body>
-    <p>This text is green</p>
-  </body>
-</html>
-```
-{% endcode %}
+
+>```html
+><html>
+>  <head>
+>    <style>
+>      p {
+>        color: green;
+>      }
+>    </style>
+>  </head>
+>  <body>
+>    <p>This text is green</p>
+>  </body>
+></html>
+>```
+
 
 External styles are styles declared in CSS-specific files and "imported" with `link` tags in relevant HTML files. Most apps use external styles to re-use CSS styles across multiple HTML files.
 
-{% code title="External styles" %}
-```html
-<html>
-  <head>
-    <link rel="“stylesheet”" href="styles.css" />
-  </head>
-  <body>
-    <p>This text is blue</p>
-  </body>
-</html>
-```
-{% endcode %}
-
-{% code title="styles.css" %}
-```css
-p {
-  color: blue;
-}
-```
-{% endcode %}
+>```html
+><html>
+>  <head>
+>    <link rel="“stylesheet”" href="styles.css" />
+>  </head>
+>  <body>
+>    <p>This text is blue</p>
+>  </body>
+></html>
+>```
+>
+>```css
+>p {
+>  color: blue;
+>}
+>```
 
 Unless we have a strong reason not to, Rocket recommends using external styles for all CSS to keep our CSS rules centralised in CSS files that can be re-used across HTML files.
 
@@ -202,18 +198,16 @@ Unless we plan to be CSS specialists, we do not need to memorise exact CSS speci
 
 Apply CSS to an HTML file. Create an `index.html` file with the contents below and open it in Chrome.
 
-{% code title="index.html" %}
-```html
-<html>
-  <head>
-    <title>My HTML Page</title>
-  </head>
-  <body>
-    <h1>I will be styled</h1>
-  </body>
-</html>
-```
-{% endcode %}
+>```html
+><html>
+>  <head>
+>    <title>My HTML Page</title>
+>  </head>
+>  <body>
+>    <h1>I will be styled</h1>
+>  </body>
+></html>
+>```
 
 Notice what the un-styled HTML looks like. Now insert the following `style` HTML element within the `head` tags in `index.html`.
 

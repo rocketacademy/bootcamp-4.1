@@ -34,7 +34,6 @@ To showcase implementing React Bootstrap into a React Application we will implem
 
 We will import Button from react-bootstrap such that we get pre-styled buttons without much effort. Alter the App.js file to reflect code below:
 
-{% code lineNumbers="true" %}
 ```jsx
 import logo from "./logo.svg";
 import "./App.css";
@@ -73,7 +72,6 @@ const customHeaderStyle = {
 
 export default App;
 ```
-{% endcode %}
 
 The output on the browser is as follows:
 
@@ -87,9 +85,7 @@ Checkout more React-Bootstrap Components [here](https://react-bootstrap.netlify.
 
 One of the most powerful features of React-Bootstrap is its grid system, which facilitates mobile responsive websites without having to restyle every single element on your page. Learn more about the grid system:
 
-{% embed url="https://react-bootstrap.netlify.app/docs/layout/grid/" %}
-Grid System React Bootstrap
-{% endembed %}
+[Grid System React Bootstrap](https://react-bootstrap.netlify.app/docs/layout/grid/)
 
 When implementing the grid system be sure to:
 

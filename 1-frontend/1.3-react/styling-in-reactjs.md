@@ -24,7 +24,6 @@ To apply style in ReactJs we can apply in-line style. This has the highest level
 
 Go to the App.js file, alter the parent div of your local code to reflect the block below:
 
-{% code title="" lineNumbers="true" %}
 ```jsx
  <div className="App">
       <header className="App-header">
@@ -43,9 +42,6 @@ Go to the App.js file, alter the parent div of your local code to reflect the bl
       </header>
     </div>
 ```
-{% endcode %}
-
-
 
 Notice how the opening p tag on line 4 contains a style property which equals to a double set of curly braces. This code specifies a style object, the properties within must be camelCased and the values must be written in strings. Moreover each property and value should be seperated by a common.
 
@@ -121,7 +117,6 @@ The output should look like this within the browser.
 
 Stylesheets are used within the Application by importing them at the top of the component. The full component should be similar to the code below.
 
-{% code lineNumbers="true" %}
 ```jsx
 import logo from "./logo.svg";
 import "./App.css";
@@ -158,6 +153,5 @@ const customHeaderStyle = {
 
 export default App;
 ```
-{% endcode %}
 
 In the component above we can see that we apply classes to JSX tags using the property className. It is possible to apply more than one className to a JSX tag just like in HTML. Generally when creating React applications developers would create common stylesheets for style that is consistent across components, and individual stylesheets for unique components that do not share style with other parts of the application.&#x20;

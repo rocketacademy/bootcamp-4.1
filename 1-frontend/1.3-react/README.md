@@ -108,7 +108,7 @@ Rocket recommends using Hooks in our exercises and projects from now on because 
 
 ## Introducing Hooks
 
-{% embed url="https://reactjs.org/docs/hooks-intro.html" %}
+[Hooks Intro](https://reactjs.org/docs/hooks-intro.html)
 
 1. Many companies will still be using [Class based React Components](https://legacy.reactjs.org/docs/react-component.html) in their code. It will be important for us to still understand class Components, but know how to write Components with Hooks for new code to take advantage of latest React functionality. If you want to explore how to use state and lifecycles in React Class based Components you can read [this documentation](https://legacy.reactjs.org/docs/state-and-lifecycle.html).&#x20;
 
@@ -116,7 +116,7 @@ Rocket recommends using Hooks in our exercises and projects from now on because 
 
 This page is an overview of all of the subsequent tutorial pages. The subsequent pages go into more depth on each topic.
 
-{% embed url="https://reactjs.org/docs/hooks-overview.html" %}
+[Hooks Overview](https://reactjs.org/docs/hooks-overview.html")
 
 1. React Hooks provide all the functionality we need from React Class based Components that we didn't previously have with Functional Components of the past.
 2. `useState` hook replaces `this.state` and `this.setState` with a new pair of variables for getting and setting a specific state value.
@@ -129,15 +129,14 @@ This page is an overview of all of the subsequent tutorial pages. The subsequent
 
 We will use the `useState` Hook most often. Clear explanations of what the `useState` Hook is and how to use it.
 
-{% embed url="https://reactjs.org/docs/hooks-state.html" %}
+[Hooks State](https://reactjs.org/docs/hooks-state.html")
 
 1. Rocket strongly recommends following the naming convention of `X` and `setX` as the de-structured state variable names from `useState`. This makes our code more readable because other engineers will immediately know what each variable is for.
 
 ### Sample useState Hook
 
-{% embed url="https://youtu.be/eb6HKsxHoas" %}
+{% include youtube.html id="eb6HKsxHoas" %}
 React Hooks useState
-{% endembed %}
 
 ### 6: [React State management, useState](https://react.dev/learn/managing-state)
 
@@ -156,7 +155,7 @@ While creating your application and enlarging functionalities you will find that
 
 At Rocket we will use `useEffect` instead of the lifeCycleMethod `componentDidMount` for setting up subscriptions such as Firebase listeners and for data fetching. `useEffect` also allows us to perform functionality that was previously provided by `componentDidUpdate` and `componentWillUnmount`, but we will use that functionality less often.
 
-{% embed url="https://reactjs.org/docs/hooks-effect.html" %}
+[Hooks Effect](https://reactjs.org/docs/hooks-effect.html")
 
 1. As the docs mention, we can think of `useEffect` as running after the component renders.
 2. A memory leak is when data that we use in parts of our apps is not properly cleaned up after the app stops using those parts. This can cause our apps to run slowly and even crash if the "leaks" cause our computers to run out of memory while running our apps. This will rarely happen to use in practice because JavaScript has automatic memory management and our apps will not be the most complex for now.
@@ -167,13 +166,12 @@ At Rocket we will use `useEffect` instead of the lifeCycleMethod `componentDidMo
 
 Rocket uses Create React App for our projects that includes the ESLint plugin for Hooks, so ESLint should enforce these rules for us by default.
 
-{% embed url="https://reactjs.org/docs/hooks-rules.html" %}
+[Hooks Rules](https://reactjs.org/docs/hooks-rules.html")
 
 ### Sample useEffect Hook
 
-{% embed url="https://youtu.be/z4eeYjk57aM" %}
+{% include youtube.html id="z4eeYjk57aM" %}
 React Hooks useEffect
-{% endembed %}
 
 ### 7: [Component LifeCycles](https://react.dev/learn/lifecycle-of-reactive-effects) & [useEffect](https://react.dev/learn/synchronizing-with-effects#how-to-write-an-effect)
 
@@ -291,8 +289,6 @@ If you finish the React Guide pages above early, feel free to start and finish t
 
 
 
-{% hint style="info" %}
-**New to Rocket Academy?**
-
-If you're not enrolled in Rocket's Bootcamp and visiting this page, [check out our website](https://www.rocketacademy.co/courses/bootcamp-course) to learn more about our Bootcamp course!
-{% endhint %}
+>**New to Rocket Academy?**
+>
+>If you're not enrolled in Rocket's Bootcamp and visiting this page, [check out our website](https://www.rocketacademy.co/courses/bootcamp-course) to learn more about our Bootcamp course!
