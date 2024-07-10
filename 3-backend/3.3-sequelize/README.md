@@ -15,23 +15,23 @@ Sequelize is the most popular JavaScript ORM and we will use Sequelize in our ap
 
 
 
-{% embed url="https://youtu.be/XB-0A5nQS1s" %}
+{% include youtube.html id="XB-0A5nQS1s" %}
 Introduction to Databases&#x20;
 {% endembed %}
 
-{% embed url="https://youtu.be/6OBhgbS5J-Q" %}
+{% include youtube.html id="6OBhgbS5J-Q" %}
 Table Relationships
 {% endembed %}
 
-{% embed url="https://youtu.be/dl33mcglPCI" %}
+{% include youtube.html id="dl33mcglPCI" %}
 Sequelize Migrations, Seeders and Models
 {% endembed %}
 
-{% embed url="https://youtu.be/7Gcm2LjQBYI" %}
+{% include youtube.html id="7Gcm2LjQBYI" %}
 Setting up Sequelize in an Express App
 {% endembed %}
 
-{% embed url="https://youtu.be/r8U6YKuIIR4" %}
+{% include youtube.html id="r8U6YKuIIR4" %}
 Sequelize Migrations
 {% endembed %}
 
@@ -50,15 +50,15 @@ Sequelize official tutorial on Sequelize migrations
 5. Rocket will use `.sequelizerc` to specify Sequelize file and folder paths as per the example in "The `.sequelizerc` file" section
 6. We will not use concepts from "Dynamic configuration" onward during Rocket's Bootcamp
 
-{% embed url="https://youtu.be/yCPssb0sxds" %}
+{% include youtube.html id="yCPssb0sxds" %}
 Primary Migrations
 {% endembed %}
 
-{% embed url="https://youtu.be/zJglYvFliiA" %}
+{% include youtube.html id="zJglYvFliiA" %}
 Secondary Migrations
 {% endembed %}
 
-{% embed url="https://youtu.be/4Wrx_hn_RbM" %}
+{% include youtube.html id="4Wrx_hn_RbM" %}
 Tertiary Migrations
 {% endembed %}
 
@@ -78,15 +78,15 @@ Sequelize official tutorial on Sequelize Seeders
 
 
 
-{% embed url="https://youtu.be/U4ymjMHCya0" %}
+{% include youtube.html id="U4ymjMHCya0" %}
 Primary Seeders
 {% endembed %}
 
-{% embed url="https://youtu.be/sBYRyUEuULM" %}
+{% include youtube.html id="sBYRyUEuULM" %}
 Secondary Seeders
 {% endembed %}
 
-{% embed url="https://youtu.be/BKNk_bh6fFk" %}
+{% include youtube.html id="BKNk_bh6fFk" %}
 Tertiary Seeders
 {% endembed %}
 
@@ -94,15 +94,15 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Running Migrations and Seeders
 
-{% embed url="https://youtu.be/ug3ZE7e0Abw" %}
+{% include youtube.html id="ug3ZE7e0Abw" %}
 Migration Alteration
 {% endembed %}
 
-{% embed url="https://youtu.be/cWwxuWO-bu8" %}
+{% include youtube.html id="cWwxuWO-bu8" %}
 Seeder Alteration
 {% endembed %}
 
-{% embed url="https://youtu.be/97n2BR5doxM" %}
+{% include youtube.html id="97n2BR5doxM" %}
 Running Migrations and Seeders
 {% endembed %}
 
@@ -168,13 +168,13 @@ Sequelize official tutorial on Sequelize model finder methods
 
 
 
-{% embed url="https://youtu.be/0eS0f84q_RA" %}
+{% include youtube.html id="0eS0f84q_RA" %}
 Sequelize Models (1)
 {% endembed %}
 
 
 
-{% embed url="https://youtu.be/BVZS4HIERH0" %}
+{% include youtube.html id="BVZS4HIERH0" %}
 Sequelize Models (2)
 {% endembed %}
 

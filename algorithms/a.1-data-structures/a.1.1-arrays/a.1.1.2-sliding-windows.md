@@ -8,11 +8,11 @@
 
 The sliding-window technique allow us to iteratively analyse subarrays ("windows") of varying sizes in an array by storing and independently incrementing a start and end index of the current subarray. Read [this Stack Overflow answer](https://stackoverflow.com/a/64111403) for an intuitive explanation.
 
-{% embed url="https://youtu.be/jM2dhDPYMQM" %}
+{% include youtube.html id="jM2dhDPYMQM" %}
 Video introduction to sliding windows with examples
 {% endembed %}
 
-{% embed url="https://youtu.be/4i6-9IzQHwo" %}
+{% include youtube.html id="4i6-9IzQHwo" %}
 Longest Substring Without Repeating Characters, sliding window solution explained
 {% endembed %}
 

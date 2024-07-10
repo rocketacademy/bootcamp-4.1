@@ -11,7 +11,7 @@
 
 ## Introduction
 
-{% embed url="https://youtu.be/lMBVwYrmFZQ" %}
+{% include youtube.html id="lMBVwYrmFZQ" %}
 Concise introduction to recursion. Source: Colt Steele
 {% endembed %}
 

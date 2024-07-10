@@ -11,15 +11,15 @@ Authentication is both simple and complex. The high-level concept of authenticat
 
 At Rocket Academy we will focus on the higher-level concepts of authentication, and let students dig deeper into the lower-level concepts themselves if time permits and students are interested. We will use [Auth0](https://auth0.com/) to implement authentication in our API servers, the industry standard for plug-and-play authentication libraries, comparable to Firebase Auth but with friendlier docs.
 
-{% embed url="https://youtu.be/cBLCVjyuUsY" %}
+{% include youtube.html id="cBLCVjyuUsY" %}
 What is auth0?
 {% endembed %}
 
-{% embed url="https://youtu.be/KhlqoxD3YBM" %}
+{% include youtube.html id="KhlqoxD3YBM" %}
 auth0 Online
 {% endembed %}
 
-{% embed url="https://youtu.be/6btuQC4dSsE" %}
+{% include youtube.html id="6btuQC4dSsE" %}
 auth0 Documentation
 {% endembed %}
 
@@ -91,11 +91,11 @@ Voila! We are now ready to set up authorisation in our backends for protected ro
 
 #### (Legacy React CRA)&#x20;
 
-{% embed url="https://youtu.be/CQpz8rHwONk" %}
+{% include youtube.html id="CQpz8rHwONk" %}
 auth0 Frontend Setup
 {% endembed %}
 
-{% embed url="https://youtu.be/AwM2cA5kZpQ" %}
+{% include youtube.html id="AwM2cA5kZpQ" %}
 Access Token & Post Request
 {% endembed %}
 
@@ -136,7 +136,7 @@ Official Auth0 route-authorisation guide for Express apps
 
 Great job! We now have authentication and secure access to our APIs!
 
-{% embed url="https://youtu.be/s1d298jM61k" %}
+{% include youtube.html id="s1d298jM61k" %}
 auth0 Backend Implementation & Testing
 {% endembed %}
 

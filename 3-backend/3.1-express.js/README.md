@@ -10,17 +10,17 @@ Learning Objectives
 
 ## HTTP Revision
 
-{% embed url="https://youtu.be/XoQPZyO4rMo" %}
+{% include youtube.html id="XoQPZyO4rMo" %}
 Http Request and Response Cycle
 {% endembed %}
 
-{% embed url="https://youtu.be/M-cMnNBOgGc" %}
+{% include youtube.html id="M-cMnNBOgGc" %}
 HTTP Request Verb and Status Codes
 {% endembed %}
 
 ## Introduction
 
-{% embed url="https://youtu.be/KAKkV0AimeM" %}
+{% include youtube.html id="KAKkV0AimeM" %}
 Introduction to Express
 {% endembed %}
 
@@ -63,7 +63,7 @@ Let's break down the above code.
 
 In the following sections we will dig deeper into route middleware and middleware functions in general.
 
-{% embed url="https://youtu.be/0EhCLKlw5ng" %}
+{% include youtube.html id="0EhCLKlw5ng" %}
 Thunder Client && Expressjs
 {% endembed %}
 
@@ -71,7 +71,7 @@ Thunder Client && Expressjs
 
 ## Fruit Express App (Simple)
 
-{% embed url="https://youtu.be/AbAi44vQtuc" %}
+{% include youtube.html id="AbAi44vQtuc" %}
 Express Fruit Application
 {% endembed %}
 
@@ -122,7 +122,7 @@ import express from "express";
 
 ## Express Request Extras
 
-{% embed url="https://youtu.be/wJdY3Vvp2g0" %}
+{% include youtube.html id="wJdY3Vvp2g0" %}
 HTTP Request Extras
 {% endembed %}
 
@@ -130,7 +130,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Express Fruit Application
 
-{% embed url="https://youtu.be/8WLofzPe7zI" %}
+{% include youtube.html id="8WLofzPe7zI" %}
 Express Fruit Application
 {% endembed %}
 
@@ -186,7 +186,7 @@ Official Express guide to using middleware
 
 ## Express In-Built Middleware
 
-{% embed url="https://youtu.be/25XpyTTnt58" %}
+{% include youtube.html id="25XpyTTnt58" %}
 Express Middleware
 {% endembed %}
 
@@ -204,15 +204,15 @@ For now we will use the most open and least secure `cors` configuration (`app.us
 
 If you find that your backend index.js is getting rather long due to the amount of route handlers, middleware or other code that is implemented. We suggest that you apply some backend structure to your Express directories.&#x20;
 
-{% embed url="https://youtu.be/J_YBGjBVBYs" %}
+{% include youtube.html id="J_YBGjBVBYs" %}
 Implementing an Express Router
 {% endembed %}
 
-{% embed url="https://youtu.be/Bj0jYeJS-ZM" %}
+{% include youtube.html id="Bj0jYeJS-ZM" %}
 Implementing an Express Controller
 {% endembed %}
 
-{% embed url="https://youtu.be/CRhOv8mtdC4" %}
+{% include youtube.html id="CRhOv8mtdC4" %}
 Implementing Router and Controller
 {% endembed %}
 

@@ -59,7 +59,7 @@ psql is the Postgres command-line client to access our databases. To help us lea
 
 Install [postgres.app](https://postgresapp.com). Open the application and follow the setup instructions on the website. Do the optional step to configure `$PATH` to use included command line tools.
 
-{% embed url="https://youtu.be/cEOe6WRAhRE" %}
+{% include youtube.html id="cEOe6WRAhRE" %}
 Installing Postgres Mac
 {% endembed %}
 

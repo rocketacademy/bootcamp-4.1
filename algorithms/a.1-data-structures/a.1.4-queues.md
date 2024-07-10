@@ -7,7 +7,7 @@
 
 ## Introduction
 
-{% embed url="https://youtu.be/XuCbpw6Bj1U" %}
+{% include youtube.html id="XuCbpw6Bj1U" %}
 Brief introduction to queue concepts, methods and applications
 {% endembed %}
 

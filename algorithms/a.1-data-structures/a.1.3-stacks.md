@@ -7,7 +7,7 @@
 
 ## Introduction
 
-{% embed url="https://youtu.be/F1F2imiOJfk" %}
+{% include youtube.html id="F1F2imiOJfk" %}
 Brief introduction to stack concepts, methods and applications
 {% endembed %}
 

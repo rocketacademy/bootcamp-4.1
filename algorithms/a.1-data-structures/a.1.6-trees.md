@@ -10,7 +10,7 @@
 
 ## Introduction
 
-{% embed url="https://youtu.be/qH6yxkw0u78" %}
+{% include youtube.html id="qH6yxkw0u78" %}
 Simple whiteboard introduction to trees
 {% endembed %}
 
@@ -112,7 +112,7 @@ Most tree algorithm problems involve traversing (i.e. going through) the nodes i
 
 There are 2 common forms of tree traversal: depth-first search (DFS) and breadth-first search (BFS). DFS means traversing down every path until we reach a leaf node before exploring other paths. BFS means traversing all nodes at each level of depth (distance from root node) before proceeding to the next level of depth. DFS is simpler and more common. BFS is more specialised for certain kinds of problems such as finding the shortest path in a tree.
 
-{% embed url="https://youtu.be/9RHO6jU--GU" %}
+{% include youtube.html id="9RHO6jU--GU" %}
 Overview of BFS, DFS and the 3 permutations of DFS
 {% endembed %}
 
