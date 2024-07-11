@@ -8,7 +8,7 @@ exclude:
   # - general-reference
   # - interview-prep
   # - logistics
-  - README.md
+  # - README.md
   - SUMMARY.md
 include:
   - .gitbook
