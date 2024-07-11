@@ -13,7 +13,7 @@
 
 {% include youtube.html id="lMBVwYrmFZQ" %}
 Concise introduction to recursion. Source: Colt Steele
-{% endembed %}
+
 
 Recursion means a function calling itself. Certain classes of algorithm problems, especially those involving trees, graphs and dynamic programming are easier solved with recursion than with iteration (i.e. loops).
 
@@ -57,9 +57,8 @@ Recursive backtracking is a concept in more advanced recursion problems to explo
 
 The following video explains how we can use backtracking to find permutations of a string.
 
-{% embed url="https://www.youtube.com/watch?v=GCm7m5671Ps" %}
+{% include youtube.html id="GCm7m5671Ps" %}
 Visual explanation of recursive backtracking to find string permutations
-{% endembed %}
 
 ## Examples
 

@@ -13,15 +13,15 @@ At Rocket Academy we will focus on the higher-level concepts of authentication, 
 
 {% include youtube.html id="cBLCVjyuUsY" %}
 What is auth0?
-{% endembed %}
+
 
 {% include youtube.html id="KhlqoxD3YBM" %}
 auth0 Online
-{% endembed %}
+
 
 {% include youtube.html id="6btuQC4dSsE" %}
 auth0 Documentation
-{% endembed %}
+
 
 ## Basic Authentication Flow
 
@@ -54,9 +54,7 @@ Luckily for us, companies such as Auth0 and Firebase have developed plug-and-pla
 
 We should then be directed to a quickstart page like the following, populated with our app's specific domains and IDs. No need to implement anything for now, but read through to understand the high-level process.
 
-{% embed url="https://auth0.com/docs/quickstart/spa/react/01-login" %}
-Official Auth0 setup guide for React apps
-{% endembed %}
+[Official Auth0 setup guide for React apps](https://auth0.com/docs/quickstart/spa/react/01-login)
 
 1. Note application domain and client ID in Application Settings in the Auth0 dashboard. We will need to include these in our app to communicate with Auth0.
 2. Configure callback and logout URLs to allow redirects back to our apps after logging in or out with Auth0
@@ -72,9 +70,7 @@ That's all there is to logging in and out with Auth0 in our frontend! Let's now 
 
 Now that we've enabled login in our React apps, we need to learn how to pass an access token from Auth0 to our backends to verify authentication.
 
-{% embed url="https://auth0.com/docs/quickstart/spa/react/02-calling-an-api" %}
-Official Auth0 API-calling guide for React apps&#x20;
-{% endembed %}
+[Official Auth0 API-calling guide for React apps](https://auth0.com/docs/quickstart/spa/react/02-calling-an-api)
 
 1. Our frontends authenticate with our backends via an access token that we retrieve from Auth0 on our frontends, send to our backends in a request, and verify using an Auth0 library on our backends.
 2. To retrieve this access token on our frontends, we need to pass additional `audience` and `scope` props to the `Auth0Provider` component.
@@ -93,11 +89,11 @@ Voila! We are now ready to set up authorisation in our backends for protected ro
 
 {% include youtube.html id="CQpz8rHwONk" %}
 auth0 Frontend Setup
-{% endembed %}
+
 
 {% include youtube.html id="AwM2cA5kZpQ" %}
 Access Token & Post Request
-{% endembed %}
+
 
 ### <mark style="color:red;">Auth0 Update:</mark>
 
@@ -123,9 +119,7 @@ We will implement authentication in our backend first because there are certain 
 
 Some routes in our backend will be protected, for example routes to access user data or manipulate data. Based on the logged-in user, backends can decide what data to expose to that user and record changes by that user.
 
-{% embed url="https://auth0.com/docs/quickstart/backend/nodejs/01-authorization" %}
-Official Auth0 route-authorisation guide for Express apps
-{% endembed %}
+[Official Auth0 route-authorisation guide for Express apps](https://auth0.com/docs/quickstart/backend/nodejs/01-authorization)
 
 1. Create an API in the Auth0 dashboard and give it an identifier, typically a URL that identifies our API. We will use this API identifier as an `audience` in our frontends when retrieving an access token to communicate with our backends
 2. There is no need to understand RS256 and what a private/public keypair is at the moment, other than knowing they are industry-standard security mechanisms.
@@ -138,7 +132,7 @@ Great job! We now have authentication and secure access to our APIs!
 
 {% include youtube.html id="s1d298jM61k" %}
 auth0 Backend Implementation & Testing
-{% endembed %}
+
 
 ### Roundup
 

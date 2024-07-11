@@ -10,11 +10,11 @@ The sliding-window technique allow us to iteratively analyse subarrays ("windows
 
 {% include youtube.html id="jM2dhDPYMQM" %}
 Video introduction to sliding windows with examples
-{% endembed %}
+
 
 {% include youtube.html id="4i6-9IzQHwo" %}
 Longest Substring Without Repeating Characters, sliding window solution explained
-{% endembed %}
+
 
 ## Exercises
 

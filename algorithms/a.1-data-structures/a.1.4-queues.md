@@ -9,7 +9,7 @@
 
 {% include youtube.html id="XuCbpw6Bj1U" %}
 Brief introduction to queue concepts, methods and applications
-{% endembed %}
+
 
 A queue is a list-like, first-in-first-out data structure that supports adding to the back ("enqueue") and removing from the front ("dequeue"). For now we will use arrays to represent queues, but more efficient queue implementations will use linked lists because removing from the front of an array is `O(n)` (all other elements need to shift), while removing from the front of a linked list is `O(1)` (more in the Linked Lists submodule).
 

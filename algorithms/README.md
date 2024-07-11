@@ -29,11 +29,9 @@ Below are basic algorithm problems to understand their format and what to expect
 
 Solve each exercise by writing a function that satisfies the requirements. You will need to create HackerRank and LeetCode accounts if you have not already.
 
-{% hint style="info" %}
-**Recommended learning strategy**
-
-For a given problem, if you cannot think of a way to solve the problem after 15 minutes, check the solutions or submissions to understand how others solved the problem. Come back to the problem after a few days and attempt the problem again. This will save us time and help us learn faster, because many problems follow the same patterns.
-{% endhint %}
+>**Recommended learning strategy**
+>
+>For a given problem, if you cannot think of a way to solve the problem after 15 minutes, check the solutions or submissions to understand how others solved the problem. Come back to the problem after a few days and attempt the problem again. This will save us time and help us learn faster, because many problems follow the same patterns.
 
 1. Solve Me First ([HackerRank](https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true))
 2. Simple Array Sum ([HackerRank](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true))

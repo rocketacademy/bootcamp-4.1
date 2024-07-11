@@ -9,7 +9,7 @@
 
 {% include youtube.html id="F1F2imiOJfk" %}
 Brief introduction to stack concepts, methods and applications
-{% endembed %}
+
 
 A stack (think stack of plates) is an array-like data structure that supports adding and removing only from the end, aka "top" of the stack. In practice we will use arrays to represent stacks, but what's important is the pattern of only adding and removing from the end of an array to model and solve certain types of problems.
 

@@ -22,9 +22,8 @@ The following knowledge is for context and not strictly necessary for solving al
 
 Below are the 4 primary benefits of OOP to help us get a sense of why OOP can be helpful.
 
-{% embed url="https://www.youtube.com/watch?v=pTB0EiLXUC8" %}
-Visual explanation of the 4 benefits of OOP. Source: Coding with Mosh
-{% endembed %}
+{% include youtube.html id="pTB0EiLXUC8" %}
+OOP. Source: Coding with Mosh
 
 ### 1) Encapsulation: Data and methods together
 

@@ -12,9 +12,9 @@ Graphs are used to model a wide variety of real-world problems, such as transpor
 
 The following video showcases the types of problems we can model and solve with graphs. We hope this excites you about the potential of graphs!
 
-{% embed url="https://www.youtube.com/watch?v=LFKZLXVO-Dg" %}
+
+{% include youtube.html id="LFKZLXVO-Dg" %}
 Introduction to graphs and the problems we can solve with graphs
-{% endembed %}
 
 Graphs are generalised versions of trees, where edges can be directed or undirected, edges can have weights and there can be cycles. All trees are graphs but not all graphs are trees.
 
@@ -28,9 +28,8 @@ Graph cycles are loops within graphs. Trees have no cycles by definition, and ar
 
 The following video introduces the above concepts and 3 common ways of representing graphs in code: adjacency matrix, adjacency list and edge list.
 
-{% embed url="https://www.youtube.com/watch?v=eQA-m22wjTQ" %}
+{% include youtube.html id="eQA-m22wjTQ" %}
 Introduction to graphs and how we can represent graphs in code
-{% endembed %}
 
 ## DFS and BFS for Graphs
 
@@ -46,9 +45,8 @@ We would typically use DFS when we need to visit all nodes in the graph, and BFS
 
 The following video explains the logic for DFS in graphs. Notice the use of a hash table to track which nodes have been visited to avoid cycles.
 
-{% embed url="https://www.youtube.com/watch?v=PMMc4VsIacU" %}
+{% include youtube.html id="PMMc4VsIacU" %}
 Walkthrough of DFS logic for graphs
-{% endembed %}
 
 The following is DFS code for graphs in JavaScript. Notice it is similar to DFS for trees except we track visited nodes, and we reference a hash table that represents our graph to find neighbours.
 
@@ -89,9 +87,8 @@ dfs("a");
 
 Visit each node in graph in increasing distance from source node. This is similar to the level-order tree traversal algorithm. Notice the use of a hash table to track which nodes have been visited to avoid cycles.
 
-{% embed url="https://www.youtube.com/watch?v=xlVX7dXLS64" %}
+{% include youtube.html id="xlVX7dXLS64" %}
 Walkthrough of BFS logic for graphs
-{% endembed %}
 
 The following is BFS code for graphs in JavaScript. Notice it is similar to BFS for N-ary trees except we track visited nodes, and we reference a hash table that represents our graph to find neighbours.
 

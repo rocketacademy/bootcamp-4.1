@@ -12,9 +12,8 @@ Dynamic programming allows us to optimise recursive solutions by "caching" (i.e.
 
 The first 40 minutes of the below video visually explain the premise behind dynamic programming and why it is powerful. The remainder of the video walks through DP solutions to other problems, which we do not need to review right now.
 
-{% embed url="https://www.youtube.com/watch?v=oBt53YbR9Kk" %}
+{% include youtube.html id="oBt53YbR9Kk" %}
 Introduction to dynamic programming
-{% endembed %}
 
 ## Take or Don't Take
 

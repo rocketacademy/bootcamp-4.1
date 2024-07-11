@@ -16,23 +16,20 @@ The beauty of heaps is that they enable us to extract the minimum (in a min heap
 
 The following video explains what heaps look like in theory and the fundamental properties of heaps that enable heaps to maintain `O(1)` access to the min or a max element efficiently. The video uses a max heap as an example, but the same properties apply to min heaps except with the order reversed (smaller numbers on top).
 
-{% embed url="https://www.youtube.com/watch?v=c1TpLRyQJ4w" %}
+{% include youtube.html id="xlVX7dXLS64" %}
 Introduction to heaps and how heaps maintain `O(1)` access to min or max element when new element added
-{% endembed %}
 
 The following video explains how heaps maintain `O(1)` access to the min or max element when the previous min or max element is removed. Again the video uses a max heap as an example but the same theory applies to min heaps, except with order reversed.
 
-{% embed url="https://www.youtube.com/watch?v=ijfPvX2qYOQ" %}
+{% include youtube.html id="ijfPvX2qYOQ" %}
 How heaps maintain `O(1)` access to min or max element after removal of previous min or max element
-{% endembed %}
 
 The above videos may not have mentioned, but notice the time complexity of adding or removing an element from the heap is `O(logn)` because we only perform element swaps down a single path of the heap tree, through `O(logn)` levels, where `n` is the number of elements in the heap.
 
 Now that we've learnt the theory, you may be wondering how to implement heaps in practice. The following video explains how to efficiently represent the heap data structure in code using an array.
 
-{% embed url="https://www.youtube.com/watch?v=fJORlbOGm9Y" %}
+{% include youtube.html id="fJORlbOGm9Y" %}
 How to represent and use heaps in code with arrays
-{% endembed %}
 
 JavaScript does not have a built-in heap data type, and implementing heaps from scratch is relatively complex. [Here is sample code](https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65) for a JavaScript implementation of heaps.
 

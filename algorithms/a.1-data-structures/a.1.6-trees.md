@@ -12,7 +12,7 @@
 
 {% include youtube.html id="qH6yxkw0u78" %}
 Simple whiteboard introduction to trees
-{% endembed %}
+
 
 ![Sample computer science tree. The node outlined in red is the root node. Source: Wikipedia](<../../.gitbook/assets/A.1.6 - Trees.png>)
 
@@ -114,7 +114,7 @@ There are 2 common forms of tree traversal: depth-first search (DFS) and breadth
 
 {% include youtube.html id="9RHO6jU--GU" %}
 Overview of BFS, DFS and the 3 permutations of DFS
-{% endembed %}
+
 
 ## Depth-First Search (DFS)
 

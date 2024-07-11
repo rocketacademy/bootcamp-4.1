@@ -41,8 +41,7 @@ Homebrew typically manages OS-specific packages, e.g. `node`, and not applicatio
 
 ### Install Git
 
-{% tabs %}
-{% tab title="Windows" %}
+### Windows
 Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
@@ -57,9 +56,8 @@ sudo apt-get install git
 # Verify correct installation by checking Git version
 git --version
 ```
-{% endtab %}
 
-{% tab title="MacOS" %}
+### MacOS
 1\. Download and install Git for MacOS
 
 ```
@@ -74,13 +72,9 @@ git --version
 
 3\. Download and install the [Git Credential Manager](https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v2.0.498/gcmcore-osx-2.0.498.54650.pkg)
 
-{% hint style="warning" %}
-To install the Git Credential Manager you may need to allow "unidentified developer apps". Don't worry, Git Credential Manager is created by Microsoft. [Instructions here](https://support.apple.com/en-sg/guide/mac-help/mh40616/mac).
-
-If you are using a company computer for this course you may not be able to override the security settings. You may need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead.
-{% endhint %}
-{% endtab %}
-{% endtabs %}
+>To install the Git Credential Manager you may need to allow "unidentified developer apps". Don't worry, Git Credential Manager is created by Microsoft. [Instructions here](https://support.apple.com/en-sg/guide/mac-help/mh40616/mac).
+>
+>If you are using a company computer for this course you may not be able to override the security settings. You may need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead.
 
 ### Personal Access Tokens&#x20;
 
@@ -137,8 +131,7 @@ After doing these commands you may need to go through git flow once before it ha
 
 ## Install Node.js
 
-{% tabs %}
-{% tab title="Windows" %}
+### Windows
 Open an Ubuntu terminal in VS Code and run the following commands separately.
 
 ```bash
@@ -149,9 +142,9 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 ```
-{% endtab %}
 
-{% tab title="MacOS" %}
+### MacOS
+
 Install Node.js using Homebrew using the following commands. `install` installs the package and `link` makes the `node` command accessible in our terminal. Run these commands separately.&#x20;
 
 ```
@@ -161,8 +154,6 @@ brew install node@18
 ```
 brew link node@18
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Install Code Formatters
 
@@ -187,7 +178,7 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 4. Save the settings file
 5. Restart VS Code to apply settings
 
-{% code title="settings.json" %}
+
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -196,19 +187,18 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
   "editor.tabSize": 2,
 }
 ```
-{% endcode %}
+
 
 ## Setup folder structure for Coding Bootcamp
 
 Rocket recommends the following folder structure to keep ourselves organised during Bootcamp.
 
-{% hint style="warning" %}
-Name files and folders in kebab-case, e.g. `new-file.txt`, lowercase and hyphenated for ease of use on the command line. We do not recommend naming files and folders with spaces in names because we will need to enter special characters in the terminal to escape the space character when referring to these files.
-{% endhint %}
 
-{% hint style="danger" %}
-Please do not store code in folders synced to cloud storage such as Google Drive or Apple iCloud. This will cause issues during Bootcamp, such as package installations running slowly or unnecessary extra files committed to GitHub.
-{% endhint %}
+>Name files and folders in kebab-case, e.g. `new-file.txt`, lowercase and hyphenated for ease of use on the command line. We do not recommend naming files and folders with spaces in names because we will need to enter special characters in the terminal to escape the space character when referring to these files.
+
+
+>Please do not store code in folders synced to cloud storage such as Google Drive or Apple iCloud. This will cause issues during Bootcamp, such as package installations running slowly or unnecessary extra files committed to GitHub.
+
 
 1. Store all Bootcamp code in a folder called `bootcamp`.
 2. Within `bootcamp`, create a folder `m1` for Module 1 and store all Module 1 exercise code there in exercise-specific folders. Our Project 1 repo folder can also go inside `m1`.

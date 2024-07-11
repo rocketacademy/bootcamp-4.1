@@ -9,9 +9,8 @@
 
 ## Introduction
 
-{% embed url="https://www.youtube.com/watch?v=R9PTBwOzceo" %}
+{% include youtube.html id="R9PTBwOzceo" %}
 Brief introduction to the linked list data structure. Source: Neso Academy
-{% endembed %}
 
 Linked lists store ordered lists of data where elements (aka "nodes") may not be stored in contiguous blocks of memory. Each node contains a payload (numbers in above illustration) and a pointer to the next node (arrows in above illustration).
 

@@ -25,21 +25,16 @@ There are 6 most common bitwise operators: `&`, `|`, `~`, `^`, `<<`, and `>>`. L
 
 Before trying bitwise operators on your own in a Node console, read the following article with diagrams on how each operator works, and watch the following illustrative videos.
 
-{% embed url="https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301" %}
-Understanding Bitwise Operators
-{% endembed %}
+[Understanding Bitwise Operators](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
 
-{% embed url="https://www.youtube.com/watch?v=mesu75PTDC8" %}
+{% include youtube.html id="mesu75PTDC8" %}
 Introduction to basic bitwise operators and how they can be used in practice
-{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=NLKQEOgBAnw" %}
+{% include youtube.html id="NLKQEOgBAnw" %}
 Deeper introduction to binary numbers and how to manipulate those numbers using bitwise operators
-{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=qq64FrA2UXQ" %}
+{% include youtube.html id="qq64FrA2UXQ" %}
 Example of how to add 2 numbers using only bitwise operators
-{% endembed %}
 
 ## Exercises
 
