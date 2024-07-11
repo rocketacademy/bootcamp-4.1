@@ -39,9 +39,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Migrations
 
-{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
-Sequelize official tutorial on Sequelize migrations
-
+[Sequelize official tutorial on Sequelize migrations](https://sequelize.org/docs/v6/other-topics/migrations/)
 
 1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
 2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
