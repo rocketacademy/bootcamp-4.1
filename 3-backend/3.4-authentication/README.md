@@ -121,7 +121,7 @@ We will implement authentication in our backend first because there are certain 
 
 Some routes in our backend will be protected, for example routes to access user data or manipulate data. Based on the logged-in user, backends can decide what data to expose to that user and record changes by that user.
 
-{% embed url="https://auth0.com/docs/quicksor Express apps](https://auth0.com/docs/quickstart/backend/nodejs/01-authorization)
+[Official Auth0 route-authorisation guide for Express apps](https://auth0.com/docs/quickstart/backend/nodejs/01-authorization)
 
 1. Create an API in the Auth0 dashboard and give it an identifier, typically a URL that identifies our API. We will use this API identifier as an `audience` in our frontends when retrieving an access token to communicate with our backends
 2. There is no need to understand RS256 and what a private/public keypair is at the moment, other than knowing they are industry-standard security mechanisms.
