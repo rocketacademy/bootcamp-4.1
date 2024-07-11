@@ -33,7 +33,7 @@ Fork and clone Rocket's [`unit-test-bootcamp` repo](https://github.com/rocketaca
 
 Before we wrote tests, we created a module to test. In this case, we have created a basic `utils` module in `utils.js` that exports an `add` function that adds 2 numbers. Trivial, but you can imagine more complex functions such as those we implemented for games like Blackjack.
 
-{% code title="utils.js" %}
+
 ```javascript
 const add = (a, b) => {
   return a + b;
@@ -43,7 +43,7 @@ module.exports = {
   add,
 };
 ```
-{% endcode %}
+
 
 Next we set up our test framework.
 
@@ -76,7 +76,7 @@ Next we set up our test framework.
 
 At this point we created our test file and wrote our tests in it. We will dissect the test code below.
 
-{% code title="test/utils.js" %}
+
 ```javascript
 const { expect } = require("chai");
 const { add } = require("../utils.js");
@@ -105,7 +105,7 @@ describe("Utils", () => {
   });
 });
 ```
-{% endcode %}
+
 
 Now if we run `npm test` from our repo in the command line we should get the following output.
 

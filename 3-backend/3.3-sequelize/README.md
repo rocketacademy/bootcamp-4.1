@@ -17,23 +17,23 @@ Sequelize is the most popular JavaScript ORM and we will use Sequelize in our ap
 
 {% include youtube.html id="XB-0A5nQS1s" %}
 Introduction to Databases&#x20;
-{% endembed %}
+
 
 {% include youtube.html id="6OBhgbS5J-Q" %}
 Table Relationships
-{% endembed %}
+
 
 {% include youtube.html id="dl33mcglPCI" %}
 Sequelize Migrations, Seeders and Models
-{% endembed %}
+
 
 {% include youtube.html id="7Gcm2LjQBYI" %}
 Setting up Sequelize in an Express App
-{% endembed %}
+
 
 {% include youtube.html id="r8U6YKuIIR4" %}
 Sequelize Migrations
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/initial\_setup), ensure that you're on the `initial_setup` branch.
 
@@ -41,7 +41,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 {% embed url="https://sequelize.org/docs/v6/other-topics/migrations/" %}
 Sequelize official tutorial on Sequelize migrations
-{% endembed %}
+
 
 1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
 2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
@@ -52,15 +52,15 @@ Sequelize official tutorial on Sequelize migrations
 
 {% include youtube.html id="yCPssb0sxds" %}
 Primary Migrations
-{% endembed %}
+
 
 {% include youtube.html id="zJglYvFliiA" %}
 Secondary Migrations
-{% endembed %}
+
 
 {% include youtube.html id="4Wrx_hn_RbM" %}
 Tertiary Migrations
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/migrations), ensure that you're on the `migrations` branch.
 
@@ -68,9 +68,8 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Seeders
 
-{% embed url="https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed" %}
-Sequelize official tutorial on Sequelize Seeders
-{% endembed %}
+Sequelize official tutorial on [Sequelize Seeders](https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed)
+
 
 1. We use seeder files to setup the initial data that can be used to populate our database. All companies will likely seed dummy data so that developers can collaborate and work with similar data.
 2. We will use  `npx sequelize seed:generate --name products` command in order to generate our Seeder file
@@ -80,15 +79,15 @@ Sequelize official tutorial on Sequelize Seeders
 
 {% include youtube.html id="U4ymjMHCya0" %}
 Primary Seeders
-{% endembed %}
+
 
 {% include youtube.html id="sBYRyUEuULM" %}
 Secondary Seeders
-{% endembed %}
+
 
 {% include youtube.html id="BKNk_bh6fFk" %}
 Tertiary Seeders
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/seeders), ensure that you're on the `seeders` branch.
 
@@ -96,15 +95,15 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 {% include youtube.html id="ug3ZE7e0Abw" %}
 Migration Alteration
-{% endembed %}
+
 
 {% include youtube.html id="cWwxuWO-bu8" %}
 Seeder Alteration
-{% endembed %}
+
 
 {% include youtube.html id="97n2BR5doxM" %}
 Running Migrations and Seeders
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/running\_migrations\_seeders), ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
 
@@ -112,9 +111,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Model Basics
 
-{% embed url="https://sequelize.org/docs/v6/core-concepts/model-basics/" %}
-Sequelize official tutorial on Sequelize models
-{% endembed %}
+[Sequelize official tutorial on Sequelize models](https://sequelize.org/docs/v6/core-concepts/model-basics/)
 
 1. A Model is an abstraction that represents a table within your database,  in Sequelize the Model is a class, the instances of this class represent the data stored.&#x20;
 2. We will `Extend the Sequelize` `Model` to define models at Rocket
@@ -124,17 +121,13 @@ Sequelize official tutorial on Sequelize models
    2. `underscored: true`
 5. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
 
-{% hint style="info" %}
-**Require vs Import Statements**
-
-You may notice that Sequelize docs use `require` syntax to import modules. This is an older import syntax that Node.js still supports. Rocket recommends using `import` syntax for all code we write, and to update file extensions to `.cjs` (short for CommonJS) instead of `.js` for files that use `require` syntax. To enable `import` syntax for all `.js` files by default, Rocket has included a `"type": "module"` setting in `package.json` in all Rocket starter code.
-{% endhint %}
+>**Require vs Import Statements**
+>
+>You may notice that Sequelize docs use `require` syntax to import modules. This is an older import syntax that Node.js still supports. Rocket recommends using `import` syntax for all code we write, and to update file extensions to `.cjs` (short for CommonJS) instead of `.js` for files that use `require` syntax. To enable `import` syntax for all `.js` files by default, Rocket has included a `"type": "module"` setting in `package.json` in all Rocket starter code.
 
 ## Model Instances
 
-{% embed url="https://sequelize.org/docs/v6/core-concepts/model-instances/" %}
-Sequelize official tutorial on Sequelize model instances
-{% endembed %}
+[Sequelize official tutorial on Sequelize model instances](https://sequelize.org/docs/v6/core-concepts/model-instances/)
 
 1. An instance of the Model class represents a row of data that is stored within the Sequelize database.
 2. We will use the `create` method to create model instances at Rocket instead of `build` and `save`.
@@ -143,9 +136,7 @@ Sequelize official tutorial on Sequelize model instances
 
 ## Model Querying - Basics
 
-{% embed url="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/" %}
-Sequelize official tutorial on Sequelize model instances
-{% endembed %}
+[Sequelize official tutorial on Sequelize model instances](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
 
 1. Model Querying allows developers to preform CRUD like actions to our database, we can preform actions such as create, read update and delete on the database
 2. We will use `Model.create()` to insert rows into our database instead of `Model.build()` and `instance.save()`
@@ -155,9 +146,7 @@ Sequelize official tutorial on Sequelize model instances
 
 ## Model Querying - Finders
 
-{% embed url="https://sequelize.org/docs/v6/core-concepts/model-querying-finders/" %}
-Sequelize official tutorial on Sequelize model finder methods
-{% endembed %}
+[Sequelize official tutorial on Sequelize model finder methods](https://sequelize.org/docs/v6/core-concepts/model-querying-finders/)
 
 1. If you're not updating, inserting or deleting a value from your stored data, you're probably looking to list out some specific information, or even just all the data in your table, use the Model Query Finders to do this.&#x20;
 2. These are some of the most common Sequelize methods we will use in our apps
@@ -170,13 +159,11 @@ Sequelize official tutorial on Sequelize model finder methods
 
 {% include youtube.html id="0eS0f84q_RA" %}
 Sequelize Models (1)
-{% endembed %}
 
 
 
 {% include youtube.html id="BVZS4HIERH0" %}
 Sequelize Models (2)
-{% endembed %}
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/models), ensure that you're on the `models` branch.
 

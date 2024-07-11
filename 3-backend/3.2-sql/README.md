@@ -61,7 +61,7 @@ Install [postgres.app](https://postgresapp.com). Open the application and follow
 
 {% include youtube.html id="cEOe6WRAhRE" %}
 Installing Postgres Mac
-{% endembed %}
+
 
 ### Ubuntu (for Windows users in WSL and EC2 Installation)
 
@@ -276,21 +276,21 @@ It should be noted that we must end the command with a semicolon otherwise Postg
 
 Inserting data into tables is the next step in database creation, the code below demonstrates an insertion query that will add a new row of data into the previously generated student table.
 
-{% code overflow="wrap" %}
+
 ```sql
 INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Foong', 'Leung', 9987712, true);
 ```
-{% endcode %}
+
 
 We entered a new student into the database, notice how we didn't need to insert an id, this is due to the SERIAL constraint we added when creating our table. These id's act a [Primary Keys](https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) which are vital unique identifiers for our rows of data. The  information that is required is the data that will be placed in our columns for this row, the two strings, a number and  the final value a boolean, true, true represents male within this table structure.
 
 You can add in additional rows of information one at a time or you can insert multiple values like the command below.
 
-{% code overflow="wrap" %}
+
 ```sql
 INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Sam', 'O"Shaughnessy', 2781192, true), ('Neo', 'Yuan', 4366813, true) ;
 ```
-{% endcode %}
+
 
 
 
@@ -298,7 +298,7 @@ INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Sam', 'O"S
 
 When working with databases, it is important that you can query information such that you're able to manipulate, retrieve and delete data. You are able to do this from your command line interface and this is the next step in hands on database management. Querying data is dependant on specificity and targeting the correct information. You can select information from a database by table, row or under a condition, we will showcase a few of these commands below.
 
-{% code overflow="wrap" %}
+
 ```sql
 // Selecting by Table
 SELECT * FROM students;
@@ -315,7 +315,7 @@ SELECT * FROM students WHERE id = 1;
 SELECT * FROM students WHERE gender = false;
 // This will return all of the rows where gender is false.
 ```
-{% endcode %}
+
 
 
 
@@ -323,7 +323,7 @@ To alter existing data within the tables you can use the UPDATE or DELETE comman
 
 
 
-{% code overflow="wrap" %}
+
 ```sql
 // Update a row by ID
 UPDATE students SET first_name = 'Neo Kai', mobile = 86739984 WHERE id = 3;
@@ -337,7 +337,7 @@ DELETE FROM students WHERE id = 1;
 // Deleting data using condition
 DELETE FROM students WHERE gender = true; 
 ```
-{% endcode %}
+
 
 
 
@@ -347,7 +347,7 @@ Creating tables and inserting data allows you to create some structure for data 
 
 
 
-{% code overflow="wrap" %}
+
 ```sql
 CREATE TABLE student_addresses (
     id SERIAL PRIMARY KEY,
@@ -358,17 +358,17 @@ CREATE TABLE student_addresses (
     REFERENCES students(id)    
 );
 ```
-{% endcode %}
+
 
 The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into [this set of documentation](https://www.javatpoint.com/postgresql-foreign-key).&#x20;
 
 Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. To find out more about joins please look into this [set of documentation](https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/). Check out the command below:
 
-{% code overflow="wrap" %}
+
 ```sql
 SELECT * FROM students JOIN student_addresses ON students.id = student_addresses.student_id WHERE gender = false;
 ```
-{% endcode %}
+
 
 This will produce the most common join the inner join. Which means you will only be returned records that have matching values within both tables. We have also added an additional claus further refining the search to only show the female students who have an address within the students\_addresses table. It should be noted that the returned table that contains our information will not persist and you will need to run the query above to get the data.
 

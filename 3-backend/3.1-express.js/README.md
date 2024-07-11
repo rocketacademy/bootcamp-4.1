@@ -12,17 +12,17 @@ Learning Objectives
 
 {% include youtube.html id="XoQPZyO4rMo" %}
 Http Request and Response Cycle
-{% endembed %}
+
 
 {% include youtube.html id="M-cMnNBOgGc" %}
 HTTP Request Verb and Status Codes
-{% endembed %}
+
 
 ## Introduction
 
 {% include youtube.html id="KAKkV0AimeM" %}
 Introduction to Express
-{% endembed %}
+
 
 Express.js is a server application framework that helps us receive requests from clients and respond with data. Servers are computers without a screen that perform logic on behalf of clients such as storing and retrieving data.
 
@@ -30,7 +30,7 @@ Express.js is a server application framework that helps us receive requests from
 
 The following code is a minimal Express app that hosts a server at port 3000 and responds with "Hello, World!" at the root route, i.e. `localhost:3000` when run locally or `mysite.com` when deployed to `mysite.com`. [Check it out on StackBlitz](https://stackblitz.com/edit/basic-express-app-rocket?file=index.js), a popular online IDE!
 
-{% code title="index.js" %}
+
 ```javascript
 // require Express NPM library
 const express = require('express');
@@ -49,7 +49,7 @@ app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}!`);
 });
 ```
-{% endcode %}
+
 
 Let's break down the above code.
 
@@ -65,7 +65,7 @@ In the following sections we will dig deeper into route middleware and middlewar
 
 {% include youtube.html id="0EhCLKlw5ng" %}
 Thunder Client && Expressjs
-{% endembed %}
+
 
 
 
@@ -73,7 +73,7 @@ Thunder Client && Expressjs
 
 {% include youtube.html id="AbAi44vQtuc" %}
 Express Fruit Application
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo), ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
@@ -81,9 +81,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 Routes (aka "route middleware", "routing methods") are middleware functions that define how servers handle requests to specific URL paths with specific URL methods. Routes provide some of the most basic infrastructure for server applications. Read [Express' official introduction to routes](https://expressjs.com/en/starter/basic-routing.html) for context.
 
-{% embed url="https://expressjs.com/en/starter/basic-routing.html" %}
-Official Express introduction to routes
-{% endembed %}
+[Official Express introduction to routes](https://expressjs.com/en/starter/basic-routing.html)
 
 ```javascript
 // Define a route and corresponding middleware function
@@ -96,27 +94,24 @@ In the above example, our route middleware defines how our server responds to GE
 
 Read [Express' official routing guide](https://expressjs.com/en/guide/routing.html) for a full introduction to Express routes, including how to use the `express.Router` class to decompose our routes into router modules for clearer organisation and abstraction.
 
-{% embed url="https://expressjs.com/en/guide/routing.html" %}
-Official Express routing guide
-{% endembed %}
+[Official Express routing guide](https://expressjs.com/en/guide/routing.html)
 
-{% hint style="info" %}
-**Require vs Import Statements**
 
-You may notice that Express docs use `require` syntax to import modules. This is an older import syntax that is still supported by Node.js. Luckily we can generally use `require` and `import` statements interchangeably.
-
-Require (aka CommonJS) syntax:
-
-```javascript
-const express = require("express");
-```
-
-Import (aka ES Modules) syntax:
-
-```javascript
-import express from "express";
-```
-{% endhint %}
+>**Require vs Import Statements**
+>
+>You may notice that Express docs use `require` syntax to import modules. This is an older import syntax that is still supported by Node.js. Luckily we can generally use `require` and `import` statements interchangeably.
+>
+>Require (aka CommonJS) syntax:
+>
+>```javascript
+>const express = require("express");
+>```
+>
+>Import (aka ES Modules) syntax:
+>
+>```javascript
+>import express from "express";
+>```
 
 
 
@@ -124,7 +119,7 @@ import express from "express";
 
 {% include youtube.html id="wJdY3Vvp2g0" %}
 HTTP Request Extras
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/simple\_express\_params), ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
@@ -132,7 +127,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 {% include youtube.html id="8WLofzPe7zI" %}
 Express Fruit Application
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/crud\_handlers), ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
@@ -144,29 +139,29 @@ Middleware functions (aka "middleware") are functions that run during the "reque
 
 We can run other non-routing middleware in the request-response cycle by attaching middleware functions with `app.use` before routing middleware. This will allow us to execute arbitrary logic using `req` and `res` objects before our routes, such as logging requests, adding metadata to our requests or validating authentication. Express executes middleware in the order the middleware is bound to the `app` object, until any middleware sends a response back to the client.c
 
-{% code title="index.js" %}
-```javascript
-const express = require('express');
-const app = express();
 
-// Define a custom middleware function myLogger to log requests
-const myLogger = function (req, res, next) {
-  console.log("LOGGED");
-  // Call the next parameter to trigger the next middleware
-  next();
-}
+>```javascript
+>const express = require('express');
+>const app = express();
+>
+>// Define a custom middleware function myLogger to log requests
+>const myLogger = function (req, res, next) {
+>  console.log("LOGGED");
+>  // Call the next parameter to trigger the next middleware
+>  next();
+>}
+>
+>// Attach myLogger to app with app.use before routes below
+>app.use(myLogger);
+>
+>// Attach routes after attaching any non-route middleware
+>app.get("/", (req, res) => {
+>  res.send("Hello, World!")
+>});
+>
+>app.listen(3000);
+>```
 
-// Attach myLogger to app with app.use before routes below
-app.use(myLogger);
-
-// Attach routes after attaching any non-route middleware
-app.get("/", (req, res) => {
-  res.send("Hello, World!")
-});
-
-app.listen(3000);
-```
-{% endcode %}
 
 Notice in the above code we attach non-route middleware above route middleware because route middleware typically terminates the request-response cycle by calling [response methods](https://expressjs.com/en/guide/routing.html#response-methods) like `res.send`.&#x20;
 
@@ -174,21 +169,21 @@ Also notice how `myLogger` calls `next()` at the end of its execution to trigger
 
 Read [Express' official guide to writing middleware](https://expressjs.com/en/guide/writing-middleware.html) for details.
 
-{% embed url="https://expressjs.com/en/guide/writing-middleware.html" %}
-Official Express guide to writing middleware
-{% endembed %}
+
+[Official Express guide to writing middleware](https://expressjs.com/en/guide/writing-middleware.html)
+
 
 Read [Express' official guide to using middleware](https://expressjs.com/en/guide/using-middleware.html) for details on how to use middleware in Express apps, including how to apply middleware on Express routers and how to apply imported 3rd-party middleware, which we will do often.
 
-{% embed url="https://expressjs.com/en/guide/using-middleware.html" %}
-Official Express guide to using middleware
-{% endembed %}
+
+[Official Express guide to using middleware](https://expressjs.com/en/guide/using-middleware.html)
+
 
 ## Express In-Built Middleware
 
 {% include youtube.html id="25XpyTTnt58" %}
 Express Middleware
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/built\_in\_middleware), ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
@@ -206,15 +201,15 @@ If you find that your backend index.js is getting rather long due to the amount 
 
 {% include youtube.html id="J_YBGjBVBYs" %}
 Implementing an Express Router
-{% endembed %}
+
 
 {% include youtube.html id="Bj0jYeJS-ZM" %}
 Implementing an Express Controller
-{% endembed %}
+
 
 {% include youtube.html id="CRhOv8mtdC4" %}
 Implementing Router and Controller
-{% endembed %}
+
 
 Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/router\_and\_controller), ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 

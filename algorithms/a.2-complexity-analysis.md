@@ -134,4 +134,4 @@ The naive Fibonacci solution also runs in `O(2^n)` space because at any given ti
 
 The following video provides additional explanation of time complexity and Big-O notation.
 
-{% embed url="https://www.youtube.com/watch?v=D6xkbGLQesk" %}
+{% include youtube.html id="D6xkbGLQesk" %}

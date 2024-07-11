@@ -25,7 +25,7 @@ GitHub Actions (and most cloud infrastructure automation) are typically configur
 
 Rocket has created a [simple CI workflow](https://github.com/rocketacademy/unit-test-bootcamp/blob/main/.github/workflows/ci.yml) using the `unit-test-bootcamp` repo we introduced in the Testing submodule, copied below. Rocket's GitHub Actions workflow is modelled after the [GitHub Actions Node.js starter workflow template](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs).
 
-{% code title=".github/workflows/ci.yml" %}
+
 ```yaml
 # This workflow will launch a clean Ubuntu OS, install app dependencies and run tests
 name: CI
@@ -58,7 +58,7 @@ jobs:
       # Run tests
       - run: npm test
 ```
-{% endcode %}
+
 
 After pushing the above workflow to `main`, we can observe this workflow in the [Actions tab](https://github.com/rocketacademy/unit-test-bootcamp/actions) in the GitHub console.
 
