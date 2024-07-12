@@ -173,7 +173,7 @@ Deepest exercises that Rocket offers for each concept. For students that wish to
 
 ### Ideation Phase 1
 
-Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use [Rocket's project planning template](https://docs.google.com/document/d/1klyi92bVHUKjxgD\_Saou\_u6yoEZFbzkvbttj2izh8xg/edit?usp=sharing) to guide you.
+Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use <a href="https://docs.google.com/document/d/1klyi92bVHUKjxgD\_Saou\_u6yoEZFbzkvbttj2izh8xg/edit?usp=sharing" target="_blank">Rocket's project planning template</a> to guide you.
 
 ### Ideation Phase 2
 
@@ -191,7 +191,7 @@ Create the following planning docs, save them in the project GitHub repo and sha
 
 ### Scrum
 
-Professional tech teams typically run using [Agile Scrum Methodology](https://www.atlassian.com/agile/scrum). Rocket simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.
+Professional tech teams typically run using <a href="https://www.atlassian.com/agile/scrum" target="_blank">Agile Scrum Methodology</a>. Rocket simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.
 
 1. What did you do between the previous course day and today?
 2. What do you plan to do between today and the next course day?
@@ -231,9 +231,9 @@ Record a video after each project to showcase your hard work for your portfolio 
 
 These batches did not have a time limit; please keep yours under 2 minutes if possible.
 
-1. [Porter (FTBC3)](https://www.youtube.com/watch?v=466AbXvMdzc)
-2. [Ian (FTBC2)](https://www.youtube.com/watch?v=JjHM96XIXjs)
-3. [Jit Corn (FTBC1)](https://www.youtube.com/watch?v=RxihjXRp7cQ)
+1. <a href="https://www.youtube.com/watch?v=466AbXvMdzc" target="_blank">Porter (FTBC3)</a>
+2. <a href="https://www.youtube.com/watch?v=JjHM96XIXjs" target="_blank">Ian (FTBC2)</a>
+3. <a href="https://www.youtube.com/watch?v=RxihjXRp7cQ" target="_blank">Jit Corn (FTBC1)</a>
 
 ## Sharing Code with Classmates
 
@@ -247,7 +247,7 @@ In software engineering, there are so many different ways to solve the same prob
 4. It'll be great to include a `README.md` that includes
    1. A brief description of your app
    2. How to setup and run your app
-   3. For example, see [https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp](https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp)
+   3. For example, see <a href="https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp" target="_blank">https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp</a>
 5. Once done, you can go on to commit and push the files as per usual
    1. `git add .`
    2. `git commit -m "insert commit message here"`
@@ -260,7 +260,7 @@ In software engineering, there are so many different ways to solve the same prob
 
 1. To view your classmates' solutions, you can go to the starter repo and click the Pull Request (PR) tab.
 2. Next, you search for your bootcamp batch (eg. FTBC6) and all your classmates PRs should be listed there.
-   1. For example, see [https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6](https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6)
+   1. For example, see <a href="https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6" target="_blank">https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6</a>
 3. You can then view their code under the File Changes tab in the PR to view all the changes they have made.
 4. To run and build their project locally, you can click on their forked repo in the PR and `git clone` it down as usual to run the project.
 5. Once cloned, you can follow the README to setup and run the app!
@@ -283,4 +283,4 @@ Occasionally we will review each others' code to learn from each other. Start by
 ### Part 2: In Pairs
 
 1. Review learnings from individual code reviews
-2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read [Rocket's primer on pair programming in Coding Basics](https://basics.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming).
+2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://basics.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming" target="_blank">Rocket's primer on pair programming in Coding Basics</a>.

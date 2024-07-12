@@ -25,7 +25,7 @@ Coding Bootcamp prepares graduates for full-stack software engineering roles. Th
 
 ### What kind of company are you looking for? <a href="#what-kind-of-company-are-you-looking-for" id="what-kind-of-company-are-you-looking-for"></a>
 
-Rocket's Bootcamp equips graduates to succeed at any entry-level software engineering role, regardless of company. Check out [Rocket's blog post on the various companies that hire SWEs in SG](https://www.rocketacademy.co/blog/software-engineering-jobs-in-singapore).
+Rocket's Bootcamp equips graduates to succeed at any entry-level software engineering role, regardless of company. Check out <a href="https://www.rocketacademy.co/blog/software-engineering-jobs-in-singapore" target="_blank">Rocket's blog post on the various companies that hire SWEs in SG</a>.
 
 1. Do you prefer the tigher-knit culture of a startup or the scale that comes with working for a bigger company?
 2. Do you prefer dipping your toes into multiple industries at a software agency, or working hard on a part of a single product over multiple years?
@@ -40,13 +40,13 @@ Here are some of the best ways to find jobs you might enjoy.
 2. Browse job portals
    1. Companies post new SWE jobs on job portals every day. Make it a habit to browse job portals and add relevant jobs to your jobs list. Update Rocket Academy when you update your jobs lists so that Rocket can reach out to those companies and try to get you a referral.
    2. Here are some popular job portals.
-      1. ​[LinkedIn](https://www.linkedin.com/jobs/)​
-      2. ​[Tech In Asia](https://www.techinasia.com/jobs)​
-      3. ​[AngelList](https://angel.co/jobs)​
-      4. ​[YC Jobs List](https://www.ycombinator.com/jobs/)​
-      5. ​[Indeed](https://sg.indeed.com/)​
-      6. ​[Glints](https://glints.com/sg)​
-      7. ​[NodeFlair](https://www.nodeflair.com/jobs)​
+      1. ​<a href="https://www.linkedin.com/jobs/" target="_blank">LinkedIn</a>​
+      2. ​<a href="https://www.techinasia.com/jobs" target="_blank">Tech In Asia</a>​
+      3. ​<a href="https://angel.co/jobs" target="_blank">AngelList</a>​
+      4. ​<a href="https://www.ycombinator.com/jobs/" target="_blank">YC Jobs List</a>​
+      5. ​<a href="https://sg.indeed.com/" target="_blank">Indeed</a>​
+      6. ​<a href="https://glints.com/sg" target="_blank">Glints</a>​
+      7. ​<a href="https://www.nodeflair.com/jobs" target="_blank">NodeFlair</a>​
    3. Feel free to connect with recruiters or engineers on LinkedIn that work for the companies you are interested in. This is what Rocket does behind the scenes. When connecting with them, **always leave a note with a personal message.** This greatly increases the chances they will respond to you.
 
 ![When you click Connect on someone's LinkedIn profile, always choose to "Add a note".](<../.gitbook/assets/IP.1 - LinkedIn Connect.png>)

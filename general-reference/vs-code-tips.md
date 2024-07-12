@@ -12,7 +12,7 @@ Rather than adding `//` to the start of each line manually, VS Code has a shortc
 
 ## Editing a Variable Name in Multiple Places Concurrently
 
-Sometimes we want to change the name of a variable in our code, a common practice in [refactoring](https://en.wikipedia.org/wiki/Code\_refactoring). If that variable is used in multiple places, we may be tempted to edit each instance individually. Luckily VS Code has a convenient feature that allows us to edit all instances of the same variable simultaneously, saving time and our fingers.
+Sometimes we want to change the name of a variable in our code, a common practice in <a href="https://en.wikipedia.org/wiki/Code\_refactoring" target="_blank">refactoring</a>. If that variable is used in multiple places, we may be tempted to edit each instance individually. Luckily VS Code has a convenient feature that allows us to edit all instances of the same variable simultaneously, saving time and our fingers.
 
 ### Within a Single File
 
@@ -22,8 +22,8 @@ Sometimes we want to change the name of a variable in our code, a common practic
 
 ### Across Multiple Files
 
-VS Code has a [search and replace feature](https://code.visualstudio.com/docs/editor/codebasics#\_search-across-files) that allows us to edit all instances of a given string in multiple files at once.
+VS Code has a <a href="https://code.visualstudio.com/docs/editor/codebasics#\_search-across-files" target="_blank">search and replace feature</a> that allows us to edit all instances of a given string in multiple files at once.
 
 ## Hide Minimap
 
-The [VS Code minimap](https://code.visualstudio.com/docs/getstarted/userinterface#\_minimap) is displayed by default in VS Code to show one's vertical position within a file. This may not be necessary and we can hide the minimap for more space in VS Code. Hide the minimap by toggling View > Show Minimap in the menu bar.
+The <a href="https://code.visualstudio.com/docs/getstarted/userinterface#\_minimap" target="_blank">VS Code minimap</a> is displayed by default in VS Code to show one's vertical position within a file. This may not be necessary and we can hide the minimap for more space in VS Code. Hide the minimap by toggling View > Show Minimap in the menu bar.

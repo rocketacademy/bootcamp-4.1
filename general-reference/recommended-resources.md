@@ -8,7 +8,7 @@ Past students have found the following resources helpful.
 2. [Data Structures and Algorithms in Python]
 3. [Clean Code]
 4. [You Don't Know JS]
-5. [SWE at Google](https://res.infoq.com/articles/software-engineering-google/en/resources/software\_engineering\_at\_google\_extract-1622201647282.pdf)
+5. <a href="https://res.infoq.com/articles/software-engineering-google/en/resources/software\_engineering\_at\_google\_extract-1622201647282.pdf" target="_blank">SWE at Google</a>
 
 ## Videos
 
@@ -18,4 +18,4 @@ Past students have found the following resources helpful.
 
 ## Interview Guides
 
-1. [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+1. <a href="https://www.techinterviewhandbook.org/" target="_blank">Tech Interview Handbook</a>

@@ -6,7 +6,7 @@ Your portfolio is your summary of all the coding work you've done. The goal of t
 
 ## What to include in your portfolio
 
-Rocket recommends we build our portfolios as public [Notion](https://www.notion.so/) pages to focus more on content and less UI.
+Rocket recommends we build our portfolios as public <a href="https://www.notion.so/" target="_blank">Notion</a> pages to focus more on content and less UI.
 
 ### About
 
