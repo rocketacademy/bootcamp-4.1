@@ -55,7 +55,7 @@ selector {
 
 ## Common CSS properties
 
-If you would like to explore the endless styling and presentation possibilities that CSS offers please have a [look here](https://www.w3schools.com/css/). Otherwise here are some common CSS properties that you should become aware of.
+If you would like to explore the endless styling and presentation possibilities that CSS offers please have a <a href="https://www.w3schools.com/css/" target="_blank">look here</a>. Otherwise here are some common CSS properties that you should become aware of.
 
 | CSS property     | Description                                                                                                                                                                                                                                   | Example usage                                                                |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -190,7 +190,7 @@ External styles are styles declared in CSS-specific files and "imported" with `l
 
 Unless we have a strong reason not to, Rocket recommends using external styles for all CSS to keep our CSS rules centralised in CSS files that can be re-used across HTML files.
 
-Unless we plan to be CSS specialists, we do not need to memorise exact CSS specificity of every permutation of selectors and HTML elements. Most browsers provide precise tools to debug CSS specificity, and [W3Schools documents](https://www.w3schools.com/css/css\_specificity.asp) how to calculate CSS specificity when we need to.
+Unless we plan to be CSS specialists, we do not need to memorise exact CSS specificity of every permutation of selectors and HTML elements. Most browsers provide precise tools to debug CSS specificity, and <a href="https://www.w3schools.com/css/css\_specificity.asp" target="_blank">W3Schools documents</a> how to calculate CSS specificity when we need to.
 
 ## Exercises
 
@@ -226,8 +226,8 @@ Refresh `index.html` in Chrome and observe the change to the `h1` element.
 
 Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule. You will need to register a Codecademy account if you have not already.
 
-1. [Setup and Syntax](https://www.codecademy.com/courses/learn-css/lessons/learn-css-setup-and-syntax/exercises/intro-to-css)
-2. [Selectors](https://www.codecademy.com/courses/learn-css/lessons/learn-css-selectors/exercises/type)
-3. [Visual Rules](https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/exercises/font-family)
-4. [The Box Model](https://www.codecademy.com/courses/learn-css/lessons/box-model-intro/exercises/box-model)
-5. [Changing the Box Model](https://www.codecademy.com/courses/learn-css/lessons/box-model-new/exercises/box-content)
+1. <a href="https://www.codecademy.com/courses/learn-css/lessons/learn-css-setup-and-syntax/exercises/intro-to-css" target="_blank">Setup and Syntax</a>
+2. <a href="https://www.codecademy.com/courses/learn-css/lessons/learn-css-selectors/exercises/type" target="_blank">Selectors</a>
+3. <a href="https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules/exercises/font-family" target="_blank">Visual Rules</a>
+4. <a href="https://www.codecademy.com/courses/learn-css/lessons/box-model-intro/exercises/box-model" target="_blank">The Box Model</a>
+5. <a href="https://www.codecademy.com/courses/learn-css/lessons/box-model-new/exercises/box-content" target="_blank">Changing the Box Model</a>

@@ -107,34 +107,34 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 ### Pre-Class
 
-1. Two Strings ([HackerRank](https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true))
-2. Valid Anagram ([LeetCode](https://leetcode.com/problems/valid-anagram/))
+1. Two Strings (<a href="https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Valid Anagram (<a href="https://leetcode.com/problems/valid-anagram/" target="_blank">LeetCode</a>)
 
 ### Part 1
 
-1. N-Repeated Element in Size 2N Array ([LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/))
-2. Sum of Unique Elements ([LeetCode](https://leetcode.com/problems/sum-of-unique-elements/))
-3. Unique Number of Occurrences ([LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/))
+1. N-Repeated Element in Size 2N Array (<a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/" target="_blank">LeetCode</a>)
+2. Sum of Unique Elements (<a href="https://leetcode.com/problems/sum-of-unique-elements/" target="_blank">LeetCode</a>)
+3. Unique Number of Occurrences (<a href="https://leetcode.com/problems/unique-number-of-occurrences/" target="_blank">LeetCode</a>)
 
 ### Part 2
 
-1. Ransom Note ([HackerRank](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true))
-2. Maximum Number of Balloons ([LeetCode](https://leetcode.com/problems/maximum-number-of-balloons/))
-3. Uncommon Words from Two Sentences ([LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences/))
+1. Ransom Note (<a href="https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Maximum Number of Balloons (<a href="https://leetcode.com/problems/maximum-number-of-balloons/" target="_blank">LeetCode</a>)
+3. Uncommon Words from Two Sentences (<a href="https://leetcode.com/problems/uncommon-words-from-two-sentences/" target="_blank">LeetCode</a>)
 
 ### Part 3
 
-1. Find Words That Can Be Formed By Characters ([LeetCode](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/))
-2. Intersection of Two Arrays II ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/))
-3. Find Common Characters ([LeetCode](https://leetcode.com/problems/find-common-characters/))
+1. Find Words That Can Be Formed By Characters (<a href="https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/" target="_blank">LeetCode</a>)
+2. Intersection of Two Arrays II (<a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/" target="_blank">LeetCode</a>)
+3. Find Common Characters (<a href="https://leetcode.com/problems/find-common-characters/" target="_blank">LeetCode</a>)
 
 ### More Comfortable
 
-1. How Many Numbers are Smaller than the Current Number ([LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/))
+1. How Many Numbers are Smaller than the Current Number (<a href="https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/" target="_blank">LeetCode</a>)
    1. Hint: Sort, track num smaller numbers for each number in hash table, use hash table to generate results array
-2. Sherlock and Anagrams ([HackerRank](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?isFullScreen=true))
+2. Sherlock and Anagrams (<a href="https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?isFullScreen=true" target="_blank">HackerRank</a>)
    1. Hint: Sliding window?
-3. Longest Substring Without Repeating Characters ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/))
+3. Longest Substring Without Repeating Characters (<a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank">LeetCode</a>)
    1. Hint: Sliding window?
-4. Permutation in String ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+4. Permutation in String (<a href="https://leetcode.com/problems/permutation-in-string/" target="_blank">LeetCode</a>)
    1. Hint: Fixed-size window with hash table of letter frequencies?

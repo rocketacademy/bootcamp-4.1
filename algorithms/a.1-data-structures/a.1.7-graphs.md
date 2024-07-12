@@ -137,37 +137,37 @@ bfs("a");
 
 ### Pre-Class
 
-1. Find Center of Star Graph ([LeetCode](https://leetcode.com/problems/find-center-of-star-graph/))
+1. Find Center of Star Graph (<a href="https://leetcode.com/problems/find-center-of-star-graph/" target="_blank">LeetCode</a>)
    1. Hint: This does not require graph traversal
 
 ### Part 1
 
-1. Find the Town Judge ([LeetCode](https://leetcode.com/problems/find-the-town-judge/))
+1. Find the Town Judge (<a href="https://leetcode.com/problems/find-the-town-judge/" target="_blank">LeetCode</a>)
    1. Hint: What additional data structures might be helpful for us to solve this problem?
    2. Hint: This does not require graph traversal
-   3. [Rocket solution code](https://pastebin.com/3N4NUz8G) (Python)
-   4. [Rocket solution video](https://youtu.be/1xDBSlnUiUE?t=1308) (Python)
+   3. <a href="https://pastebin.com/3N4NUz8G" target="_blank">Rocket solution code</a> (Python)
+   4. <a href="https://youtu.be/1xDBSlnUiUE?t=1308" target="_blank">Rocket solution video</a> (Python)
 
 ### Part 2
 
-1. Find if Path Exists in Graph ([LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/))
+1. Find if Path Exists in Graph (<a href="https://leetcode.com/problems/find-if-path-exists-in-graph/" target="_blank">LeetCode</a>)
    1. Hint: This requires graph traversal
 
 ### Part 3
 
-1. Keys and Rooms ([LeetCode](https://leetcode.com/problems/keys-and-rooms/)) (Medium)
+1. Keys and Rooms (<a href="https://leetcode.com/problems/keys-and-rooms/" target="_blank">LeetCode</a>) (Medium)
 
 ### More Comfortable
 
-1. All Paths from Source to Target ([LeetCode](https://leetcode.com/problems/all-paths-from-source-to-target/)) (Medium)
+1. All Paths from Source to Target (<a href="https://leetcode.com/problems/all-paths-from-source-to-target/" target="_blank">LeetCode</a>) (Medium)
    1. Hint: Would recursion be helpful?
-   2. [Rocket solution code](https://pastebin.com/AtwkRjBf) (Python)
-   3. [Rocket solution video](https://www.youtube.com/watch?v=dUhleIGC-D4) (Python)
-2. Redundant Connection ([LeetCode](https://leetcode.com/problems/redundant-connection/)) (Medium)
-3. Minimum Number of Vertices to Reach All Nodes ([LeetCode](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)) (Medium)
-4. Number of Islands ([LeetCode](https://leetcode.com/problems/number-of-islands/)) (Medium)
+   2. <a href="https://pastebin.com/AtwkRjBf" target="_blank">Rocket solution code</a> (Python)
+   3. <a href="https://www.youtube.com/watch?v=dUhleIGC-D4" target="_blank">Rocket solution video</a> (Python)
+2. Redundant Connection (<a href="https://leetcode.com/problems/redundant-connection/" target="_blank">LeetCode</a>) (Medium)
+3. Minimum Number of Vertices to Reach All Nodes (<a href="https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/" target="_blank">LeetCode</a>) (Medium)
+4. Number of Islands (<a href="https://leetcode.com/problems/number-of-islands/" target="_blank">LeetCode</a>) (Medium)
 
 ## Additional Resources
 
-1. [BFS vs DFS written explanation](https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416) in blog post
-2. [Graph Algorithms for Technical Interviews video](https://youtu.be/tWVWeAqZ0WU) by freeCodeCamp
+1. <a href="https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416" target="_blank">BFS vs DFS written explanation</a> in blog post
+2. <a href="https://youtu.be/tWVWeAqZ0WU" target="_blank">Graph Algorithms for Technical Interviews video</a> by freeCodeCamp

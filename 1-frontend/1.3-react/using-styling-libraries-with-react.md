@@ -8,7 +8,7 @@ Learning Objectives
 
 ### React Bootstrap Initialisation
 
-React Bootstrap is a popular frontend styling library, it contains pre-built style and functionalities for out of the box easy implementation. This tool is integrated well with ReactJs and is geared for beginners to test out and implement styling libraries. Developers are even able to customize Bootstrap within custom scss stylesheets, feel free to learn more about it [here](https://react-bootstrap.github.io/getting-started/introduction#customize-bootstrap).&#x20;
+React Bootstrap is a popular frontend styling library, it contains pre-built style and functionalities for out of the box easy implementation. This tool is integrated well with ReactJs and is geared for beginners to test out and implement styling libraries. Developers are even able to customize Bootstrap within custom scss stylesheets, feel free to learn more about it <a href="https://react-bootstrap.github.io/getting-started/introduction#customize-bootstrap" target="_blank">here</a>.&#x20;
 
 To implement React Bootstrap into a React application open a CLI interface and change directory to your current project. Here you can run this command:
 
@@ -26,7 +26,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 This line imports the CSS for bootstrap into your application, any child components of this file will be able to access and utilise React-Bootstrap styling, pre-made components, utilities and alignment system.&#x20;
 
-Now that Bootstrap has been implemented in your application it might be a good idea to look at some of the pre-styled components you can implement, look at some examples and usage [here](https://react-bootstrap.github.io/components/alerts/).
+Now that Bootstrap has been implemented in your application it might be a good idea to look at some of the pre-styled components you can implement, look at some examples and usage <a href="https://react-bootstrap.github.io/components/alerts/" target="_blank">here</a>.
 
 To showcase implementing React Bootstrap into a React Application we will implement some new styled buttons on our previously edited boilerplate code from our previous section.
 
@@ -79,13 +79,13 @@ The output on the browser is as follows:
 
 From the image above we can see a new blue button has been added into the application, we didnt style this button, it was all React-Bootstrap. This is how you can utilise React-Bootstrap within a React application. Utilise more complex components using this styling library to save yourself time during development.
 
-Checkout more React-Bootstrap Components [here](https://react-bootstrap.netlify.app/docs/components/accordion). Use a combination of pre-styled and custom components to quickly develop applications that can be tailored to your need, just be aware of the props that you can pass. Constantly run your React application to see whether or not your application is being styled appropriately. And remember when styling with React-Bootstrap you just need to import the component's that you need at the top of the page, then you can use them like normal HTML tags in your JSX.
+Checkout more React-Bootstrap Components <a href="https://react-bootstrap.netlify.app/docs/components/accordion" target="_blank">here</a>. Use a combination of pre-styled and custom components to quickly develop applications that can be tailored to your need, just be aware of the props that you can pass. Constantly run your React application to see whether or not your application is being styled appropriately. And remember when styling with React-Bootstrap you just need to import the component's that you need at the top of the page, then you can use them like normal HTML tags in your JSX.
 
 ### React Bootstrap Grid System
 
 One of the most powerful features of React-Bootstrap is its grid system, which facilitates mobile responsive websites without having to restyle every single element on your page. Learn more about the grid system:
 
-[Grid System React Bootstrap](https://react-bootstrap.netlify.app/docs/layout/grid/)
+<a href="https://react-bootstrap.netlify.app/docs/layout/grid/" target="_blank">Grid System React Bootstrap</a>
 
 When implementing the grid system be sure to:
 
@@ -93,7 +93,7 @@ When implementing the grid system be sure to:
 2. Use `Row` and `Column` Components within the `Container` to display your information
    1. Note that each row can be broken into 12 columns
    2. Each section can take up multiple spaces
-3. Uncover and understand the [Breakpoint system](https://react-bootstrap.netlify.app/docs/layout/breakpoints) in react-bootstrap
+3. Uncover and understand the <a href="https://react-bootstrap.netlify.app/docs/layout/breakpoints" target="_blank">Breakpoint system</a> in react-bootstrap
 4. Wire-framing and planning out how your component will look will make using grid easier
 
 Here is a simple implementation of the react-bootstrap grid system

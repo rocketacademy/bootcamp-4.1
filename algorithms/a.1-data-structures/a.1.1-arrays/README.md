@@ -30,33 +30,33 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 ### Pre-Class
 
-1. Running Sum of 1D Array ([LeetCode](https://leetcode.com/problems/running-sum-of-1d-array/))
-2. Richest Customer Wealth ([LeetCode](https://leetcode.com/problems/richest-customer-wealth/))
+1. Running Sum of 1D Array (<a href="https://leetcode.com/problems/running-sum-of-1d-array/" target="_blank">LeetCode</a>)
+2. Richest Customer Wealth (<a href="https://leetcode.com/problems/richest-customer-wealth/" target="_blank">LeetCode</a>)
 
 ### Part 1
 
-1. Valid Mountain Array ([LeetCode](https://leetcode.com/problems/valid-mountain-array))
-2. Sherlock and Array ([HackerRank](https://www.hackerrank.com/challenges/sherlock-and-array/problem?isFullScreen=true))
-3. Jewels and Stones ([LeetCode](https://leetcode.com/problems/jewels-and-stones/))
-4. Missing Numbers ([HackerRank](https://www.hackerrank.com/challenges/missing-numbers/problem?isFullScreen=true))
-5. Sparse Arrays ([HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem?isFullScreen=true))
+1. Valid Mountain Array (<a href="https://leetcode.com/problems/valid-mountain-array" target="_blank">LeetCode</a>)
+2. Sherlock and Array (<a href="https://www.hackerrank.com/challenges/sherlock-and-array/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+3. Jewels and Stones (<a href="https://leetcode.com/problems/jewels-and-stones/" target="_blank">LeetCode</a>)
+4. Missing Numbers (<a href="https://www.hackerrank.com/challenges/missing-numbers/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+5. Sparse Arrays (<a href="https://www.hackerrank.com/challenges/sparse-arrays/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 ### Part 2
 
-1. Count Items Matching a Rule ([LeetCode](https://leetcode.com/problems/count-items-matching-a-rule/))
-2. Kids with the Greatest Number of Candies ([LeetCode](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/))
-3. Left Rotation ([HackerRank](https://www.hackerrank.com/challenges/array-left-rotation/problem?isFullScreen=true))
-4. Number of Good Pairs ([LeetCode](https://leetcode.com/problems/number-of-good-pairs/))
+1. Count Items Matching a Rule (<a href="https://leetcode.com/problems/count-items-matching-a-rule/" target="_blank">LeetCode</a>)
+2. Kids with the Greatest Number of Candies (<a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/" target="_blank">LeetCode</a>)
+3. Left Rotation (<a href="https://www.hackerrank.com/challenges/array-left-rotation/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+4. Number of Good Pairs (<a href="https://leetcode.com/problems/number-of-good-pairs/" target="_blank">LeetCode</a>)
 
 ### Part 3
 
-1. Sort Array by Parity ([LeetCode](https://leetcode.com/problems/sort-array-by-parity/))
-2. Shuffle the Array ([LeetCode](https://leetcode.com/problems/shuffle-the-array/))
-3. String Matching in an Array ([LeetCode](https://leetcode.com/problems/string-matching-in-an-array/))
+1. Sort Array by Parity (<a href="https://leetcode.com/problems/sort-array-by-parity/" target="_blank">LeetCode</a>)
+2. Shuffle the Array (<a href="https://leetcode.com/problems/shuffle-the-array/" target="_blank">LeetCode</a>)
+3. String Matching in an Array (<a href="https://leetcode.com/problems/string-matching-in-an-array/" target="_blank">LeetCode</a>)
    1. Hint: You may find the array `sort` method helpful to sort input array by word length
    2. Hint: You may find nested for loops helpful where the indexes follow the pattern in the below code sample
-   3. [Recommended LeetCode solution](https://leetcode.com/problems/string-matching-in-an-array/discuss/930878/Clean-JavaScript-Solution)
-4. Ice Cream Parlor ([HackerRank](https://www.hackerrank.com/challenges/icecream-parlor/problem?isFullScreen=true))
+   3. <a href="https://leetcode.com/problems/string-matching-in-an-array/discuss/930878/Clean-JavaScript-Solution" target="_blank">Recommended LeetCode solution</a>
+4. Ice Cream Parlor (<a href="https://www.hackerrank.com/challenges/icecream-parlor/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 Code sample for String Matching in an Array:
 
@@ -70,6 +70,6 @@ for (let i = 0; i <= arr; i += 1) {
 
 ### More Comfortable
 
-1. Squares of a Sorted Array ([LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/))
-2. Sort Array by Parity II ([LeetCode](https://leetcode.com/problems/sort-array-by-parity-ii))
-3. Relative Sort Array ([LeetCode](https://leetcode.com/problems/relative-sort-array/))
+1. Squares of a Sorted Array (<a href="https://leetcode.com/problems/squares-of-a-sorted-array/" target="_blank">LeetCode</a>)
+2. Sort Array by Parity II (<a href="https://leetcode.com/problems/sort-array-by-parity-ii" target="_blank">LeetCode</a>)
+3. Relative Sort Array (<a href="https://leetcode.com/problems/relative-sort-array/" target="_blank">LeetCode</a>)

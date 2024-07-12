@@ -29,40 +29,40 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 ### Pre-Class
 
-1. Remove All Adjacent Duplicates in String ([LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/))
-   1. [Rocket strategy video](https://youtu.be/y---RCHCdD4?t=4613) (Python)
+1. Remove All Adjacent Duplicates in String (<a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/" target="_blank">LeetCode</a>)
+   1. <a href="https://youtu.be/y---RCHCdD4?t=4613" target="_blank">Rocket strategy video</a> (Python)
 
 ### Part 1
 
-1. Make The String Great ([LeetCode](https://leetcode.com/problems/make-the-string-great/))
-   1. [Rocket strategy video](https://youtu.be/y---RCHCdD4?t=4457) (Python)
-2. Backspace String Compare ([LeetCode](https://leetcode.com/problems/backspace-string-compare/))
+1. Make The String Great (<a href="https://leetcode.com/problems/make-the-string-great/" target="_blank">LeetCode</a>)
+   1. <a href="https://youtu.be/y---RCHCdD4?t=4457" target="_blank">Rocket strategy video</a> (Python)
+2. Backspace String Compare (<a href="https://leetcode.com/problems/backspace-string-compare/" target="_blank">LeetCode</a>)
 
 ### Part 2
 
-1. Crawler Log Folder ([LeetCode](https://leetcode.com/problems/crawler-log-folder/))
-   1. [Rocket solution video](https://youtu.be/y---RCHCdD4?t=2460) (Python)
-2. Maximum Element ([HackerRank](https://www.hackerrank.com/challenges/maximum-element/problem?isFullScreen=true))
+1. Crawler Log Folder (<a href="https://leetcode.com/problems/crawler-log-folder/" target="_blank">LeetCode</a>)
+   1. <a href="https://youtu.be/y---RCHCdD4?t=2460" target="_blank">Rocket solution video</a> (Python)
+2. Maximum Element (<a href="https://www.hackerrank.com/challenges/maximum-element/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 ### Part 3
 
-1. Valid Parentheses ([LeetCode](https://leetcode.com/problems/valid-parentheses/), [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true))
-   1. [Rocket solution code](https://pastebin.com/qGbG1BAN) (Python)
-2. Minimum Add To Make Parentheses Valid ([LeetCode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/))
+1. Valid Parentheses (<a href="https://leetcode.com/problems/valid-parentheses/" target="_blank">LeetCode</a>, <a href="https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+   1. <a href="https://pastebin.com/qGbG1BAN" target="_blank">Rocket solution code</a> (Python)
+2. Minimum Add To Make Parentheses Valid (<a href="https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/" target="_blank">LeetCode</a>)
 
 ### Part 4
 
-1. Simple Text Editor ([HackerRank](https://www.hackerrank.com/challenges/simple-text-editor/problem?isFullScreen=true))
-2. Validate Stack Sequences ([LeetCode](https://leetcode.com/problems/validate-stack-sequences/))
+1. Simple Text Editor (<a href="https://www.hackerrank.com/challenges/simple-text-editor/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Validate Stack Sequences (<a href="https://leetcode.com/problems/validate-stack-sequences/" target="_blank">LeetCode</a>)
 
 ### More Comfortable
 
-1. Score of Parentheses ([LeetCode](https://leetcode.com/problems/score-of-parentheses/))
+1. Score of Parentheses (<a href="https://leetcode.com/problems/score-of-parentheses/" target="_blank">LeetCode</a>)
    1. Hint: The depth of the stack can be the power of 2
-2. Daily Temperatures ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
+2. Daily Temperatures (<a href="https://leetcode.com/problems/daily-temperatures/" target="_blank">LeetCode</a>)
    1. Hint: Store temperatures and their array indexes in a stack as we iterate through the input array, and pop those temperatures off the stack and populate "num days until warmer temperature" in answer array when we see a warmer temperature.
 
 ## Additional Resources
 
-1. [This video](https://www.youtube.com/watch?v=F1F2imiOJfk) is slightly more detailed introduction to stacks than the video above
-2. [FTBC3 class video ](https://youtu.be/y---RCHCdD4?t=559)introducing stacks
+1. <a href="https://www.youtube.com/watch?v=F1F2imiOJfk" target="_blank">This video</a> is slightly more detailed introduction to stacks than the video above
+2. <a href="https://youtu.be/y---RCHCdD4?t=559" target="_blank">FTBC3 class video </a>introducing stacks

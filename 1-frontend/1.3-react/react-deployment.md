@@ -22,7 +22,7 @@ You can check to see if your build worked by running the command:&#x20;
 `npm run preview`
 
 \
-You should be able to see your application within your browser at [`http://localhost:4173`](http://localhost:4173/)
+You should be able to see your application within your browser at <a href="http://localhost:4173/" target="_blank">`http://localhost:4173`</a>
 
 After validating that this works, we will install the required packages:\
 Run the command: `npm install gh-pages --save-dev`
@@ -77,7 +77,7 @@ You can check to see if your build worked by running the command:&#x20;
 `npm run preview`
 
 \
-You should be able to see your application within your browser at [`http://localhost:4173`](http://localhost:4173/)
+You should be able to see your application within your browser at <a href="http://localhost:4173/" target="_blank">`http://localhost:4173`</a>
 
 Now we will configure the vite.config.js:\
 We need to add a key value pair for deployment:

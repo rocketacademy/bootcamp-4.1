@@ -9,7 +9,7 @@
 
 Authentication is both simple and complex. The high-level concept of authenticating a user, then saving that user's authentic "badge" in their browser for subsequent requests is simple. But the lower-level concepts of how to authenticate and how to save that badge in the browser can be complex.
 
-At Rocket Academy we will focus on the higher-level concepts of authentication, and let students dig deeper into the lower-level concepts themselves if time permits and students are interested. We will use [Auth0](https://auth0.com/) to implement authentication in our API servers, the industry standard for plug-and-play authentication libraries, comparable to Firebase Auth but with friendlier docs.
+At Rocket Academy we will focus on the higher-level concepts of authentication, and let students dig deeper into the lower-level concepts themselves if time permits and students are interested. We will use <a href="https://auth0.com/" target="_blank">Auth0</a> to implement authentication in our API servers, the industry standard for plug-and-play authentication libraries, comparable to Firebase Auth but with friendlier docs.
 
 {% include youtube.html id="cBLCVjyuUsY" %}
 What is auth0?
@@ -28,8 +28,8 @@ auth0 Documentation
 At a fundamental level, all authentication involves 3 steps.
 
 1. User enters auth info such as username and password
-2. Backend verifies auth info via cryptographic algorithm, typically involving [hashing](https://en.wikipedia.org/wiki/Cryptographic\_hash\_function) and [salting](https://en.wikipedia.org/wiki/Salt\_\(cryptography\)). Verification involves comparing the hashed version of the provided password with the hashed password stored in the database. We never store plain-text passwords for security reasons.
-3. If auth info verified, backend sends user's browser a [cookie](https://en.wikipedia.org/wiki/HTTP\_cookie) that contains proof of authentication, typically either a [JSON web token](https://en.wikipedia.org/wiki/JSON\_Web\_Token) (JWT) or a [session ID](https://en.wikipedia.org/wiki/Session\_ID) that cannot be forged. Browsers store cookies and send them to relevant websites, thereby proving authentication.
+2. Backend verifies auth info via cryptographic algorithm, typically involving <a href="https://en.wikipedia.org/wiki/Cryptographic\_hash\_function" target="_blank">hashing</a> and <a href="https://en.wikipedia.org/wiki/Salt\_\(cryptography\" target="_blank">salting</a>). Verification involves comparing the hashed version of the provided password with the hashed password stored in the database. We never store plain-text passwords for security reasons.
+3. If auth info verified, backend sends user's browser a <a href="https://en.wikipedia.org/wiki/HTTP\_cookie" target="_blank">cookie</a> that contains proof of authentication, typically either a <a href="https://en.wikipedia.org/wiki/JSON\_Web\_Token" target="_blank">JSON web token</a> (JWT) or a <a href="https://en.wikipedia.org/wiki/Session\_ID" target="_blank">session ID</a> that cannot be forged. Browsers store cookies and send them to relevant websites, thereby proving authentication.
 
 Authentication can be challenging because it involves many moving parts. Our server application must store auth info such as passwords and secret keys securely. Our cryptographic algorithm and proof of authentication must be industry-standard. Any bugs in logic or implementation can result in costly hacks.
 
@@ -54,7 +54,7 @@ Luckily for us, companies such as Auth0 and Firebase have developed plug-and-pla
 
 We should then be directed to a quickstart page like the following, populated with our app's specific domains and IDs. No need to implement anything for now, but read through to understand the high-level process.
 
-[Official Auth0 setup guide for React apps](https://auth0.com/docs/quickstart/spa/react/01-login)
+<a href="https://auth0.com/docs/quickstart/spa/react/01-login" target="_blank">Official Auth0 setup guide for React apps</a>
 
 
 1. Note application domain and client ID in Application Settings in the Auth0 dashboard. We will need to include these in our app to communicate with Auth0.
@@ -71,7 +71,7 @@ That's all there is to logging in and out with Auth0 in our frontend! Let's now 
 
 Now that we've enabled login in our React apps, we need to learn how to pass an access token from Auth0 to our backends to verify authentication.
 
-[Official Auth0 API-calling guide for React apps](https://auth0.com/docs/quickstart/spa/react/02-calling-an-api)
+<a href="https://auth0.com/docs/quickstart/spa/react/02-calling-an-api" target="_blank">Official Auth0 API-calling guide for React apps</a>
 
 
 1. Our frontends authenticate with our backends via an access token that we retrieve from Auth0 on our frontends, send to our backends in a request, and verify using an Auth0 library on our backends.
@@ -121,7 +121,7 @@ We will implement authentication in our backend first because there are certain 
 
 Some routes in our backend will be protected, for example routes to access user data or manipulate data. Based on the logged-in user, backends can decide what data to expose to that user and record changes by that user.
 
-[Official Auth0 route-authorisation guide for Express apps](https://auth0.com/docs/quickstart/backend/nodejs/01-authorization)
+<a href="https://auth0.com/docs/quickstart/backend/nodejs/01-authorization" target="_blank">Official Auth0 route-authorisation guide for Express apps</a>
 
 1. Create an API in the Auth0 dashboard and give it an identifier, typically a URL that identifies our API. We will use this API identifier as an `audience` in our frontends when retrieving an access token to communicate with our backends
 2. There is no need to understand RS256 and what a private/public keypair is at the moment, other than knowing they are industry-standard security mechanisms.
@@ -141,4 +141,4 @@ Hopefully this gave us a clear high-level overview of what steps we need to impl
 
 Please checkout the finished frontend code below. Note that you will need to setup a application on Auth0 that you integrate with the application.&#x20;
 
-Frontend code is in this [repository](https://github.com/rocketacademy/3.2\_react\_repo/tree/auth), ensure that you're on the `auth` branch if you want to test the code on your machine you will need to install the dependencies with the command `npm install` after the installation you can run the application with `npm run dev`. To view the rendered page open a browser and navigate to http://localhost:5173 Note, you will need to create your own .env and create your own Auth0 application online with the appropriate setup. To test it with a backend please checkout this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/auth), ensure that you're on the `auth` branch if you want to test the code on your machine you will need to install the dependencies with the command `npm install` after the installation, then implement you `.env` . If you've not setup the database previously, run your migrations and seeders and once this is completed you can run the application with `node index.js`.&#x20;
+Frontend code is in this <a href="https://github.com/rocketacademy/3.2\_react\_repo/tree/auth" target="_blank">repository</a>, ensure that you're on the `auth` branch if you want to test the code on your machine you will need to install the dependencies with the command `npm install` after the installation you can run the application with `npm run dev`. To view the rendered page open a browser and navigate to http://localhost:5173 Note, you will need to create your own .env and create your own Auth0 application online with the appropriate setup. To test it with a backend please checkout this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/auth" target="_blank">repository</a>, ensure that you're on the `auth` branch if you want to test the code on your machine you will need to install the dependencies with the command `npm install` after the installation, then implement you `.env` . If you've not setup the database previously, run your migrations and seeders and once this is completed you can run the application with `node index.js`.&#x20;

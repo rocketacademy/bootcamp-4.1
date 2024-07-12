@@ -31,15 +31,15 @@ Now that we've learnt the theory, you may be wondering how to implement heaps in
 {% include youtube.html id="fJORlbOGm9Y" %}
 How to represent and use heaps in code with arrays
 
-JavaScript does not have a built-in heap data type, and implementing heaps from scratch is relatively complex. [Here is sample code](https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65) for a JavaScript implementation of heaps.
+JavaScript does not have a built-in heap data type, and implementing heaps from scratch is relatively complex. <a href="https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65" target="_blank">Here is sample code</a> for a JavaScript implementation of heaps.
 
-Rocket recommends we focus on mastering other data structures and algorithms first before attempting heap problems. When ready to solve heap problems, Rocket recommends we use Python and its built-in [`heapq`](https://docs.python.org/3/library/heapq.html) library, where `heappush` and `heappop` (equivalent to `insert` and `remove` respectively in JS code example above) are implemented for us.
+Rocket recommends we focus on mastering other data structures and algorithms first before attempting heap problems. When ready to solve heap problems, Rocket recommends we use Python and its built-in <a href="https://docs.python.org/3/library/heapq.html" target="_blank">`heapq`</a> library, where `heappush` and `heappop` (equivalent to `insert` and `remove` respectively in JS code example above) are implemented for us.
 
 Please review Rocket's Python submodule before working on heap algorithm exercises with `heapq`.
 
 ## Exercises
 
-Please use Python3 and the [Python `heapq` library](https://docs.python.org/3/library/heapq.html) to use heaps in code.
+Please use Python3 and the <a href="https://docs.python.org/3/library/heapq.html" target="_blank">Python `heapq` library</a> to use heaps in code.
 
 ### Tips
 
@@ -52,29 +52,29 @@ Please use Python3 and the [Python `heapq` library](https://docs.python.org/3/li
 
 ### Pre-Class
 
-1. Last Stone Weight ([LeetCode](https://leetcode.com/problems/last-stone-weight/))
-   1. [Rocket Solution code](https://pastebin.com/JCB78UG0) (Python)
-   2. [Rocket Solution video](https://youtu.be/Zat3PE0j1bA?t=2092) (Python)
+1. Last Stone Weight (<a href="https://leetcode.com/problems/last-stone-weight/" target="_blank">LeetCode</a>)
+   1. <a href="https://pastebin.com/JCB78UG0" target="_blank">Rocket Solution code</a> (Python)
+   2. <a href="https://youtu.be/Zat3PE0j1bA?t=2092" target="_blank">Rocket Solution video</a> (Python)
 
 ### Part 1
 
-1. Kth Largest Element in Array ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/))
+1. Kth Largest Element in Array (<a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank">LeetCode</a>)
    1. Hint: What's the most efficient way to get the Kth largest element in a heap of size K? Would we use a min-heap or max-heap? Review tips above before starting.
 
 ### Part 2
 
-1. K Closest Points to Origin ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
+1. K Closest Points to Origin (<a href="https://leetcode.com/problems/k-closest-points-to-origin/" target="_blank">LeetCode</a>)
 
 ### Part 3
 
-1. The K Weakest Rows in a Matrix ([LeetCode](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/))
+1. The K Weakest Rows in a Matrix (<a href="https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/" target="_blank">LeetCode</a>)
 
 ### More Comfortable
 
-1. Top K Frequent Words ([LeetCode](https://leetcode.com/problems/top-k-frequent-words/))
-   1. Hint: Creating a heap of `n` elements is an [`O(n)` operation](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity). Hence building and maintaining a heap of frequencies and associated words of size K is more efficient (`O(n)`) than sorting all frequencies of up to `n` distinct words (`O(nlogn)`).
+1. Top K Frequent Words (<a href="https://leetcode.com/problems/top-k-frequent-words/" target="_blank">LeetCode</a>)
+   1. Hint: Creating a heap of `n` elements is an <a href="https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity" target="_blank">`O(n)` operation</a>. Hence building and maintaining a heap of frequencies and associated words of size K is more efficient (`O(n)`) than sorting all frequencies of up to `n` distinct words (`O(nlogn)`).
 
 ## Additional Resources
 
-1. [Alternative video explanation of heaps by Back to Back SWE](https://www.youtube.com/watch?v=g9YK6sftDi0) (same concepts as above)
-2. [Rocket's FTBC3's class video](https://youtu.be/Zat3PE0j1bA?t=701) introducing heaps
+1. <a href="https://www.youtube.com/watch?v=g9YK6sftDi0" target="_blank">Alternative video explanation of heaps by Back to Back SWE</a> (same concepts as above)
+2. <a href="https://youtu.be/Zat3PE0j1bA?t=701" target="_blank">Rocket's FTBC3's class video</a> introducing heaps

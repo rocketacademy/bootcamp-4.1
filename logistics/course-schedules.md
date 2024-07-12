@@ -4,10 +4,10 @@
 
 Rocket Academy runs several Coding Bootcamp batches concurrently. Below are schedules for all currently-running batches.
 
-1. [FTBC13](https://schedules.rocketacademy.co/#/ftbc13)
-2. [FTBC14](https://schedules.rocketacademy.co/#/ftbc14)
-3. [PTBC8](https://schedules.rocketacademy.co/#/ptbc8)
-4. [PTBC9](https://schedules.rocketacademy.co/#/ptbc9)
+1. <a href="https://schedules.rocketacademy.co/#/ftbc13" target="_blank">FTBC13</a>
+2. <a href="https://schedules.rocketacademy.co/#/ftbc14" target="_blank">FTBC14</a>
+3. <a href="https://schedules.rocketacademy.co/#/ptbc8" target="_blank">PTBC8</a>
+4. <a href="https://schedules.rocketacademy.co/#/ptbc9" target="_blank">PTBC9</a>
 
 ## Schedule Outline
 

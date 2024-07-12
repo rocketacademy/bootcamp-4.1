@@ -29,15 +29,15 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 Please fork starter code Repl and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Have fun!
 
-1. Level-Order Traversal ([Repl](https://replit.com/@rocketkai/queues-js#index.js))
-   1. [Rocket solution code](https://replit.com/@rocketkai/queues-js-solution#index.js) (JavaScript)
+1. Level-Order Traversal (<a href="https://replit.com/@rocketkai/queues-js#index.js" target="_blank">Repl</a>)
+   1. <a href="https://replit.com/@rocketkai/queues-js-solution#index.js" target="_blank">Rocket solution code</a> (JavaScript)
 
 ### Part 1
 
-1. Number of Students Unable to Eat Lunch ([LeetCode](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/))
-2. Reveal Cards in Increasing Order ([LeetCode](https://leetcode.com/problems/reveal-cards-in-increasing-order/))
+1. Number of Students Unable to Eat Lunch (<a href="https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/" target="_blank">LeetCode</a>)
+2. Reveal Cards in Increasing Order (<a href="https://leetcode.com/problems/reveal-cards-in-increasing-order/" target="_blank">LeetCode</a>)
    1. Hint: Sort deck and replay steps in reverse order
 
 ## Additional Resources
 
-1. [This video](https://youtu.be/Y7wZO2tMjnY) is a more hands-on introduction to queues than the video above. It introduces queues in Python and Python's built-in `deque` data structure that we can use to perform dequeues in `O(1)` time complexity.
+1. <a href="https://youtu.be/Y7wZO2tMjnY" target="_blank">This video</a> is a more hands-on introduction to queues than the video above. It introduces queues in Python and Python's built-in `deque` data structure that we can use to perform dequeues in `O(1)` time complexity.

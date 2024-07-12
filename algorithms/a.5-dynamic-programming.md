@@ -58,26 +58,26 @@ Notice in the final line of the code we return the maximum of values when we "ta
 
 Please fork starter code Repl and attempt solutions there. Feel free to compare with reference solutions after attempting each problem. Conway and Catalan problems are optional. Have fun!
 
-1. [Rocket DP intro problems](https://replit.com/@rocketkai/dp#index.js) ([solutions](https://replit.com/@rocketkai/dp-soln#index.js))
+1. <a href="https://replit.com/@rocketkai/dp#index.js" target="_blank">Rocket DP intro problems</a> (<a href="https://replit.com/@rocketkai/dp-soln#index.js" target="_blank">solutions</a>)
 
 ### Part 2
 
-1. Climbing Stairs ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
+1. Climbing Stairs (<a href="https://leetcode.com/problems/climbing-stairs/" target="_blank">LeetCode</a>)
 
 ### Part 3
 
-1. Min Cost Climbing Stairs ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
+1. Min Cost Climbing Stairs (<a href="https://leetcode.com/problems/min-cost-climbing-stairs/" target="_blank">LeetCode</a>)
 
 ### Part 4
 
-1. House Robber ([LeetCode](https://leetcode.com/problems/house-robber/))
+1. House Robber (<a href="https://leetcode.com/problems/house-robber/" target="_blank">LeetCode</a>)
 
 ### More Comfortable
 
-1. Maximum Points You Can Obtain From Cards ([LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/))
-2. Minimum Operations to Reduce X to Zero ([LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/))
-3. Coin Change ([HackerRank](https://www.hackerrank.com/challenges/coin-change/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/coin-change/))
+1. Maximum Points You Can Obtain From Cards (<a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/" target="_blank">LeetCode</a>)
+2. Minimum Operations to Reduce X to Zero (<a href="https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/" target="_blank">LeetCode</a>)
+3. Coin Change (<a href="https://www.hackerrank.com/challenges/coin-change/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/coin-change/" target="_blank">LeetCode</a>)
 
 ## Further Reading
 
-1. [Video solution to Longest Common Subsequence](https://youtu.be/ASoaQq66foQ), a DP problem that involves storing intermediate calculations in a table with dimensions `m` by `n`, where `m` is the length of 1 input word and `n` is the length of the other.
+1. <a href="https://youtu.be/ASoaQq66foQ" target="_blank">Video solution to Longest Common Subsequence</a>, a DP problem that involves storing intermediate calculations in a table with dimensions `m` by `n`, where `m` is the length of 1 input word and `n` is the length of the other.

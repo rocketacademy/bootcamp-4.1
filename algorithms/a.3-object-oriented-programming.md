@@ -43,4 +43,4 @@ Polymorphism means the same method can be implemented differently for different 
 
 ## Additional Resources
 
-[Here is freeCodeCamp's introduction to OOP](https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/) with more details.
+<a href="https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/" target="_blank">Here is freeCodeCamp's introduction to OOP</a> with more details.

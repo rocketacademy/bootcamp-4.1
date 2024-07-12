@@ -47,7 +47,7 @@ Postgres is a software implementation of a database system. So far we've only de
 
 However, a database system is the actual implementation of something that runs SQL and keeps the data. Each system implements the SQL language slightly differently, keeps the data on the disk in a slightly different way, and gets the data back out differently.
 
-The database system ensures fundamental database properties like [ACID](https://en.wikipedia.org/wiki/ACID) (atomicity, consistency, isolation, durability). A database system needs to account for circumstances like when two opposing queries happen at the same time, or like when a long running INSERT query fails while executing, due to something like power failure. The system doesn't solve these problems, but it is guaranteed to behave in a consistent manner each time.
+The database system ensures fundamental database properties like <a href="https://en.wikipedia.org/wiki/ACID" target="_blank">ACID</a> (atomicity, consistency, isolation, durability). A database system needs to account for circumstances like when two opposing queries happen at the same time, or like when a long running INSERT query fails while executing, due to something like power failure. The system doesn't solve these problems, but it is guaranteed to behave in a consistent manner each time.
 
 A database system also includes functionality like automatic data backup and database indexes for increasing query speed.
 
@@ -57,7 +57,7 @@ psql is the Postgres command-line client to access our databases. To help us lea
 
 ### Mac
 
-Install [postgres.app](https://postgresapp.com). Open the application and follow the setup instructions on the website. Do the optional step to configure `$PATH` to use included command line tools.
+Install <a href="https://postgresapp.com" target="_blank">postgres.app</a>. Open the application and follow the setup instructions on the website. Do the optional step to configure `$PATH` to use included command line tools.
 
 {% include youtube.html id="cEOe6WRAhRE" %}
 Installing Postgres Mac
@@ -264,7 +264,7 @@ CREATE TABLE students (
     
 ```
 
-This command generates a table that contains five columns, an auto-incrementing identity column, id, two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype with any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout [this documentation](https://www.postgresql.org/docs/current/datatype.html). If you want to checkout the constraints [click here](https://www.postgresql.org/docs/current/ddl-constraints.html).
+This command generates a table that contains five columns, an auto-incrementing identity column, id, two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype with any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout <a href="https://www.postgresql.org/docs/current/datatype.html" target="_blank">this documentation</a>. If you want to checkout the constraints <a href="https://www.postgresql.org/docs/current/ddl-constraints.html" target="_blank">click here</a>.
 
 #### <mark style="color:red;">SQL NOTE</mark>
 
@@ -282,7 +282,7 @@ INSERT INTO students (first_name, last_name, mobile, gender) VALUES ('Foong', 'L
 ```
 
 
-We entered a new student into the database, notice how we didn't need to insert an id, this is due to the SERIAL constraint we added when creating our table. These id's act a [Primary Keys](https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) which are vital unique identifiers for our rows of data. The  information that is required is the data that will be placed in our columns for this row, the two strings, a number and  the final value a boolean, true, true represents male within this table structure.
+We entered a new student into the database, notice how we didn't need to insert an id, this is due to the SERIAL constraint we added when creating our table. These id's act a <a href="https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS" target="_blank">Primary Keys</a> which are vital unique identifiers for our rows of data. The  information that is required is the data that will be placed in our columns for this row, the two strings, a number and  the final value a boolean, true, true represents male within this table structure.
 
 You can add in additional rows of information one at a time or you can insert multiple values like the command below.
 
@@ -319,7 +319,7 @@ SELECT * FROM students WHERE gender = false;
 
 
 
-To alter existing data within the tables you can use the UPDATE or DELETE commands paired with the WHERE claus that we saw in the previous code block. It should be noted that you can use logical operations like greater than or less than, read more about this [here](https://www.postgresql.org/docs/current/functions-comparison.html). Checkout the code block below to see how you can update and remove information inside a table.
+To alter existing data within the tables you can use the UPDATE or DELETE commands paired with the WHERE claus that we saw in the previous code block. It should be noted that you can use logical operations like greater than or less than, read more about this <a href="https://www.postgresql.org/docs/current/functions-comparison.html" target="_blank">here</a>. Checkout the code block below to see how you can update and remove information inside a table.
 
 
 
@@ -360,9 +360,9 @@ CREATE TABLE student_addresses (
 ```
 
 
-The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into [this set of documentation](https://www.javatpoint.com/postgresql-foreign-key).&#x20;
+The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into <a href="https://www.javatpoint.com/postgresql-foreign-key" target="_blank">this set of documentation</a>.&#x20;
 
-Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. To find out more about joins please look into this [set of documentation](https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/). Check out the command below:
+Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. To find out more about joins please look into this <a href="https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/" target="_blank">set of documentation</a>. Check out the command below:
 
 
 ```sql
@@ -380,14 +380,14 @@ Complete all exercises in the following Codecademy lessons when they are assigne
 
 The following exercises introduce basic SQL syntax. We will not write much SQL during Rocket because we will rely on ORMs (Object-Relational Mappings) such as Sequelize to construct SQL using JavaScript for more robust applications. However, it is relevant to know SQL syntax and some companies test for it during interviews.
 
-1. [Manipulation](https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql)
-2. [Queries](https://www.codecademy.com/courses/learn-sql/lessons/queries/exercises/queries)
-3. [Aggregate Functions](https://www.codecademy.com/courses/learn-sql/lessons/aggregate-functions/exercises/intro)
-4. [Multiple Tables](https://www.codecademy.com/courses/learn-sql/lessons/multiple-tables/exercises/intro) (left joins, cross joins, unions and "with" syntax are more niche and less important for Bootcamp, but may be helpful in data analyst work)
+1. <a href="https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql" target="_blank">Manipulation</a>
+2. <a href="https://www.codecademy.com/courses/learn-sql/lessons/queries/exercises/queries" target="_blank">Queries</a>
+3. <a href="https://www.codecademy.com/courses/learn-sql/lessons/aggregate-functions/exercises/intro" target="_blank">Aggregate Functions</a>
+4. <a href="https://www.codecademy.com/courses/learn-sql/lessons/multiple-tables/exercises/intro" target="_blank">Multiple Tables</a> (left joins, cross joins, unions and "with" syntax are more niche and less important for Bootcamp, but may be helpful in data analyst work)
 
 ## Additional Resources
 
-1. Codecademy SQL cheatsheets for [Manipulation](https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-manipulation/cheatsheet), [Queries](https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-queries/cheatsheet), [Aggregate Functions](https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-aggregate-functions/cheatsheet) and [Multiple Tables](https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-multiple-tables/cheatsheet)
-2. [This CS50 video](https://www.youtube.com/watch?v=gu980iXwY5c) explains common SQL syntax
-3. [Article on when to choose MySQL vs Postgres](https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres)
-4. [ACID properties](https://en.wikipedia.org/wiki/ACID) required of all production databases
+1. Codecademy SQL cheatsheets for <a href="https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-manipulation/cheatsheet" target="_blank">Manipulation</a>, <a href="https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-queries/cheatsheet" target="_blank">Queries</a>, <a href="https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-aggregate-functions/cheatsheet" target="_blank">Aggregate Functions</a> and <a href="https://www.codecademy.com/learn/paths/learn-sql/tracks/learn-sql/modules/learn-sql-multiple-tables/cheatsheet" target="_blank">Multiple Tables</a>
+2. <a href="https://www.youtube.com/watch?v=gu980iXwY5c" target="_blank">This CS50 video</a> explains common SQL syntax
+3. <a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank">Article on when to choose MySQL vs Postgres</a>
+4. <a href="https://en.wikipedia.org/wiki/ACID" target="_blank">ACID properties</a> required of all production databases

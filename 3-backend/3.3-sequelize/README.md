@@ -35,11 +35,11 @@ Setting up Sequelize in an Express App
 Sequelize Migrations
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/initial\_setup), ensure that you're on the `initial_setup` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/initial\_setup" target="_blank">repository</a>, ensure that you're on the `initial_setup` branch.
 
 ## Migrations
 
-[Sequelize official tutorial on Sequelize migrations](https://sequelize.org/docs/v6/other-topics/migrations/)
+<a href="https://sequelize.org/docs/v6/other-topics/migrations/" target="_blank">Sequelize official tutorial on Sequelize migrations</a>
 
 1. We will use migrations to set up our DB schema, the structure of our database, or the tables and their relationships. All companies use migrations to manage DB schema. Rocket considers migrations a core concept of Sequelize and ORMs in general.
 2. Migrations at Rocket will only have "development" and "production" environments for simplicity. Tech teams in industry often have "test" environments for more robust testing between development and production.
@@ -60,13 +60,13 @@ Secondary Migrations
 Tertiary Migrations
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/migrations), ensure that you're on the `migrations` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/migrations" target="_blank">repository</a>, ensure that you're on the `migrations` branch.
 
 
 
 ## Seeders
 
-Sequelize official tutorial on [Sequelize Seeders](https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed)
+Sequelize official tutorial on <a href="https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed" target="_blank">Sequelize Seeders</a>
 
 
 1. We use seeder files to setup the initial data that can be used to populate our database. All companies will likely seed dummy data so that developers can collaborate and work with similar data.
@@ -87,7 +87,7 @@ Secondary Seeders
 Tertiary Seeders
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/seeders), ensure that you're on the `seeders` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/seeders" target="_blank">repository</a>, ensure that you're on the `seeders` branch.
 
 ## Running Migrations and Seeders
 
@@ -103,13 +103,13 @@ Seeder Alteration
 Running Migrations and Seeders
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/running\_migrations\_seeders), ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/running\_migrations\_seeders" target="_blank">repository</a>, ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
 
 
 
 ## Model Basics
 
-[Sequelize official tutorial on Sequelize models](https://sequelize.org/docs/v6/core-concepts/model-basics/)
+<a href="https://sequelize.org/docs/v6/core-concepts/model-basics/" target="_blank">Sequelize official tutorial on Sequelize models</a>
 
 1. A Model is an abstraction that represents a table within your database,  in Sequelize the Model is a class, the instances of this class represent the data stored.&#x20;
 2. We will `Extend the Sequelize` `Model` to define models at Rocket
@@ -117,7 +117,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 4. When passing in the second object that contains sequelize, we will pass two more key value pairs :&#x20;
    1. `modelName: '<lowercase-name-of-model'>`
    2. `underscored: true`
-5. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use [database migrations](https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production).
+5. We will not use `model.sync` to synchronise models with databases because that behaviour is not production-safe. We will instead use <a href="https://sequelize.org/docs/v6/core-concepts/model-basics/#synchronization-in-production" target="_blank">database migrations</a>.
 
 >**Require vs Import Statements**
 >
@@ -125,7 +125,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Model Instances
 
-[Sequelize official tutorial on Sequelize model instances](https://sequelize.org/docs/v6/core-concepts/model-instances/)
+<a href="https://sequelize.org/docs/v6/core-concepts/model-instances/" target="_blank">Sequelize official tutorial on Sequelize model instances</a>
 
 1. An instance of the Model class represents a row of data that is stored within the Sequelize database.
 2. We will use the `create` method to create model instances at Rocket instead of `build` and `save`.
@@ -134,7 +134,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Model Querying - Basics
 
-[Sequelize official tutorial on Sequelize model instances](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
+<a href="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/" target="_blank">Sequelize official tutorial on Sequelize model instances</a>
 
 1. Model Querying allows developers to preform CRUD like actions to our database, we can preform actions such as create, read update and delete on the database
 2. We will use `Model.create()` to insert rows into our database instead of `Model.build()` and `instance.save()`
@@ -144,14 +144,14 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 
 ## Model Querying - Finders
 
-[Sequelize official tutorial on Sequelize model finder methods](https://sequelize.org/docs/v6/core-concepts/model-querying-finders/)
+<a href="https://sequelize.org/docs/v6/core-concepts/model-querying-finders/" target="_blank">Sequelize official tutorial on Sequelize model finder methods</a>
 
 1. If you're not updating, inserting or deleting a value from your stored data, you're probably looking to list out some specific information, or even just all the data in your table, use the Model Query Finders to do this.&#x20;
 2. These are some of the most common Sequelize methods we will use in our apps
 3. We can use the `Instance.findAll()` method to select data from the database to use within our application
-   1. You can pass in an object with a where key this helps refine your searches, check out this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#the-basics).
-   2. [Operators](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#operators) can also be used for advanced queries.
-   3. Order and group your data, checkout this [example](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#ordering-and-grouping).
+   1. You can pass in an object with a where key this helps refine your searches, check out this <a href="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#the-basics" target="_blank">example</a>.
+   2. <a href="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#operators" target="_blank">Operators</a> can also be used for advanced queries.
+   3. Order and group your data, checkout this <a href="https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#ordering-and-grouping" target="_blank">example</a>.
 
 
 
@@ -163,5 +163,5 @@ Sequelize Models (1)
 {% include youtube.html id="BVZS4HIERH0" %}
 Sequelize Models (2)
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_sequelize\_repo/tree/models), ensure that you're on the `models` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/models" target="_blank">repository</a>, ensure that you're on the `models` branch.
 

@@ -7,7 +7,7 @@ This document outlines required software for Coding Bootcamp. Please install thi
 ## Complete Fundamentals setup
 
 1. Please install the latest version of Windows or MacOS that your computer supports.
-2. If you haven't already, please obtain and install [Fundamentals required hardware, software and accounts](https://fundamentals.rocketacademy.co/course-logistics/required-hardware-and-software).
+2. If you haven't already, please obtain and install <a href="https://fundamentals.rocketacademy.co/course-logistics/required-hardware-and-software" target="_blank">Fundamentals required hardware, software and accounts</a>.
 
 ## \[Windows Only] Install Windows-specific software
 
@@ -15,14 +15,14 @@ This document outlines required software for Coding Bootcamp. Please install thi
 
 WSL allows us to run the Linux operating system on Windows machines. We do this because most programming uses Unix-based operating systems, of which MacOS is a descendant. Most SWEs that use Windows do their work in WSL to maximise compatibility between their work and work done on Linux machines. Before installing WSL, update Windows to the latest version.
 
-1. Install WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-2. Install the latest version of Ubuntu [here](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-sg\&gl=sg). Ubuntu is a popular version of the Linux operating system.
+1. Install WSL <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10" target="_blank">here</a>.
+2. Install the latest version of Ubuntu <a href="https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-sg\&gl=sg" target="_blank">here</a>. Ubuntu is a popular version of the Linux operating system.
 3. Run `sudo apt install build-essential` in Ubuntu in WSL to install standard libraries Ubuntu needs to further install common packages.
 4. Run `sudo apt-get install ca-certificates` in Ubuntu in WSL to get SSL verification certificates on Ubuntu for Ubuntu to communicate with VS Code on our computer.
 
 ### Integrate VS Code with WSL
 
-1. Install the [VS Code Remote Development extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to enable VS Code to integrate with WSL.
+1. Install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack" target="_blank">VS Code Remote Development extension</a> to enable VS Code to integrate with WSL.
 2. Click the Remote Development extension icon in the bottom left corner of VS Code. A pop up will appear with a list of options. Click the first option "Remote-WSL: New Window" for the default distro.
 
 You will see a notification "Starting VS Code in WSL...". This means VS Code is setting up a server inside WSL for the first time. Once installed, the VS Code of your Windows OS will sync automatically with the VS Code of your Ubuntu OS, and the VS Code terminal will show the Ubuntu terminal.
@@ -31,7 +31,7 @@ You will see a notification "Starting VS Code in WSL...". This means VS Code is 
 
 ### Install Homebrew
 
-Follow instructions at [https://brew.sh/](https://brew.sh) to install Homebrew.
+Follow instructions at <a href="https://brew.sh" target="_blank">https://brew.sh/</a> to install Homebrew.
 
 Homebrew is a package manager for MacOS that provides a single source of truth for which packages and package versions are installed. This is typically only relevant to command line packages; We typically do not install GUI applications via Homebrew.
 
@@ -64,23 +64,23 @@ git --version
 brew install git
 ```
 
-2\. Verify Git is installed by running `git --version` in the [VS Code terminal](https://code.visualstudio.com/docs/editor/integrated-terminal). This should print out a version number on the next line, e.g., `git version 2.9.2`.
+2\. Verify Git is installed by running `git --version` in the <a href="https://code.visualstudio.com/docs/editor/integrated-terminal" target="_blank">VS Code terminal</a>. This should print out a version number on the next line, e.g., `git version 2.9.2`.
 
 ```
 git --version
 ```
 
-3\. Download and install the [Git Credential Manager](https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v2.0.498/gcmcore-osx-2.0.498.54650.pkg)
+3\. Download and install the <a href="https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v2.0.498/gcmcore-osx-2.0.498.54650.pkg" target="_blank">Git Credential Manager</a>
 
->To install the Git Credential Manager you may need to allow "unidentified developer apps". Don't worry, Git Credential Manager is created by Microsoft. [Instructions here](https://support.apple.com/en-sg/guide/mac-help/mh40616/mac).
+>To install the Git Credential Manager you may need to allow "unidentified developer apps". Don't worry, Git Credential Manager is created by Microsoft. <a href="https://support.apple.com/en-sg/guide/mac-help/mh40616/mac" target="_blank">Instructions here</a>.
 >
->If you are using a company computer for this course you may not be able to override the security settings. You may need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead.
+>If you are using a company computer for this course you may not be able to override the security settings. You may need to <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="_blank">create a personal access token</a> instead.
 
 ### Personal Access Tokens&#x20;
 
 ### Configure Git and GitHub
 
-When using the HTTPS protocol on GitHub to retrieve repository information you will need to develop a personal access token on your GitHub account, you will then be able to use this token to authenticate your request. To create a personal access token please follow this set of [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+When using the HTTPS protocol on GitHub to retrieve repository information you will need to develop a personal access token on your GitHub account, you will then be able to use this token to authenticate your request. To create a personal access token please follow this set of <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="_blank">documentation</a>.
 
 After you have created the personal access token be sure to save it in a safe spot as it will be required when authenticating requests to the GitHub servers. You will be prompted to pass your GitHub username and password when trying to push to repositories, use your Personal Access Token in place of your password.&#x20;
 
@@ -94,7 +94,7 @@ git config --global init.defaultBranch main
 
 #### Configure Git default editor
 
-1. Follow instructions [here](https://stackoverflow.com/a/39604469) to enable the `code` command in terminal to open VS Code.
+1. Follow instructions <a href="https://stackoverflow.com/a/39604469" target="_blank">here</a> to enable the `code` command in terminal to open VS Code.
 2. Set the default Git code editor to VS Code to avoid Git's default command line editor Vim, which requires learning Vim-specific keyboard shortcuts. We may need to use Vim on remote servers as SWEs, but to keep things simple during Bootcamp we will stick to VS Code.
 
 ```shell
@@ -161,14 +161,14 @@ brew link node@18
 
 Prettier is a code formatter that will auto-format our code and make it more readable when we save our files.
 
-1. Install the Prettier extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+1. Install the Prettier extension for VS Code <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">here</a>.
 
 ### Install ESLint
 
 ESLint is a JavaScript code linter that helps us detect functional errors in our code prior to running it.
 
 1. Install ESLint on your computer by running `sudo npm i -g eslint` from the terminal in VS Code. Enter your computer's password if prompted.
-2. Install the ESLint VS Code extension [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+2. Install the ESLint VS Code extension <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="_blank">here</a>.
 
 ### Set VS Code formatting settings
 
@@ -208,9 +208,9 @@ Rocket recommends the following folder structure to keep ourselves organised dur
 
 We will use the following software accounts during Bootcamp.
 
-1. [Codecademy](https://www.codecademy.com/)
-2. [LeetCode](https://leetcode.com/)
-3. [HackerRank](https://www.hackerrank.com/)
+1. <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+2. <a href="https://leetcode.com/" target="_blank">LeetCode</a>
+3. <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
 
 ## Extra Reading
 
@@ -220,6 +220,6 @@ Another way developers are able to authenticate requests to GitHub is to create 
 
 #### Setting up SSH&#x20;
 
-1. &#x20;You will need to check for existing SSH keys on your machine, please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys).&#x20;
-2. If you do not have you then you will need to generate a new SSH key please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
-3. Following this you will need to add the new SSH key into your GitHub account online please follow these [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+1. &#x20;You will need to check for existing SSH keys on your machine, please follow these <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys" target="_blank">docs</a>.&#x20;
+2. If you do not have you then you will need to generate a new SSH key please follow these <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">docs</a>.
+3. Following this you will need to add the new SSH key into your GitHub account online please follow these <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank">docs</a>.

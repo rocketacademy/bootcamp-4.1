@@ -25,11 +25,11 @@ There is no such thing as perfect testing, but hopefully with mindful testing we
 
 For illustration purposes we will demonstrate unit testing in JavaScript. For Bootcamp projects and take-home interview assignments, it should be sufficient to write unit tests on our functions like this one.
 
-[Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/) are common test frameworks used together to test JavaScript backends. Mocha is the framework that enables us to run tests. It provides functions in which we can write tests, and a test runner script we can use to run all of a subset of our tests. Chai is an "assertion framework" that allows us to verify values in our code match what we expect, values such as the return value of the function we are testing. Jest is a more common test framework used for frontends that has the same functionality as Mocha and Chai combined.
+<a href="https://mochajs.org/" target="_blank">Mocha</a> and <a href="https://www.chaijs.com/" target="_blank">Chai</a> are common test frameworks used together to test JavaScript backends. Mocha is the framework that enables us to run tests. It provides functions in which we can write tests, and a test runner script we can use to run all of a subset of our tests. Chai is an "assertion framework" that allows us to verify values in our code match what we expect, values such as the return value of the function we are testing. Jest is a more common test framework used for frontends that has the same functionality as Mocha and Chai combined.
 
 ### Setup
 
-Fork and clone Rocket's [`unit-test-bootcamp` repo](https://github.com/rocketacademy/unit-test-bootcamp) to follow along. We have implemented a simple unit test example using Rocket's Express app template.
+Fork and clone Rocket's <a href="https://github.com/rocketacademy/unit-test-bootcamp" target="_blank">`unit-test-bootcamp` repo</a> to follow along. We have implemented a simple unit test example using Rocket's Express app template.
 
 Before we wrote tests, we created a module to test. In this case, we have created a basic `utils` module in `utils.js` that exports an `add` function that adds 2 numbers. Trivial, but you can imagine more complex functions such as those we implemented for games like Blackjack.
 
@@ -135,7 +135,7 @@ At the top of our test file `test/utils.js` we imported the `expect` module from
 
 Observe in each of the `it` blocks (we explain `it` below) how we use `expect` to verify expected values using a pseudo-English syntax.
 
-[Chai's API reference](https://www.chaijs.com/api/bdd/) provides a list of assertions we can perform with `expect`.
+<a href="https://www.chaijs.com/api/bdd/" target="_blank">Chai's API reference</a> provides a list of assertions we can perform with `expect`.
 
 #### `describe`
 

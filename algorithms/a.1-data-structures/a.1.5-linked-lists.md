@@ -72,30 +72,30 @@ For problems with both HackerRank and LeetCode, implement a solution on the plat
 
 ### Pre-Class
 
-1. Print the elements of a linked list ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true))
-2. Insert a node at the tail of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true))
+1. Print the elements of a linked list (<a href="https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Insert a node at the tail of a linked list (<a href="https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 ### Part 1
 
-1. Insert a node at the head of a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true))
-2. Insert a node at a specific position in a linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true))
-3. Delete a node from a linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true))
-4. Remove linked list elements ([LeetCode](https://leetcode.com/problems/remove-linked-list-elements/))
+1. Insert a node at the head of a linked list (<a href="https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Insert a node at a specific position in a linked list (<a href="https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+3. Delete a node from a linked list (<a href="https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+4. Remove linked list elements (<a href="https://leetcode.com/problems/remove-linked-list-elements/" target="_blank">LeetCode</a>)
 
 ### Part 2
 
-1. Palindrome linked list ([LeetCode](https://leetcode.com/problems/palindrome-linked-list/))
-2. Middle of the linked list ([LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/))
-3. Print the elements of a linked list in reverse ([HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?isFullScreen=true))
-4. Compare two linked lists ([HackerRank](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true))
+1. Palindrome linked list (<a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank">LeetCode</a>)
+2. Middle of the linked list (<a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank">LeetCode</a>)
+3. Print the elements of a linked list in reverse (<a href="https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+4. Compare two linked lists (<a href="https://www.hackerrank.com/challenges/compare-two-linked-lists/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 ### Part 3
 
-1. Get the value of the node at a specific position from the tail ([HackerRank](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true))
-2. Delete duplicate value nodes from a sorted linked list ([HackerRank](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))
+1. Get the value of the node at a specific position from the tail (<a href="https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+2. Delete duplicate value nodes from a sorted linked list (<a href="https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" target="_blank">LeetCode</a>)
    1. Hint: Keep track of prev node and next node. When we encounter duplicate, update prev node's next value to next node
-3. Merge two sorted linked lists ([HackerRank](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
-4. Reverse a linked list ([HackerRank](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/reverse-linked-list/))
+3. Merge two sorted linked lists (<a href="https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">LeetCode</a>)
+4. Reverse a linked list (<a href="https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">LeetCode</a>)
    1. Hint: For given node, keep track of old next node and new next node
    2. Hint: Inside while loop:
       1. Old next node is `node.next`
@@ -105,7 +105,7 @@ For problems with both HackerRank and LeetCode, implement a solution on the plat
 
 ### More Comfortable
 
-1. Find the merge point of two joined linked lists ([HackerRank](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/))
-2. Insert a node into a sorted doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true))
-3. Reverse a doubly linked list ([HackerRank](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true))
-4. Detect whether a linked list contains a cycle ([HackerRank](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem?isFullScreen=true), [LeetCode](https://leetcode.com/problems/linked-list-cycle/))
+1. Find the merge point of two joined linked lists (<a href="https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank">LeetCode</a>)
+2. Insert a node into a sorted doubly linked list (<a href="https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+3. Reverse a doubly linked list (<a href="https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true" target="_blank">HackerRank</a>)
+4. Detect whether a linked list contains a cycle (<a href="https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem?isFullScreen=true" target="_blank">HackerRank</a>, <a href="https://leetcode.com/problems/linked-list-cycle/" target="_blank">LeetCode</a>)

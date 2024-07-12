@@ -28,7 +28,7 @@ Express.js is a server application framework that helps us receive requests from
 
 ## Basic Express App
 
-The following code is a minimal Express app that hosts a server at port 3000 and responds with "Hello, World!" at the root route, i.e. `localhost:3000` when run locally or `mysite.com` when deployed to `mysite.com`. [Check it out on StackBlitz](https://stackblitz.com/edit/basic-express-app-rocket?file=index.js), a popular online IDE!
+The following code is a minimal Express app that hosts a server at port 3000 and responds with "Hello, World!" at the root route, i.e. `localhost:3000` when run locally or `mysite.com` when deployed to `mysite.com`. <a href="https://stackblitz.com/edit/basic-express-app-rocket?file=index.js" target="_blank">Check it out on StackBlitz</a>, a popular online IDE!
 
 
 ```javascript
@@ -57,8 +57,8 @@ Let's break down the above code.
 2. `PORT` defines the port that our Express server will listen on. Recall from Module 2 that ports determine which applications receive which requests on servers. We use SCREAM\_CASE to define constant variables like `PORT` at the top of our files or in a separate constants file for easy access.
 3. `const app = express()` initialises our Express application
 4. `app.get` is a route middleware (more on this below) that routes requests to a specific URL path to a specific middleware function to handle that request
-5. `req` and `res` parameters to the middleware function are Express [Request](https://expressjs.com/en/4x/api.html#req) and [Response](https://expressjs.com/en/4x/api.html#res) objects respectively
-6. `res.send` is a [method of the Express Response object](https://expressjs.com/en/4x/api.html#res.send) that sends a response to the requesting client
+5. `req` and `res` parameters to the middleware function are Express <a href="https://expressjs.com/en/4x/api.html#req" target="_blank">Request</a> and <a href="https://expressjs.com/en/4x/api.html#res" target="_blank">Response</a> objects respectively
+6. `res.send` is a <a href="https://expressjs.com/en/4x/api.html#res.send" target="_blank">method of the Express Response object</a> that sends a response to the requesting client
 7. `app.listen` tells the Express app to start listening for requests at the specified port and execute the specified callback function after successfully starting
 
 In the following sections we will dig deeper into route middleware and middleware functions in general.
@@ -75,13 +75,13 @@ Thunder Client && Expressjs
 Express Fruit Application
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo), ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo" target="_blank">repository</a>, ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## Routes
 
-Routes (aka "route middleware", "routing methods") are middleware functions that define how servers handle requests to specific URL paths with specific URL methods. Routes provide some of the most basic infrastructure for server applications. Read [Express' official introduction to routes](https://expressjs.com/en/starter/basic-routing.html) for context.
+Routes (aka "route middleware", "routing methods") are middleware functions that define how servers handle requests to specific URL paths with specific URL methods. Routes provide some of the most basic infrastructure for server applications. Read <a href="https://expressjs.com/en/starter/basic-routing.html" target="_blank">Express' official introduction to routes</a> for context.
 
-[Official Express introduction to routes](https://expressjs.com/en/starter/basic-routing.html)
+<a href="https://expressjs.com/en/starter/basic-routing.html" target="_blank">Official Express introduction to routes</a>
 
 ```javascript
 // Define a route and corresponding middleware function
@@ -92,9 +92,9 @@ app.get("/", (req, res) => {
 
 In the above example, our route middleware defines how our server responds to GET requests to the root route `/`. Express applications typically have many routes that serve requests with various HTTP methods to many URL paths. We can handle other request methods by changing `.get` to `.post`, `.put` or `.delete`, and we can handle requests to other paths by changing the path parameter that is currently `'/'`. We can change how our server responds to specific requests by changing logic in the middleware function, for example to query a database and return results. More on databases in coming submodules.
 
-Read [Express' official routing guide](https://expressjs.com/en/guide/routing.html) for a full introduction to Express routes, including how to use the `express.Router` class to decompose our routes into router modules for clearer organisation and abstraction.
+Read <a href="https://expressjs.com/en/guide/routing.html" target="_blank">Express' official routing guide</a> for a full introduction to Express routes, including how to use the `express.Router` class to decompose our routes into router modules for clearer organisation and abstraction.
 
-[Official Express routing guide](https://expressjs.com/en/guide/routing.html)
+<a href="https://expressjs.com/en/guide/routing.html" target="_blank">Official Express routing guide</a>
 
 
 >**Require vs Import Statements**
@@ -121,7 +121,7 @@ Read [Express' official routing guide](https://expressjs.com/en/guide/routing.ht
 HTTP Request Extras
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/simple\_express\_params), ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/simple\_express\_params" target="_blank">repository</a>, ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## Express Fruit Application
 
@@ -129,7 +129,7 @@ Please checkout the finished code in this [repository](https://github.com/rocket
 Express Fruit Application
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/crud\_handlers), ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/crud\_handlers" target="_blank">repository</a>, ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 
 
@@ -163,20 +163,20 @@ We can run other non-routing middleware in the request-response cycle by attachi
 >```
 
 
-Notice in the above code we attach non-route middleware above route middleware because route middleware typically terminates the request-response cycle by calling [response methods](https://expressjs.com/en/guide/routing.html#response-methods) like `res.send`.&#x20;
+Notice in the above code we attach non-route middleware above route middleware because route middleware typically terminates the request-response cycle by calling <a href="https://expressjs.com/en/guide/routing.html#response-methods" target="_blank">response methods</a> like `res.send`.&#x20;
 
 Also notice how `myLogger` calls `next()` at the end of its execution to trigger the next middleware. Without calling `next()` the client would never receive a response because Express would not call the subsequent middleware function.
 
-Read [Express' official guide to writing middleware](https://expressjs.com/en/guide/writing-middleware.html) for details.
+Read <a href="https://expressjs.com/en/guide/writing-middleware.html" target="_blank">Express' official guide to writing middleware</a> for details.
 
 
-[Official Express guide to writing middleware](https://expressjs.com/en/guide/writing-middleware.html)
+<a href="https://expressjs.com/en/guide/writing-middleware.html" target="_blank">Official Express guide to writing middleware</a>
 
 
-Read [Express' official guide to using middleware](https://expressjs.com/en/guide/using-middleware.html) for details on how to use middleware in Express apps, including how to apply middleware on Express routers and how to apply imported 3rd-party middleware, which we will do often.
+Read <a href="https://expressjs.com/en/guide/using-middleware.html" target="_blank">Express' official guide to using middleware</a> for details on how to use middleware in Express apps, including how to apply middleware on Express routers and how to apply imported 3rd-party middleware, which we will do often.
 
 
-[Official Express guide to using middleware](https://expressjs.com/en/guide/using-middleware.html)
+<a href="https://expressjs.com/en/guide/using-middleware.html" target="_blank">Official Express guide to using middleware</a>
 
 
 ## Express In-Built Middleware
@@ -185,13 +185,13 @@ Read [Express' official guide to using middleware](https://expressjs.com/en/guid
 Express Middleware
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/built\_in\_middleware), ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/built\_in\_middleware" target="_blank">repository</a>, ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## CORS
 
 CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers to specify which domains other than their own to accept requests from. Without CORS, hackers at malicious websites could induce users to perform sensitive actions to manipulate legitimate backends using authentication information stored in the browser. With CORS, legitimate backends can prevent such attacks by only allowing requests from legitimate domains.
 
-CORS is relevant for us now because we will host our frontends and backends on different domains, and we will need to configure our backends to allow requests from our frontends. Express provides an [official CORS middleware NPM library `cors`](https://expressjs.com/en/resources/middleware/cors.html) to configure CORS for our backends.
+CORS is relevant for us now because we will host our frontends and backends on different domains, and we will need to configure our backends to allow requests from our frontends. Express provides an <a href="https://expressjs.com/en/resources/middleware/cors.html" target="_blank">official CORS middleware NPM library `cors`</a> to configure CORS for our backends.
 
 For now we will use the most open and least secure `cors` configuration (`app.use(cors());`) to get our apps working. There are many ways to configure Express' `cors` library to be most secure that we can learn about later.
 
@@ -211,12 +211,12 @@ Implementing an Express Controller
 Implementing Router and Controller
 
 
-Please checkout the finished code in this [repository](https://github.com/rocketacademy/m3\_express\_repo/tree/router\_and\_controller), ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/router\_and\_controller" target="_blank">repository</a>, ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
-Does the class based code look unfamiliar have a look at the [Rocket curriculum](https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes) to touch up your understanding.
+Does the class based code look unfamiliar have a look at the <a href="https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes" target="_blank">Rocket curriculum</a> to touch up your understanding.
 
 ## Additional Resources
 
-1. [Web Dev Simplified's intro to Express](https://youtu.be/lY6icfhap2o) provides a video tutorial to the above Express concepts
-2. Stackoverflow shares [API server route design best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
-3. Portswigger provides a [detailed explanation of CORS](https://portswigger.net/web-security/cors)
+1. <a href="https://youtu.be/lY6icfhap2o" target="_blank">Web Dev Simplified's intro to Express</a> provides a video tutorial to the above Express concepts
+2. Stackoverflow shares <a href="https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/" target="_blank">API server route design best practices</a>
+3. Portswigger provides a <a href="https://portswigger.net/web-security/cors" target="_blank">detailed explanation of CORS</a>

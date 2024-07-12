@@ -17,7 +17,7 @@ Concise introduction to recursion. Source: Colt Steele
 
 Recursion means a function calling itself. Certain classes of algorithm problems, especially those involving trees, graphs and dynamic programming are easier solved with recursion than with iteration (i.e. loops).
 
-Take the [Fibonacci problem](https://leetcode.com/problems/fibonacci-number/) for example, where our goal is to find `fib(n)` where `fib(n)` is defined as `fib(n-1) + fib(n-2)`. This is much more easily modelled with recursion than iteration. To model this problem with iteration we would have to calculate how many of each Fib number between 0 and `n` to add together, which can be challenging.
+Take the <a href="https://leetcode.com/problems/fibonacci-number/" target="_blank">Fibonacci problem</a> for example, where our goal is to find `fib(n)` where `fib(n)` is defined as `fib(n-1) + fib(n-2)`. This is much more easily modelled with recursion than iteration. To model this problem with iteration we would have to calculate how many of each Fib number between 0 and `n` to add together, which can be challenging.
 
 ```javascript
 const fib = (n) => {
@@ -68,7 +68,7 @@ The following examples explore using recursion with common data types seen in re
 
 #### Problem
 
-[https://leetcode.com/problems/power-of-two/](https://leetcode.com/problems/power-of-two/)
+<a href="https://leetcode.com/problems/power-of-two/" target="_blank">https://leetcode.com/problems/power-of-two/</a>
 
 Given an integer `n`, return `true` if it is a power of two. Otherwise, return `false`. An integer `n` is a power of two, if there exists an integer `x` such that `n === 2^x`.
 
@@ -107,13 +107,13 @@ const isPowerOfTwo = (n) => {
 
 #### Problem
 
-[https://leetcode.com/problems/letter-tile-possibilities/](https://leetcode.com/problems/letter-tile-possibilities/)
+<a href="https://leetcode.com/problems/letter-tile-possibilities/" target="_blank">https://leetcode.com/problems/letter-tile-possibilities/</a>
 
 You have `n`  `tiles`, where each tile has one letter `tiles[i]` printed on it. Return _the number of possible non-empty sequences of letters_ you can make using the letters printed on those `tiles`.
 
 #### Strategy
 
-To eliminate duplicates, we store our results in a [set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set) (like hash table with only keys) `sequences` outside of our recursive function calls, and define a helper function `findPossibilities` inside the given function as our recursive function. `findPossibilities` recursively finds all possible sequences and adds them to `sequences`, and in the end we return the number of sequences in `sequences`.
+To eliminate duplicates, we store our results in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set" target="_blank">set</a> (like hash table with only keys) `sequences` outside of our recursive function calls, and define a helper function `findPossibilities` inside the given function as our recursive function. `findPossibilities` recursively finds all possible sequences and adds them to `sequences`, and in the end we return the number of sequences in `sequences`.
 
 `findPossibilities` has the following logic.
 
@@ -182,38 +182,38 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 ### Pre-Class
 
-1. Power of Two ([LeetCode](https://leetcode.com/problems/power-of-two/))
+1. Power of Two (<a href="https://leetcode.com/problems/power-of-two/" target="_blank">LeetCode</a>)
 
 ### Part 1
 
-1. Power of Three ([LeetCode](https://leetcode.com/problems/power-of-three/))
-2. Power of Four ([LeetCode](https://leetcode.com/problems/power-of-four/))
-3. Recursive Digit Sum ([HackerRank](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true))
+1. Power of Three (<a href="https://leetcode.com/problems/power-of-three/" target="_blank">LeetCode</a>)
+2. Power of Four (<a href="https://leetcode.com/problems/power-of-four/" target="_blank">LeetCode</a>)
+3. Recursive Digit Sum (<a href="https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true" target="_blank">HackerRank</a>)
 
 ### Part 2
 
-1. Letter Tile Possibilities ([LeetCode](https://leetcode.com/problems/letter-tile-possibilities/))
-2. Generate Parentheses ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
-   1. Hint: Consider [this slide](https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b\_0\_93) on how we can prune invalid subtrees.
-   2. [Rocket solution code](https://pastebin.com/HMxZjpM7) (Python)
-   3. [Rocket solution video](https://youtu.be/MTqylosJ1ow?t=2022) (Python, until 57:25)
-3. Combination Sum ([LeetCode](https://leetcode.com/problems/combination-sum/))
+1. Letter Tile Possibilities (<a href="https://leetcode.com/problems/letter-tile-possibilities/" target="_blank">LeetCode</a>)
+2. Generate Parentheses (<a href="https://leetcode.com/problems/generate-parentheses/" target="_blank">LeetCode</a>)
+   1. Hint: Consider <a href="https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b\_0\_93" target="_blank">this slide</a> on how we can prune invalid subtrees.
+   2. <a href="https://pastebin.com/HMxZjpM7" target="_blank">Rocket solution code</a> (Python)
+   3. <a href="https://youtu.be/MTqylosJ1ow?t=2022" target="_blank">Rocket solution video</a> (Python, until 57:25)
+3. Combination Sum (<a href="https://leetcode.com/problems/combination-sum/" target="_blank">LeetCode</a>)
 
 ### Part 3
 
-1. Combinations ([LeetCode](https://leetcode.com/problems/combinations/))
+1. Combinations (<a href="https://leetcode.com/problems/combinations/" target="_blank">LeetCode</a>)
    1. Hint: Can we use a for loop to generate the first of `k` numbers, use a recursive function to generate the remaining `k-1` numbers, and combine the first and `k-1` numbers after the recursive call?
-2. Subsets ([LeetCode](https://leetcode.com/problems/subsets/))
+2. Subsets (<a href="https://leetcode.com/problems/subsets/" target="_blank">LeetCode</a>)
    1. Hint: Same strategy as Combinations
 
 ### Part 4
 
-1. Letter Combinations of a Phone Number ([LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/))
+1. Letter Combinations of a Phone Number (<a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" target="_blank">LeetCode</a>)
    1. Hint: Same strategy as Combinations
-2. Subsets II ([LeetCode](https://leetcode.com/problems/subsets-ii/))
-   1. Hint: Consider using a hash table or [JavaScript set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set) to remove duplicates
+2. Subsets II (<a href="https://leetcode.com/problems/subsets-ii/" target="_blank">LeetCode</a>)
+   1. Hint: Consider using a hash table or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set" target="_blank">JavaScript set</a> to remove duplicates
 
 ### Part 5
 
-1. Permutations ([LeetCode](https://leetcode.com/problems/permutations/))
-2. Letter Case Permutation ([LeetCode](https://leetcode.com/problems/letter-case-permutation/))
+1. Permutations (<a href="https://leetcode.com/problems/permutations/" target="_blank">LeetCode</a>)
+2. Letter Case Permutation (<a href="https://leetcode.com/problems/letter-case-permutation/" target="_blank">LeetCode</a>)
