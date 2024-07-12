@@ -56,4 +56,4 @@ Over Bootcamp we will build increasingly complex programs executed with Node.
 
 ## Additional Resources
 
-1. Introduction to runtime environments: [https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments](https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments)
+1. Introduction to runtime environments: <a href="https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments" target="_blank">https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments</a>

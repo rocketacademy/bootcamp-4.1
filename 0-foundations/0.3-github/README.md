@@ -32,7 +32,7 @@ We can fork a repo by clicking the Fork button on a GitHub repo page. Once forke
 
 ## Git Clone
 
-Once we have edit access to the repo we want to edit, either by forking an existing repo or [creating a new repo](https://docs.github.com/en/get-started/quickstart/create-a-repo), we can "clone" (i.e. download) that repo to our local machine to make changes to it.
+Once we have edit access to the repo we want to edit, either by forking an existing repo or <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo" target="_blank">creating a new repo</a>, we can "clone" (i.e. download) that repo to our local machine to make changes to it.
 
 Click the copy button in the Code dropdown menu on the GitHub page of the repo we wish to edit.
 
@@ -75,8 +75,8 @@ GitHub provides an easy way to view past changes to a repo. For example, if we a
 
 ## Additional Resources
 
-1. [Git and GitHub in Plain English](https://blog.red-badger.com/2016/11/29/gitgithub-in-plain-english) (blog post)
-2. [Git and GitHub by The Coding Train](https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) (video playlist)
+1. <a href="https://blog.red-badger.com/2016/11/29/gitgithub-in-plain-english" target="_blank">Git and GitHub in Plain English</a> (blog post)
+2. <a href="https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" target="_blank">Git and GitHub by The Coding Train</a> (video playlist)
 3. (Below) Intro to GitHub video from prior version of Rocket's Coding Basics course
 4. (Below) GitHub Fork video from prior version of Rocket's Coding Basics course
 5. (Below) GitHub Repo Browsing video from prior version of Rocket's Coding Basics course
