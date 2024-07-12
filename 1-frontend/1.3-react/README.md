@@ -55,7 +55,7 @@ JSX or JavaScript and XML affords developers the opportunity to write HTML-like 
 
 1. JSX elements may only return a single root element, to display multiple elements just wrap them within a single parent tag.&#x20;
 2. Close all HTML tags.
-3. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends <a href="https://www.w3schools.com/js/js\_htmldom.asp" target="_blank">W3School's intro to JavaScript HTML DOM</a> (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
+3. DOM stands for "Document Object Model", which is a JavaScript representation of HTML rendered on a web page. Frontend frameworks like React use the DOM to programmatically manipulate UI without manually specifying HTML. Rocket recommends <a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3School's intro to JavaScript HTML DOM</a> (just the 1st page) for a primer. For Rocket's Bootcamp we can stop at DOM Intro without reading W3School's subsequent pages on DOM.
 4. Use camelCase for most if its props,<a href="https://react.dev/learn/writing-markup-with-jsx#3-camelcase-salls-most-of-the-things" target="_blank"> click here for more details</a>. To apply CSS classes to JSX elements we will need to use the `className` keyword instead of `class`, which we used with vanilla HTML. This is because `class` is a reserved keyword in JS used to declare classes (which we will see in 4: Components and Props below).
 
 ### 3: <a href="https://react.dev/learn/javascript-in-jsx-with-curly-braces" target="_blank">JavaScript in JSX</a>
@@ -220,7 +220,7 @@ When users click on a button they expect some result, or some change, take the c
    1. Attach the event listener to the element, such as an `onClick` or `onBlur` event.
    2. Define the callback function that will handle said event, accessing the event data if required. Remember to pass this function to the event handler.&#x20;
    3. Update state within this callback function by calling an updater function, run a side effect or execute any code.
-2. "Events on DOM elements" are the same as <a href="https://www.w3schools.com/js/js\_events.asp" target="_blank">JavaScript events or HTML events</a>. JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a <a href="https://react.dev/reference/react-dom/components/common#common-props" target="_blank">wide range of events.</a>
+2. "Events on DOM elements" are the same as <a href="https://www.w3schools.com/js/js_events.asp" target="_blank">JavaScript events or HTML events</a>. JS events allow us to perform logic on events that happen on our web pages such as mouse clicks. React supports a <a href="https://react.dev/reference/react-dom/components/common#common-props" target="_blank">wide range of events.</a>
 3. Remember that functions that are passed to event handlers must be passed and not called, you can wrap the given function in an anonymous function if you need to pass in arguments.
 4. You are able to stop event propagation as well as the default action.
 
@@ -247,7 +247,7 @@ Lables on cds and JSX keys in an array serve similar purposes, it helps us to id
 
 HTML forms and their elements afford developers the opportunity to capture user information as they interact with our application. Forms can be composed of a combination of inputs, selects and textareas, when wrapped in a form tag the values of these inputs can be extracted as form data. Or they can be maintained purely using state. Employ React element such as input, select and text areas to give users different input capabilities.&#x20;
 
-1. An <a href="https://www.w3schools.com/html/html\_forms.asp" target="_blank">HTML form</a> is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
+1. An <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML form</a> is an HTML element that either refreshes the page or navigates to a new page when the user submits the form. We often do not want this behaviour in React, opting to update UI on submit without refresh. To disable "refresh on submit" behaviour, Rocket recommends the technique in the React docs, to provide the `form` a `handleSubmit` callback function that calls `event.preventDefault`.
 2. When handling the submit method from a form you should target the `event.target.value` to get the current value of an input.&#x20;
 3. You must control the form elements that you use within a React component, do this by passing the value prop to it and handling the associated event. <a href="https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable" target="_blank">Have an in-depth look here</a>.&#x20;
 4. Note how you will need to create state to capture form data.
@@ -274,7 +274,7 @@ Managing state on components can get challenging and confusing when you need to 
 
 Developing a user interfaces in React can be challenging. Instead of looking at a webpage as a whole, you should instead split it into sections or components, at this stage we can consider the states required for each component to correctly render as intended. To ensure that data follows correctly you then need to connect your components pass information or functions from parents to children.&#x20;
 
-1. <a href="https://www.w3schools.com/js/js\_json\_intro.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
+1. <a href="https://www.w3schools.com/js/js\_json_intro.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
 2. Notice the example and how it passes updater function and state from the parent to the child, such that we can control and alter state.
 
 ### Day 11

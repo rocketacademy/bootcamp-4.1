@@ -13,7 +13,7 @@ This submodule aims to help us learn Python through exercises to solve algorithm
 
 ## Python Quirks
 
-1. Python variables adhere to <a href="https://www.w3schools.com/python/python\_scope.asp" target="_blank">function scope</a>, which means all local variables are accessible within the function in which they are declared. This is different from the <a href="https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11" target="_blank">block scope</a> that applies to `let` and `const` vars in JavaScript.
+1. Python variables adhere to <a href="https://www.w3schools.com/python/python_scope.asp" target="_blank">function scope</a>, which means all local variables are accessible within the function in which they are declared. This is different from the <a href="https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11" target="_blank">block scope</a> that applies to `let` and `const` vars in JavaScript.
 2. Python `==` works like JS `===`, in that both operators compare both value and data type.
 
 ## Exercises
