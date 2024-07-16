@@ -26,13 +26,13 @@ By convention, we typically name callback functions that handle events with the 
 
 ### Variables
 
-By default, JavaScript uses <a href="https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\" target="_blank">camelCase</a>#Examples\_of\_multiple-word\_identifier\_formats) for variable names. Treat acronyms like regular words and use <a href="https://stackoverflow.com/questions/15526107/acronyms-in-camelcase" target="_blank">camelCase for the acronym</a> for greater readability, e.g. `cardHtmlElement` instead of `cardHTMLElement`.
+By default, JavaScript uses <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">camelCase</a> for variable names. Treat acronyms like regular words and use <a href="https://stackoverflow.com/questions/15526107/acronyms-in-camelcase" target="_blank">camelCase for the acronym</a> for greater readability, e.g. `cardHtmlElement` instead of `cardHTMLElement`.
 
 ### Constants
 
 Sometimes we have variables that are constant in our program and used in multiple places, for example number of starting points in a game. To communicate clearly what these constants are and prevent bugs due to string or number misspelling, we often store these variables in "constant" variables, typically near the top of our file or in a separate `constants.js` file.
 
-Constants are typically cased with <a href="https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\" target="_blank">SCREAMING\_SNAKE\_CASE</a>#Examples\_of\_multiple-word\_identifier\_formats) by convention, e.g. `NUM_STARTING_POINTS`.
+Constants are typically cased with <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">SCREAMING\_SNAKE\_CASE</a> by convention, e.g. `NUM_STARTING_POINTS`.
 
 ### Environment Variables
 
@@ -40,7 +40,7 @@ SCREAMING\_SNAKE\_CASE. `MY_ENV_VAR`.
 
 ### File Names
 
-There is no definitive file naming case convention for JS. Rocket Academy prefers <a href="https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\" target="_blank">kebab-case</a>#Examples\_of\_multiple-word\_identifier\_formats) because it's easier to navigate between words than <a href="https://en.wikipedia.org/wiki/Naming\_convention\_\(programming\" target="_blank">snake\_case</a>#Examples\_of\_multiple-word\_identifier\_formats), where word processors do not consider underscores to be word separators. Some teams use CamelCase for React component file names; this is subjective so long as we are consistent.
+There is no definitive file naming case convention for JS. Rocket Academy prefers <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">kebab-case</a> because it's easier to navigate between words than <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">snake\_case</a>, where word processors do not consider underscores to be word separators. Some teams use CamelCase for React component file names; this is subjective so long as we are consistent.
 
 ### HTML Tags
 

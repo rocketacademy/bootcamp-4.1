@@ -173,7 +173,7 @@ Deepest exercises that Rocket offers for each concept. For students that wish to
 
 ### Ideation Phase 1
 
-Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use <a href="https://docs.google.com/document/d/1klyi92bVHUKjxgD\_Saou\_u6yoEZFbzkvbttj2izh8xg/edit?usp=sharing" target="_blank">Rocket's project planning template</a> to guide you.
+Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use Rocket's project planning template to guide you.
 
 ### Ideation Phase 2
 
@@ -247,7 +247,7 @@ In software engineering, there are so many different ways to solve the same prob
 4. It'll be great to include a `README.md` that includes
    1. A brief description of your app
    2. How to setup and run your app
-   3. For example, see <a href="https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp" target="_blank">https://github.com/jiachen247/bootcamp/tree/master/M3/3-ICE-1/bigfoot-express-bootcamp</a>
+   3. For example, see <a href="https://github.com/jiachen247/bootcamp/tree/master/M3/3.ICE.1/bigfoot-express-bootcamp" target="_blank">here</a>
 5. Once done, you can go on to commit and push the files as per usual
    1. `git add .`
    2. `git commit -m "insert commit message here"`
@@ -283,4 +283,4 @@ Occasionally we will review each others' code to learn from each other. Start by
 ### Part 2: In Pairs
 
 1. Review learnings from individual code reviews
-2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://basics.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming" target="_blank">Rocket's primer on pair programming in Coding Basics</a>.
+2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://fundamentals.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming" target="_blank">Rocket's primer on pair programming in Coding Basics</a>.
