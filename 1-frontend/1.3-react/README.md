@@ -13,7 +13,7 @@ Learning Objectives
 
 ## Introduction
 
-<a href="https://legacy.reactjs.org/" target="_blank">React</a> is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include <a href="https://vuejs.org" target="_blank">Vue</a> and <a href="https://angularjs.org" target="_blank">Angular</a>.
+<a href="https://react.dev" target="_blank">React</a> is a frontend framework and library that allows us to create custom, nest-able UI elements with a combination of HTML and JavaScript syntax (JSX). React's HTML-like structure makes it easy to visualise, and its integrated JS makes it easy to render dynamic data. Alternative but less popular frontend libraries include <a href="https://vuejs.org" target="_blank">Vue</a> and <a href="https://angularjs.org" target="_blank">Angular</a>.
 
 We will use React's official <a href="https://react.dev/learn" target="_blank">guide</a> and <a href="https://react.dev/learn/tutorial-tic-tac-toe" target="_blank">tutorial</a> to learn React, and the <a href="https://vitejs.dev/guide/" target="_blank">Vitejs</a> environment to scaffold our first React apps. Vite is a build tool that provides a fast and lean development experience for modern web projects. Vite leverages new advancements in the JavaScript ecosystems, the ability of native ES modules within the browser and the rise of JavaScript tools written in compile-to-native languages. This is because browsers do not read React natively; they read HTML, CSS and JS, not JSX.&#x20;
 
@@ -69,15 +69,6 @@ Within JSX, "{ }" or "curly braces" allow developers to write and execute JavaSc
 
 React follows what we call a "declarative" UI paradigm, where we tell our computers how the UI should look, but not how to achieve that look. The declarative paradigm is a layer on top of the "imperative" paradigm of DOM manipulation more commonly used before React.
 
-## Post-Class Exercises: Codecademy React 101&#x20;
-
-Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule.
-
-1. JSX
-   1. <a href="https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro/exercises/why-react" target="_blank">Intro to JSX</a>
-   2. <a href="https://www.codecademy.com/courses/react-101/lessons/react-jsx-advanced/exercises/jsx-classname-class" target="_blank">Advanced JSX</a>
-
-
 
 ## Day 6
 
@@ -89,7 +80,7 @@ The concept of Components is core to React, they are the foundation of our React
 2. Define the Component function
 3. Add any markup required, this is what we want to display within the Component
 4. Render the Component onto the React Application by nesting it into the App.jsx
-5. <a href="https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized" target="_blank">User-defined components must be capitalised</a>. Otherwise React will think they are HTML tags.
+5. User-defined components must be capitalised. Otherwise React will think they are HTML tags.
 
 ### 5: <a href="https://react.dev/learn/passing-props-to-a-component" target="_blank">Component Props</a>
 
@@ -102,36 +93,29 @@ React components can communicate with each other via props, a parent may pass in
 
 ## Introduction to React Hooks
 
-React Hooks are a newer and more efficient syntax for React Components. They allow us to write all components as functional components, and use so-called "Hook" functions to replace class component functionality such as state management and lifecycle methods. Components with hooks are functionally the same as class components.
+> **Note**: *The following introduction was written around 2022 when the React community was in the midst of transitioning to using hooks and functional components. In 2024, we preserve the original text for historical context.*
 
-Rocket recommends using Hooks in our exercises and projects from now on because Hooks are a cleaner syntax and the <a href="https://reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both" target="_blank">React team recommends using Hooks for new projects</a>. The React team is <a href="https://beta.reactjs.org/" target="_blank">re-writing the official React tutorials to use Hooks</a>. React Router v6 (the latest and greatest version of React Router) that we are about to learn only supports React Hooks syntax natively, and Rocket recommends using Hooks to enable us to use the latest React Router features.
+> React Hooks are a newer and more efficient syntax for React Components. They allow us to write all components as functional components, and use so-called "Hook" functions to replace class component functionality such as state management and lifecycle methods. Components with hooks are functionally the same as class components.
+> 
+> Rocket recommends using Hooks in our exercises and projects from now on because Hooks are a cleaner syntax and the <a href="https://reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both" target="_blank">React team recommends using Hooks for new projects</a>. The React team is <a href="https://beta.reactjs.org/" target="_blank">re-writing the official React tutorials to use Hooks</a>. React Router v6 (the latest and greatest version of React Router) that we are about to learn only supports React Hooks syntax natively, and Rocket recommends using Hooks to enable us to use the latest React Router features.
+>
+> Many companies are still using <a href="https://legacy.reactjs.org/docs/react-component.html" target="_blank">Class based React Components</a> in their code. It will be important for us to still understand class Components, but know how to write Components with Hooks for new code to take advantage of latest React functionality. If you want to explore how to use state and lifecycles in React Class based Components you can read <a href="https://legacy.reactjs.org/docs/state-and-lifecycle.html" target="_blank">this documentation</a>.
 
-## Introducing Hooks
+## <a href="https://react.dev/reference/react">Hooks</a> at a Glance
 
-<a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">Hooks Intro</a>
-
-1. Many companies will still be using <a href="https://legacy.reactjs.org/docs/react-component.html" target="_blank">Class based React Components</a> in their code. It will be important for us to still understand class Components, but know how to write Components with Hooks for new code to take advantage of latest React functionality. If you want to explore how to use state and lifecycles in React Class based Components you can read <a href="https://legacy.reactjs.org/docs/state-and-lifecycle.html" target="_blank">this documentation</a>.&#x20;
-
-## Hooks at a Glance
-
-This page is an overview of all of the subsequent tutorial pages. The subsequent pages go into more depth on each topic.
-
-<a href="https://reactjs.org/docs/hooks-overview.html"" target="_blank">Hooks Overview</a>
 
 1. React Hooks provide all the functionality we need from React Class based Components that we didn't previously have with Functional Components of the past.
 2. `useState` hook replaces `this.state` and `this.setState` with a new pair of variables for getting and setting a specific state value.
-3. Note how the React team <a href="https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables" target="_blank">encourages us to use multiple `useState` Hooks</a> in the same component for each type of state. There is no need to store all of a component's state in a single `this.state` object like we did previously.
+3. Note how the React team encourages us to use multiple `useState` Hooks in the same component for each type of state. There is no need to store all of a component's state in a single `this.state` object like we did previously.
 4. Returning a cleanup function from `useEffect` is advanced functionality and we will not be using it as often at Rocket
 5. We will not be writing custom Hooks at Rocket; feel free to skim through the "Building Your Own Hooks" section
 6. We will learn about `useContext` and `useReducer` hooks in a later submodule.
 
-## Using the State Hook
+## Using the <a href="https://react.dev/reference/react/useState">`useState`</a> Hook
 
 We will use the `useState` Hook most often. Clear explanations of what the `useState` Hook is and how to use it.
 
-<a href="https://reactjs.org/docs/hooks-state.html"" target="_blank">Hooks State</a>
-
-1. Rocket strongly recommends following the naming convention of `X` and `setX` as the de-structured state variable names from `useState`. This makes our code more readable because other engineers will immediately know what each variable is for.
+> Rocket strongly recommends following the naming convention of `X` and `setX` as the de-structured state variable names from `useState`. This makes our code more readable because other engineers will immediately know what each variable is for.
 
 ### Sample useState Hook
 
@@ -151,11 +135,10 @@ While creating your application and enlarging functionalities you will find that
 3. When developing your state, group information if two state variables always change together, therefore unify them into a single state variable. Here are some more rules regarding <a href="https://react.dev/learn/choosing-the-state-structure" target="_blank">state structure</a>.
 4. When updating a state variable its possible to use its current value, this is done by invoking a callback function on the updater function. Take a look at <a href="https://react.dev/reference/react/useState#updating-state-based-on-the-previous-state" target="_blank">these examples here</a>.
 
-## Using the useEffect Hook
+## Using the <a href="https://react.dev/reference/react/useEffect">`useEffect`</a> Hook
 
 At Rocket we will use `useEffect` instead of the lifeCycleMethod `componentDidMount` for setting up subscriptions such as Firebase listeners and for data fetching. `useEffect` also allows us to perform functionality that was previously provided by `componentDidUpdate` and `componentWillUnmount`, but we will use that functionality less often.
 
-<a href="https://reactjs.org/docs/hooks-effect.html"" target="_blank">Hooks Effect</a>
 
 1. As the docs mention, we can think of `useEffect` as running after the component renders.
 2. A memory leak is when data that we use in parts of our apps is not properly cleaned up after the app stops using those parts. This can cause our apps to run slowly and even crash if the "leaks" cause our computers to run out of memory while running our apps. This will rarely happen to use in practice because JavaScript has automatic memory management and our apps will not be the most complex for now.
@@ -166,7 +149,7 @@ At Rocket we will use `useEffect` instead of the lifeCycleMethod `componentDidMo
 
 Rocket uses Create React App for our projects that includes the ESLint plugin for Hooks, so ESLint should enforce these rules for us by default.
 
-<a href="https://reactjs.org/docs/hooks-rules.html"" target="_blank">Hooks Rules</a>
+<a href="https://react.dev/reference/rules/rules-of-hooks" target="_blank">Rules of Hooks</a>
 
 ### Sample useEffect Hook
 
@@ -186,7 +169,7 @@ While developing React components it is possible to embed executable code within
    4. Handle any effect clean ups by implemented a cleanup function within the effect.&#x20;
 4. <a href="https://react.dev/reference/react/useEffect" target="_blank">React's offical guide and additional reference</a> to the useEffect hook
 
-## Post-Class Exercises: Codecademy React 101
+<!-- ## Post-Class Exercises: Codecademy React 101
 
 Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule.
 
@@ -198,17 +181,14 @@ Complete all exercises in the following Codecademy lessons when they are assigne
 2. Hooks
    1. <a href="https://www.codecademy.com/courses/react-101/lessons/stateless-functional-components/exercises/stateless-functional-component-intro" target="_blank">Function Components</a>
    2. <a href="https://www.codecademy.com/courses/react-101/lessons/the-state-hook" target="_blank">The State Hook</a>
-   3. <a href="https://www.codecademy.com/courses/react-101/lessons/the-effect-hook/exercises/function-component-effects" target="_blank">The Effect Hook</a>
+   3. <a href="https://www.codecademy.com/courses/react-101/lessons/the-effect-hook/exercises/function-component-effects" target="_blank">The Effect Hook</a> -->
 
 ## Additional Resources
 
 The following resources are optional and can be used more for reference than upfront reading.
 
-1. <a href="https://reactjs.org/docs/hooks-custom.html" target="_blank">Build Your Own Hooks</a>
-2. <a href="https://reactjs.org/docs/hooks-reference.html" target="_blank">Hooks API Reference</a>
-3. <a href="https://reactjs.org/docs/hooks-faq.html" target="_blank">Hooks FAQ</a>
-
-
+1. <a href="https://react.dev/learn/reusing-logic-with-custom-hooks" target="_blank">Re-using logic with Custom Hooks</a>
+2. <a href="https://react.dev/reference/react" target="_blank">Hooks API Reference</a>
 
 ## Day 7
 
@@ -228,10 +208,10 @@ When users click on a button they expect some result, or some change, take the c
 
 ### 7: <a href="https://react.dev/learn/conditional-rendering" target="_blank">Conditional Rendering</a>
 
-Components will often need to display different UI's depending on conditions passed down as props, or the information its processing. You are able to conditionally render JSX in React using various patterns within JavaScript including conditonal statements that return JSX, or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional\_operator" target="_blank">ternary operators</a>.
+Components will often need to display different UI's depending on conditions passed down as props, or the information its processing. You are able to conditionally render JSX in React using various patterns within JavaScript including conditonal statements that return JSX, or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator" target="_blank">ternary operators</a>.
 
 1. Conditional rendering is one of the most powerful features of React, enabling us to use conditional logic to specify what a component should render.
-2. You can use inline code for conditionals, `condition ? true : false` syntax is the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional\_Operator" target="_blank">JavaScript conditional operator</a>.
+2. You can use inline code for conditionals, `condition ? true : false` syntax is the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator" target="_blank">JavaScript conditional operator</a>.
 
 ### 8: <a href="https://react.dev/learn/rendering-lists" target="_blank">Lists and Keys</a>
 
@@ -252,11 +232,11 @@ HTML forms and their elements afford developers the opportunity to capture user 
 3. You must control the form elements that you use within a React component, do this by passing the value prop to it and handling the associated event. <a href="https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable" target="_blank">Have an in-depth look here</a>.&#x20;
 4. Note how you will need to create state to capture form data.
 
-## Post-Class Exercises: Codecademy React 101&#x20;
+<!-- ## Post-Class Exercises: Codecademy React 101&#x20;
 
 Complete all exercises in the following Codecademy lessons when they are assigned in the Rocket course schedule.
 
-1. <a href="https://www.codecademy.com/courses/react-101/lessons/react-forms/exercises/react-forms-intro" target="_blank">React Forms</a>
+1. <a href="https://www.codecademy.com/courses/react-101/lessons/react-forms/exercises/react-forms-intro" target="_blank">React Forms</a> -->
 
 
 
@@ -274,7 +254,7 @@ Managing state on components can get challenging and confusing when you need to 
 
 Developing a user interfaces in React can be challenging. Instead of looking at a webpage as a whole, you should instead split it into sections or components, at this stage we can consider the states required for each component to correctly render as intended. To ensure that data follows correctly you then need to connect your components pass information or functions from parents to children.&#x20;
 
-1. <a href="https://www.w3schools.com/js/js\_json_intro.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
+1. <a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a data format similar to JavaScript Objects, except can be used in text or file form. An API (Application Programming Interface) is typically a URL that manipulates and/or returns data. A JSON API is an API that returns data in JSON format, one of the most common formats to send and receive data on the internet.
 2. Notice the example and how it passes updater function and state from the parent to the child, such that we can control and alter state.
 
 ### Day 11
@@ -287,8 +267,3 @@ If you finish the React Guide pages above early, feel free to start and finish t
 2. Rocket recommends using <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en" target="_blank">React DevTools</a> whenever developing React apps. It can help us debug quicker.
 3. Note the tutorial's recommendation to use `on[Event]` naming convention for props that represent events and `handle[Event]` for methods that handle events.
 
-
-
->**New to Rocket Academy?**
->
->If you're not enrolled in Rocket's Bootcamp and visiting this page, <a href="https://www.rocketacademy.co/courses/bootcamp-course" target="_blank">check out our website</a> to learn more about our Bootcamp course!
