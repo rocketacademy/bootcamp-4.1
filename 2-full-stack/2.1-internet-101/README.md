@@ -36,7 +36,7 @@ We use ports to identify requests and responses to different applications on the
 
 URLs map to IP (Internet Protocol) addresses that identify individual or networks of computers on the internet. IP addresses are network-based, not computer-based, so if we connect our computer to a different network it will have a different IP address.
 
-IP addresses typically consist of 4 numbers from 0-255 separated by `.`, for example `192.158.1.38`. These are known as "<a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a>" addresses and route most internet traffic today. The world is running out of IPv4 addresses and plans to transition to "<a href="https://en.wikipedia.org/wiki/IPv6\_address" target="_blank">IPv6</a>" in the coming decades.
+IP addresses typically consist of 4 numbers from 0-255 separated by `.`, for example `192.158.1.38`. These are known as "<a href="https://en.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a>" addresses and route most internet traffic today. The world is running out of IPv4 addresses and plans to transition to "<a href="https://en.wikipedia.org/wiki/IPv6_address" target="_blank">IPv6</a>" in the coming decades.
 
 ### DNS
 

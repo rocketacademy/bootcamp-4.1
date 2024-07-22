@@ -54,7 +54,7 @@ app.listen(PORT, () => {
 Let's break down the above code.
 
 1. Requiring `express` imports the Express library for us to initialise, configure and run our server
-2. `PORT` defines the port that our Express server will listen on. Recall from Module 2 that ports determine which applications receive which requests on servers. We use SCREAM\_CASE to define constant variables like `PORT` at the top of our files or in a separate constants file for easy access.
+2. `PORT` defines the port that our Express server will listen on. Recall from Module 2 that ports determine which applications receive which requests on servers. We use SCREAM_CASE to define constant variables like `PORT` at the top of our files or in a separate constants file for easy access.
 3. `const app = express()` initialises our Express application
 4. `app.get` is a route middleware (more on this below) that routes requests to a specific URL path to a specific middleware function to handle that request
 5. `req` and `res` parameters to the middleware function are Express <a href="https://expressjs.com/en/4x/api.html#req" target="_blank">Request</a> and <a href="https://expressjs.com/en/4x/api.html#res" target="_blank">Response</a> objects respectively
@@ -75,7 +75,7 @@ Thunder Client && Expressjs
 Express Fruit Application
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo" target="_blank">repository</a>, ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_express_repo" target="_blank">repository</a>, ensure that you're on the `simple_express` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## Routes
 
@@ -121,7 +121,7 @@ Read <a href="https://expressjs.com/en/guide/routing.html" target="_blank">Expre
 HTTP Request Extras
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/simple\_express\_params" target="_blank">repository</a>, ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_express_repo/tree/simple_express_params" target="_blank">repository</a>, ensure that you're on the `simple_express_params` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## Express Fruit Application
 
@@ -129,7 +129,7 @@ Please checkout the finished code in this <a href="https://github.com/rocketacad
 Express Fruit Application
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/crud\_handlers" target="_blank">repository</a>, ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_express_repo/tree/crud_handlers" target="_blank">repository</a>, ensure that you're on the `crud_handlers` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 
 
@@ -185,7 +185,7 @@ Read <a href="https://expressjs.com/en/guide/using-middleware.html" target="_bla
 Express Middleware
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/built\_in\_middleware" target="_blank">repository</a>, ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_express_repo/tree/built_in_middleware" target="_blank">repository</a>, ensure that you're on the `built_in_middleware` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 ## CORS
 
@@ -211,7 +211,7 @@ Implementing an Express Controller
 Implementing Router and Controller
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_express\_repo/tree/router\_and\_controller" target="_blank">repository</a>, ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_express_repo/tree/router_and_controller" target="_blank">repository</a>, ensure that you're on the `router_and_controller` branch if you want to test out the application on your machine you will need to install the dependencies with the command `npm install` after the installation you can then run the application with the command `node index.js`
 
 Does the class based code look unfamiliar have a look at the <a href="https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes" target="_blank">Rocket curriculum</a> to touch up your understanding.
 

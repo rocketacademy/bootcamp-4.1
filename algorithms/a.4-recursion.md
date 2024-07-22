@@ -113,7 +113,7 @@ You have `n`  `tiles`, where each tile has one letter `tiles[i]` printed on it. 
 
 #### Strategy
 
-To eliminate duplicates, we store our results in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set" target="_blank">set</a> (like hash table with only keys) `sequences` outside of our recursive function calls, and define a helper function `findPossibilities` inside the given function as our recursive function. `findPossibilities` recursively finds all possible sequences and adds them to `sequences`, and in the end we return the number of sequences in `sequences`.
+To eliminate duplicates, we store our results in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">set</a> (like hash table with only keys) `sequences` outside of our recursive function calls, and define a helper function `findPossibilities` inside the given function as our recursive function. `findPossibilities` recursively finds all possible sequences and adds them to `sequences`, and in the end we return the number of sequences in `sequences`.
 
 `findPossibilities` has the following logic.
 
@@ -194,7 +194,7 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 
 1. Letter Tile Possibilities (<a href="https://leetcode.com/problems/letter-tile-possibilities/" target="_blank">LeetCode</a>)
 2. Generate Parentheses (<a href="https://leetcode.com/problems/generate-parentheses/" target="_blank">LeetCode</a>)
-   1. Hint: Consider <a href="https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b\_0\_93" target="_blank">this slide</a> on how we can prune invalid subtrees.
+   1. Hint: Consider <a href="https://docs.google.com/presentation/d/1rpY5NnOvN7MKVLSI5NoU7LYySGVNRTC9Yptl9mtaXRY/edit#slide=id.g81c439b50b_0_93" target="_blank">this slide</a> on how we can prune invalid subtrees.
    2. <a href="https://pastebin.com/HMxZjpM7" target="_blank">Rocket solution code</a> (Python)
    3. <a href="https://youtu.be/MTqylosJ1ow?t=2022" target="_blank">Rocket solution video</a> (Python, until 57:25)
 3. Combination Sum (<a href="https://leetcode.com/problems/combination-sum/" target="_blank">LeetCode</a>)
@@ -211,7 +211,7 @@ After attempting each problem, find solutions in the Leaderboard tab (HackerRank
 1. Letter Combinations of a Phone Number (<a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" target="_blank">LeetCode</a>)
    1. Hint: Same strategy as Combinations
 2. Subsets II (<a href="https://leetcode.com/problems/subsets-ii/" target="_blank">LeetCode</a>)
-   1. Hint: Consider using a hash table or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Set" target="_blank">JavaScript set</a> to remove duplicates
+   1. Hint: Consider using a hash table or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">JavaScript set</a> to remove duplicates
 
 ### Part 5
 

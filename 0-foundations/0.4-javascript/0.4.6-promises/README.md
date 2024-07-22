@@ -47,7 +47,7 @@ const getRequestPromise = axios.get("http://dog.ceo/api/breeds/image/random");
 getRequestPromise.then(handleResponse);
 ```
 
-Note that `handleResponse` receives a `response` parameter. Because the above promise is for an Axios request, the callback function receives an <a href="https://axios-http.com/docs/res\_schema" target="_blank">Axios response object</a> as a parameter.
+Note that `handleResponse` receives a `response` parameter. Because the above promise is for an Axios request, the callback function receives an <a href="https://axios-http.com/docs/res_schema" target="_blank">Axios response object</a> as a parameter.
 
 ## Sequential Promises
 
@@ -65,7 +65,7 @@ axios
   .then((response) => console.log("success!"));
 ```
 
-`.then` always returns a promise, regardless of whether the callback function passed to `.then` returns nothing, a promise, or anything else. Hence we can always call `.then` on the return value of any `.then` call. See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Promise/then" target="_blank">`.then` docs</a> for a more detailed description of this behaviour.
+`.then` always returns a promise, regardless of whether the callback function passed to `.then` returns nothing, a promise, or anything else. Hence we can always call `.then` on the return value of any `.then` call. See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then" target="_blank">`.then` docs</a> for a more detailed description of this behaviour.
 
 ## `.catch`
 

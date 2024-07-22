@@ -35,7 +35,7 @@ Setting up Sequelize in an Express App
 Sequelize Migrations
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/initial\_setup" target="_blank">repository</a>, ensure that you're on the `initial_setup` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_sequelize_repo/tree/initial_setup" target="_blank">repository</a>, ensure that you're on the `initial_setup` branch.
 
 ## Migrations
 
@@ -60,7 +60,7 @@ Secondary Migrations
 Tertiary Migrations
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/migrations" target="_blank">repository</a>, ensure that you're on the `migrations` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_sequelize_repo/tree/migrations" target="_blank">repository</a>, ensure that you're on the `migrations` branch.
 
 
 
@@ -87,7 +87,7 @@ Secondary Seeders
 Tertiary Seeders
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/seeders" target="_blank">repository</a>, ensure that you're on the `seeders` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_sequelize_repo/tree/seeders" target="_blank">repository</a>, ensure that you're on the `seeders` branch.
 
 ## Running Migrations and Seeders
 
@@ -103,7 +103,7 @@ Seeder Alteration
 Running Migrations and Seeders
 
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/running\_migrations\_seeders" target="_blank">repository</a>, ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_sequelize_repo/tree/running_migrations_seeders" target="_blank">repository</a>, ensure that you're on the `running_migrations_seeders` branch if you want to test out the migrations and seeders on your machine you will need to install the dependencies with the command `npm install` after the installation you need to setup your database connections and `.env` after this you can run the migrations, and seeders.
 
 
 
@@ -163,5 +163,5 @@ Sequelize Models (1)
 {% include youtube.html id="BVZS4HIERH0" %}
 Sequelize Models (2)
 
-Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3\_sequelize\_repo/tree/models" target="_blank">repository</a>, ensure that you're on the `models` branch.
+Please checkout the finished code in this <a href="https://github.com/rocketacademy/m3_sequelize_repo/tree/models" target="_blank">repository</a>, ensure that you're on the `models` branch.
 

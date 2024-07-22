@@ -20,14 +20,14 @@ This submodule aims to help us learn Python through exercises to solve algorithm
 
 The following are a collection of concise exercises from <a href="https://learnpython.org" target="_blank">learnpython.org</a> (powered by <a href="https://datacamp.com" target="_blank">datacamp.com</a>) that we believe will be helpful in learning Python for algorithms.
 
-1. <a href="https://www.learnpython.org/en/Hello%2C\_World!" target="_blank">Hello, World!</a>
-2. <a href="https://www.learnpython.org/en/Variables\_and\_Types" target="_blank">Variables and Types</a>
+1. <a href="https://www.learnpython.org/en/Hello%2C_World!" target="_blank">Hello, World!</a>
+2. <a href="https://www.learnpython.org/en/Variables_and_Types" target="_blank">Variables and Types</a>
 3. <a href="https://www.learnpython.org/en/Lists" target="_blank">Lists</a>
-4. <a href="https://www.learnpython.org/en/Basic\_Operators" target="_blank">Basic Operators</a>
-5. <a href="https://www.learnpython.org/en/String\_Formatting" target="_blank">String Formatting</a> (Here's a <a href="https://www.programiz.com/python-programming/string-interpolation" target="_blank">nice article on String Interpolation</a>)
-6. <a href="https://www.learnpython.org/en/Basic\_String\_Operations" target="_blank">Basic String Operations</a>
+4. <a href="https://www.learnpython.org/en/Basic_Operators" target="_blank">Basic Operators</a>
+5. <a href="https://www.learnpython.org/en/String_Formatting" target="_blank">String Formatting</a> (Here's a <a href="https://www.programiz.com/python-programming/string-interpolation" target="_blank">nice article on String Interpolation</a>)
+6. <a href="https://www.learnpython.org/en/Basic_String_Operations" target="_blank">Basic String Operations</a>
 7. <a href="https://www.learnpython.org/en/Conditions" target="_blank">Conditions</a>
 8. <a href="https://www.learnpython.org/en/Loops" target="_blank">Loops</a>
 9. <a href="https://www.learnpython.org/en/Functions" target="_blank">Functions</a>
-10. <a href="https://www.learnpython.org/en/Classes\_and\_Objects" target="_blank">Classes and Objects</a>
+10. <a href="https://www.learnpython.org/en/Classes_and_Objects" target="_blank">Classes and Objects</a>
 11. <a href="https://www.learnpython.org/en/Dictionaries" target="_blank">Dictionaries</a>

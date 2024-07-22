@@ -29,11 +29,11 @@ Database servers run applications that allow programs to manipulate the data ins
 
 Part of setting up a database is setting up database schema, i.e. what tables and columns are in the database. Web applications typically do not manipulate database schema in response to user actions; application code depends on database schema, but the schema is not defined by the application.
 
-![The data in the database is stored separately from the application code](<../../.gitbook/assets/spaces\_-MHpn6\_lq7F3sPVKqyNy\_uploads\_git-blob-b91d82b347ba55676fd0db8808960cae14874017\_SQL database.jpeg>)
+![The data in the database is stored separately from the application code](<../../.gitbook/assets/spaces_-MHpn6_lq7F3sPVKqyNy_uploads_git-blob-b91d82b347ba55676fd0db8808960cae14874017_SQL database.jpeg>)
 
 Unlike with the `data.json` file we used prior to SQL, the data inside our database will _not_ be part of the application repo. Database servers are often on separate machines from web application servers, such that they can be accessed by multiple applications. We will see this when we use Heroku, but for now, we will keep our database server on the same machine as our Express app.
 
-![The PostgreSQL server is typically on a separate machine from the web application that accesses it. ](../../.gitbook/assets/spaces\_-MHpn6\_lq7F3sPVKqyNy\_uploads\_git-blob-cdcc69229a31bfe19ec50389a5880edc8509b390\_Postgres.jpeg)
+![The PostgreSQL server is typically on a separate machine from the web application that accesses it. ](../../.gitbook/assets/spaces_-MHpn6_lq7F3sPVKqyNy_uploads_git-blob-cdcc69229a31bfe19ec50389a5880edc8509b390_Postgres.jpeg)
 
 Managing the database server application, e.g. ports, backups, version upgrades, is typically considered developer operations or DevOps and can be a separate role from application development.
 
@@ -80,7 +80,7 @@ Set the Postgres server to start in the background:
 sudo service postgresql start
 ```
 
-Set password-less login by opening pg\_hba.conf and copying the below contents into it.&#x20;
+Set password-less login by opening pg_hba.conf and copying the below contents into it.&#x20;
 
 <mark style="color:red;">**Note**</mark>
 
@@ -264,7 +264,7 @@ CREATE TABLE students (
     
 ```
 
-This command generates a table that contains five columns, an auto-incrementing identity column, id, two character columns first\_name, last\_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype with any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout <a href="https://www.postgresql.org/docs/current/datatype.html" target="_blank">this documentation</a>. If you want to checkout the constraints <a href="https://www.postgresql.org/docs/current/ddl-constraints.html" target="_blank">click here</a>.
+This command generates a table that contains five columns, an auto-incrementing identity column, id, two character columns first_name, last_name. This is followed by two additional columns mobile and gender which have the datatype of integer and boolean respectively. We are generating columns by naming the column, then adding a datatype with any column constraints that we need to implement. You can alter the datatype and constraints by changing the arguments to the code above. To see what PostgreSQL datatypes you can insert please checkout <a href="https://www.postgresql.org/docs/current/datatype.html" target="_blank">this documentation</a>. If you want to checkout the constraints <a href="https://www.postgresql.org/docs/current/ddl-constraints.html" target="_blank">click here</a>.
 
 #### <mark style="color:red;">SQL NOTE</mark>
 
@@ -343,7 +343,7 @@ DELETE FROM students WHERE gender = true;
 
 #### SQL relationships&#x20;
 
-Creating tables and inserting data allows you to create some structure for data within your database. To really showcase meaningful information within a database, tables should have relationships and in more complex instances data could depend on other sets. To showcase this we will develop another table student\_addresses.
+Creating tables and inserting data allows you to create some structure for data within your database. To really showcase meaningful information within a database, tables should have relationships and in more complex instances data could depend on other sets. To showcase this we will develop another table student_addresses.
 
 
 
@@ -360,7 +360,7 @@ CREATE TABLE student_addresses (
 ```
 
 
-The above command will generate a new table that contains three columns, an id, a student\_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students\_addresses this is because we are referencing an id within the students table for every entry within student\_addresses. If you want to read more about foreign keys please look into <a href="https://www.javatpoint.com/postgresql-foreign-key" target="_blank">this set of documentation</a>.&#x20;
+The above command will generate a new table that contains three columns, an id, a student_id which is referencing data in our students table and our address column. In this instance we have to ensure that data is present within the students table before we can add any data into students_addresses this is because we are referencing an id within the students table for every entry within student_addresses. If you want to read more about foreign keys please look into <a href="https://www.javatpoint.com/postgresql-foreign-key" target="_blank">this set of documentation</a>.&#x20;
 
 Once you have developed a database that contains multiple tables that have relationships you will be able to query with what are known as join clauses. Joins allow you to select from multiple tables, the returned information will only return the information that satisfies all of the criteria. To find out more about joins please look into this <a href="https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/" target="_blank">set of documentation</a>. Check out the command below:
 
@@ -370,7 +370,7 @@ SELECT * FROM students JOIN student_addresses ON students.id = student_addresses
 ```
 
 
-This will produce the most common join the inner join. Which means you will only be returned records that have matching values within both tables. We have also added an additional claus further refining the search to only show the female students who have an address within the students\_addresses table. It should be noted that the returned table that contains our information will not persist and you will need to run the query above to get the data.
+This will produce the most common join the inner join. Which means you will only be returned records that have matching values within both tables. We have also added an additional claus further refining the search to only show the female students who have an address within the students_addresses table. It should be noted that the returned table that contains our information will not persist and you will need to run the query above to get the data.
 
 
 

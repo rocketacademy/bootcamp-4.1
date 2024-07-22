@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-1. Understand that computers store values in code as sequences of bits (data type with value 0 or 1). Computers represent numbers with bits in <a href="https://en.wikipedia.org/wiki/Binary\_number" target="_blank">binary format</a>.
+1. Understand that computers store values in code as sequences of bits (data type with value 0 or 1). Computers represent numbers with bits in <a href="https://en.wikipedia.org/wiki/Binary_number" target="_blank">binary format</a>.
 2. Bit manipulation refers to manipulation of the bits that form a value using bitwise operators
 3. Know the 6 most common bitwise operators (`&`, `|`, `~`, `^`, `<<`, and `>>`) and what they do
 

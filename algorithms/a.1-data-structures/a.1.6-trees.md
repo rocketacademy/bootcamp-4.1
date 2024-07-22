@@ -385,10 +385,10 @@ Misc tree problems.
       4. `abs(root.val - minValInRightSubtree))`
 8. Symmetric Tree (<a href="https://leetcode.com/problems/symmetric-tree/" target="_blank">LeetCode</a>)
    1. <a href="https://pastebin.com/a2buQJxv" target="_blank">Rocket solution code</a> (Python)
-   2. <a href="https://youtu.be/AMpseCEX6\_A?t=2147" target="_blank">FTBC3 class video solution</a> (Python)
+   2. <a href="https://youtu.be/AMpseCEX6_A?t=2147" target="_blank">FTBC3 class video solution</a> (Python)
 9. Cousins in Binary Tree (<a href="https://leetcode.com/problems/cousins-in-binary-tree/" target="_blank">LeetCode</a>)
    1. <a href="https://pastebin.com/wWYXg309" target="_blank">Rocket Academy solution code</a> (Python)
-   2. <a href="https://youtu.be/SeNfZBAU\_f4?t=4088" target="_blank">Rocket Academy video solution</a> (Python)
+   2. <a href="https://youtu.be/SeNfZBAU_f4?t=4088" target="_blank">Rocket Academy video solution</a> (Python)
 10. Diameter of Binary Tree (<a href="https://leetcode.com/problems/diameter-of-binary-tree/" target="_blank">LeetCode</a>)
 11. Binary Tree Right Side View (<a href="https://leetcode.com/problems/binary-tree-right-side-view/" target="_blank">LeetCode</a>) (Medium)
 12. Binary Tree Zigzag Level Order Traversal (<a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" target="_blank">LeetCode</a>) (Medium)
