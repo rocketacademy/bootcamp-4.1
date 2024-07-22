@@ -50,7 +50,6 @@ export default defineConfig({
 
 Now you should be able to run the command: `npm run deploy`
 
-\#==========================================================#
 
 ## Vitejs Deployment: Github Pages through git push
 
