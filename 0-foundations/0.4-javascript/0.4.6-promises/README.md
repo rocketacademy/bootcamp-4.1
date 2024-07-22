@@ -15,7 +15,7 @@ The following examples use a common HTTP-request-making library called <a href="
 
 ## `.then`
 
-The function `axios.get` sends a GET request and returns a promise, on which we then call the promise's `.then` method to perform certain logic only when the GET request is complete, i.e. when we receive a response. 3rd-party asynchronous functions such as `axios.get` often return promises for this purpose, and when unsure we can check their <a href="https://axios-http.com/docs/api\_intro" target="_blank">online documentation</a>.
+The function `axios.get` sends a GET request and returns a promise, on which we then call the promise's `.then` method to perform certain logic only when the GET request is complete, i.e. when we receive a response. 3rd-party asynchronous functions such as `axios.get` often return promises for this purpose, and when unsure we can check their <a href="https://axios-http.com/docs/api_intro" target="_blank">online documentation</a>.
 
 The following code sends a request, then `console.log`s the response when the response is received.
 
