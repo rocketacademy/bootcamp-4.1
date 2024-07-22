@@ -8,7 +8,7 @@ Learning Objectives
 
 ### React Bootstrap Initialisation
 
-React Bootstrap is a popular frontend styling library, it contains pre-built style and functionalities for out of the box easy implementation. This tool is integrated well with ReactJs and is geared for beginners to test out and implement styling libraries. Developers are even able to customize Bootstrap within custom scss stylesheets, feel free to learn more about it <a href="https://react-bootstrap.github.io/getting-started/introduction#customize-bootstrap" target="_blank">here</a>.&#x20;
+React Bootstrap is a popular frontend styling library, it contains pre-built style and functionalities for out of the box easy implementation. This tool is integrated well with ReactJs and is geared for beginners to test out and implement styling libraries. Developers are even able to customize Bootstrap within custom scss stylesheets, feel free to learn more about it <a href="https://react-bootstrap.github.io/docs/getting-started/introduction" target="_blank">here</a>.
 
 To implement React Bootstrap into a React application open a CLI interface and change directory to your current project. Here you can run this command:
 
@@ -26,7 +26,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 This line imports the CSS for bootstrap into your application, any child components of this file will be able to access and utilise React-Bootstrap styling, pre-made components, utilities and alignment system.&#x20;
 
-Now that Bootstrap has been implemented in your application it might be a good idea to look at some of the pre-styled components you can implement, look at some examples and usage <a href="https://react-bootstrap.github.io/components/alerts/" target="_blank">here</a>.
+Now that Bootstrap has been implemented in your application it might be a good idea to look at some of the pre-styled components you can implement, look at some examples and usage <a href="https://react-bootstrap.github.io/docs/components/accordion" target="_blank">here</a>.
 
 To showcase implementing React Bootstrap into a React Application we will implement some new styled buttons on our previously edited boilerplate code from our previous section.
 
