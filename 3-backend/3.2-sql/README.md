@@ -2,12 +2,11 @@
 
 ## Learning Objectives
 
-1. SQL is a robust, mature and the most popular query language for relational databases
-2. Understand basic SQL commands
-3. PostgreSQL is a popular SQL dialect and database server application
-4. \[Nested submodules] Understand 1-M and M-M SQL relationships and corresponding table structures
-5. \[Nested submodules] Understand how to set up a SQL database with a backend API server
-6. \[Nested submodules] Understand how to design SQL database schemas for different business applications
+1. Define SQL and explain its role as a query language for relational databases.
+2. Describe the fundamental concepts of relational databases, including tables, relations, and data representation.
+3. Demonstrate the ability to set up and use psql, the PostgreSQL command-line client.
+4. Execute basic SQL commands to create tables, insert data, and query information from a PostgreSQL database.
+5. Analyze the structure of SQL table creation commands, including column definitions, data types, and constraints.
 
 ## Introduction
 
