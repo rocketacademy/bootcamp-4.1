@@ -1,11 +1,10 @@
-# 0.2: Git
+# Git
 
 ## Learning Objectives
 
-1. All software engineers use version control, and Git is the most popular version control system
-2. Version control allows us to track which versions of our code have which features, and to write code in teams while avoiding potential conflicts.
-3. Know how to add, and commit, files to "commits", i.e. versions of our code
-4. Know when to commit changes during project development
+1. Know how to use Git commands
+2. Know how to add, and commit, files to "commits", i.e. versions of our code
+3. Know when to commit changes during project development
 
 ## Introduction
 

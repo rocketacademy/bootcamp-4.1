@@ -1,8 +1,8 @@
-# 0.3: GitHub
+# GitHub
 
 ## Learning Objectives
 
-1. GitHub is a code-hosting website that hosts Git repos for individuals or teams to review and collaborate on
+1. Know what Github is and what feature it has
 2. Know how to fork a repo on GitHub
 3. Know how to clone a repo from GitHub
 4. Know how to push changes to GitHub
