@@ -1,10 +1,9 @@
-# 0.5: Node.js
+# Node.js
 
 ## Learning Objectives
 
-1. Node.js is a JavaScript runtime that enables us to run JavaScript programs from the command line
-2. Node.js provides a JavaScript development console in the command line
-3. Node.js provides a `process` variable we can use to access program parameters such as command line parameters
+1. Know what Node.js is and what it functionality it provides
+2. Run the runtime environment using the `node` command
 
 ## Introduction
 

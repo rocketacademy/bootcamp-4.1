@@ -1,11 +1,11 @@
-# 0.4.6: Promises
+# Promises
 
 ## Learning Objectives
 
-1. JavaScript Promises allow us to program logic to run after asynchronous function calls return, e.g. network requests that take an indefinite amount of time.
-2. Promises are an alternative to callback functions and often a "cleaner" syntax due to fewer levels of nesting.
-3. `.catch` allows us to run specified logic when our programs encounter errors in promises
-4. `Promise.all` allows us to wait on multiple promises concurrently instead of sequentially
+1. Understand what Promises are and what purpose they serve
+2. Use Promises as a replacement for callback functions
+3. Use the `.catch` statement to run specified logic when our programs encounter errors in promises
+4. Use the `Promise.all` statement to wait on multiple promises concurrently instead of sequentially
 
 ## Introduction
 
