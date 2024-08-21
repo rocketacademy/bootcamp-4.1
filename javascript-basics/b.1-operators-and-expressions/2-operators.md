@@ -1,4 +1,4 @@
-# 2.1: Arithmetic Operators | Mathematical Expressions
+# Arithmetic Operators | Mathematical Expressions
 
 ## Learning Objectives
 

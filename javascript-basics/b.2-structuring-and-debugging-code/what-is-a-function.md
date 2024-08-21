@@ -159,7 +159,7 @@ We are doing this in `main` - it is everything that we want to happen when the s
 
 Given the above function examples we can also say that a function can be a data calculation given some inputs. We can define an action as the kind of data it takes in and the kinds of outputs it gives.
 
-## errors
+## Errors
 
 Your program will have errors. In fact, errors are an intrinsic part of developing software for everyone, not just begginers.
 
@@ -237,7 +237,7 @@ This `main` function is missing the `return` keyword. Without it we can see the 
 
 This code does not have any javascript _syntax_ errors - it is considered by the computer to be valid javascript code, but it does not **behave** the way we want.
 
-### debugging
+### Debugging
 
 Debugging is the process of diagnosing and fixing the errors you have in your program.
 
@@ -247,7 +247,7 @@ Debugging can become more complicated when you are trying to diagnose a logical 
 
 We'll talk about a few strategies you can use to diagnose and correct errors.
 
-1. control flow checking - is our code even runnning?
+1. Control flow checking - is our code even runnning?
 
 Functions give us the ability to execute code in a certain order, from certain places in our code that we specify. If something in our code seems incomplete or wrong, one of the first things we can check is to see if it is running at all.
 
@@ -263,7 +263,7 @@ We can use the fact that text is appearing in the dev tools console as an implic
 
 If our `console.log` statement appears in the dev tools console then we know that our code is reachable by opur program.
 
-1. value checking - is the value correct?
+1. Value checking - is the value correct?
 
 Another way we can use `console.log` is to pass it the variable values our program deals with.
 

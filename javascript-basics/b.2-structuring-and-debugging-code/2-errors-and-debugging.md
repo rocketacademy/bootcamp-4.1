@@ -1,4 +1,4 @@
-# 3.2: Errors
+# Errors and Debugging
 
 ## Learning Objectives
 

@@ -1,8 +1,8 @@
-# 4.3: Boolean AND, NOT
+# Boolean AND, NOT
 
 ## Introduction
 
-In [4.2: Pseudo-Code, Boolean OR ](4.2-pseudo-code-boolean-or.md)we learned how to pseudo-code and use logical OR operators. In this module we will learn about the following.
+In previous lesson, we learned how to pseudo-code and use logical OR operators. In this module we will learn about the following.
 
 1. Code control: how to control program inputs to quickly verify program logic.
 2. Boolean values: what are boolean values and how are they stored in JavaScript?

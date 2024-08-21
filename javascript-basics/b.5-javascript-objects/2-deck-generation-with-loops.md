@@ -1,4 +1,4 @@
-# 9.2: Card Deck Generation with Loops
+# Card Deck Generation with Loops
 
 ## Learning Objectives
 
@@ -10,7 +10,7 @@ By the end of this lesson, you should be able to:
 
 {% embed url="https://www.youtube.com/watch?v=FG8QVeq5y-k" %}
 
-At the end of [Module 9.1: JavaScript Objects](1-javascript-objects.md#hard-coded-card-deck) we shared a hard-coded card deck. This would work for our applications, but we may wish to use loops to generate this deck to be more concise and so we can more easily modify the deck if we need to. Creating the card deck with loops is also a useful exercise in identifying patterns and automating them with loops.
+At the end of the previous lesson, we shared a hard-coded card deck. This would work for our applications, but we may wish to use loops to generate this deck to be more concise and so we can more easily modify the deck if we need to. Creating the card deck with loops is also a useful exercise in identifying patterns and automating them with loops.
 
 ## Card Deck Generation Code
 

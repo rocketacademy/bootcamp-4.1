@@ -1,219 +1,236 @@
-# 6.1: Arrays
+# Loops
 
 ## Learning Objectives
 
 By the end of this lesson, you should be able to:
 
-* Explain what an array is.
-* Use arrays to store similar "kinds" of data.
-* Access data stored in an array.
-* Use the built-in array methods of `push()` and `pop()` to manipulate data in an array
+- Explain how loops are used in the control flow of a program.
+- Use a `while` loop to run a code block for a fixed number of times.
+- Use loops within loops.
+- Be familiar with both the `for`-loop and `while`-loop syntax.
 
 ## Introduction
 
-{% embed url="https://youtu.be/CI09j_aHLE0" %}
+{% embed url="https://youtu.be/wn3G_OO32kg" %}
 
-We've built relatively complex programs using functions and conditionals with global state. In this module we will learn a new data type, or "data structure", to be precise: dynamic-length data "**arrays"**. We'll then learn how to manipulate arrays using a syntax called "**loops**". Just like each concept we've learned previously, the mechanic of the individual concepts will be relatively simple, but when we combine these concepts with previous concepts, the complexity of our apps can increase greatly.
+We've defined an array, added values to it, and inspected those values individually, but haven't yet learned how to systematically manipulate each element in the array, no matter how long the array is. To do this we will learn 1 more control structure: "**loops"**.
 
-## Arrays are a Type of Data Collection
+In SWE Fundamentals we will mostly use loops to iterate over array elements. Loops can also be used without arrays, for example to perform an action until a condition is no longer `true`, but we will not see this often in SWE Fundamentals.
 
-Values of each data type we have seen so far can be stored inside variables, e.g. numbers, strings, booleans, and even functions. Arrays can also be stored inside variables, but have an additional capability: to store 0 or more variables inside them. Arrays can thus be described as variable-length **"data collections"**, because they are a "collection" of data.
+A loop defines a **code block** (with curly braces) that runs until the loop condition is no longer met. We'll look at loops in isolation first, then see them in the context of arrays.
 
-## Arrays Only Store 1 "Kind" of Data at a Time
+### While Loop
 
-Arrays are data structures that store 0 or more values of the same kind. By "kind" we don't just mean the same data type, e.g. numbers, strings, or booleans. By "kind" we also mean the same _conceptual_ kind of data. For example, we might store computer-generated dice rolls in an array, or user guesses in an array, where both dice rolls and user guesses are numbers, but we would likely not store both dice rolls and user guesses in the _same_ array, because each is a different "kind" of data.
+While loops are the most fundamental type of loop in programming, and the concept exists in many programming languages. The following is a "while loop" that runs 10 times, i.e. until its condition is no longer met. Notice how we define a counter before the loop, and increment the counter at the end of the loop. The loop finishes when the counter reaches 10.
+
+```javascript
+// Initialise a counter to 0.
+var counter = 0;
+// Set the while loop condition to continue when counter is less than 10.
+while (counter < 10) {
+  // Log hello with each iteration of the loop.
+  console.log('hello');
+  // Increment the counter by 1 at the end of each loop iteration.
+  counter = counter + 1;
+}
+```
+
+#### While Loop with Input-Based Condition
+
+Let's create a program that outputs values in a loop, where the loop condition depends on user input.
+
+```javascript
+var main = function (input) {
+  var myOutputValue = '';
+  var counter = 0;
+  // Continue the loop while counter is less than the input value
+  while (counter < input) {
+    // Add 1 "yes" to the output for every loop iteration.
+    myOutputValue = myOutputValue + 'yes';
+    counter = counter + 1;
+  }
+  return myOutputValue;
+};
+```
 
 {% hint style="warning" %}
-JavaScript lets us add any data type into any array, regardless of what's already inside. The following would be considered valid JavaScript syntax.
-
-```javascript
-var myValues = [23, 'rocks', true, 0.345, 'awesome'];
-```
-
-However, the **concept** of the array is for holding data of the same kind, e.g. numerical dice rolls, and this almost always means the data is of the same JavaScript data type. Please do not deviate from this in SWE Fundamentals.
+Note that except for rare exceptions, the incrementation of the counter (`counter = counter + 1`) should be the last statement in the loop block. If you find yourself writing any statements below that, it may not be what you intended.
 {% endhint %}
 
-## 2 Conceptual Types of Arrays
+### Loops and Conditionals
 
-We can use arrays in 2 conceptual ways: to store static-length data and to store dynamic-length data.
+{% embed url="https://youtu.be/ozrUPHZWfIw" %}
 
-### Arrays as Static Data Collections
+#### While Loop with Input-Based Condition and Conditionals Inside Loop
 
-1 way we can use arrays is to store data that will never change. Examples of this are names of days of the week, and letters in the English alphabet. After we initialise these arrays, we will most likely only read from them, and not edit the values inside the arrays.
-
-#### Example: Array Containing Names of Days of the Week
+Let's create a program that outputs values in a loop, where loop condition depends on user input, with additional conditional statements inside the loop. In the following example, the conditionals inside the loop help the program combine 2 different strings into program output.
 
 ```javascript
-var daysOfTheWeek = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
-];
+var main = function (input) {
+  var myOutputValue = '';
+  var counter = 0;
+  // Continue the loop while counter is less than the input value
+  while (counter < input) {
+    // If counter is less than 5, add "yes" to output
+    if (counter < 5) {
+      myOutputValue = myOutputValue + 'yes';
+      // Otherwise, add "no" to output
+    } else {
+      myOutputValue = myOutputValue + 'no';
+    }
+    counter = counter + 1;
+  }
+  return myOutputValue;
+};
 ```
 
-**Example: Array Containing Letters in the Alphabet**
+#### Conditional Logic Variations
+
+Loops and conditionals alone are powerful tools to create output patterns. One of the main tricks with loops is identifying the pattern we want and working backward to construct the logic within the loop. The following example uses the modulus (`%`) operator in a conditional in a loop to alternate strings in output.
 
 ```javascript
-var letters = ['a', 'b', 'c'];
+var main = function (input) {
+  var myOutputValue = '';
+
+  var counter = 0;
+  while (counter < input) {
+    // If counter is even, add "yes" to output
+    // The modulus (%) operator returns the remainder after division
+    // If a number divided by 2 equals 0, we consider it even.
+    if (counter % 2 == 0) {
+      myOutputValue = myOutputValue + 'yes';
+      // Otherwise, add "no" to output
+    } else {
+      myOutputValue = myOutputValue + 'no';
+    }
+    counter = counter + 1;
+  }
+
+  return myOutputValue;
+};
 ```
 
-### Arrays as Static-Length Collections with Dynamic Data
+### Loops and Functions
 
-Another way we can use arrays is to store data that may change, but will always have the _same_ _number_ of elements. An example of this is storing temperatures of each day in the past week. There are always 7 days in the past week, thus there will always be 7 elements in our array, but the _value_ of each element can change depending on the temperature on the relevant day.
+{% embed url="https://youtu.be/5qeXMmGRhZY" %}
 
-**Example: Temperatures of Each Day in Past Week**
+We can also combine loops and functions. Functions in loops allow us to move code blocks (i.e. complex logic) outside loop definitions, breaking down our code into smaller components, helping simplify our code logic.
+
+In the following example, we define `rollDice` as a standalone function, and call `rollDice` from inside our loop. This helps keep our loop logic clean by separating the details of `rollDice` out from the loop.
 
 ```javascript
-var dailyAverageTemperatureInPastWeek = [30, 32, 29, 34, 36, 38, 32];
+var main = function (input) {
+  var myOutputValue = '';
+  var counter = 0;
+  while (counter < input) {
+    // Roll dice inside the loop, generating a random dice roll each iteration
+    var diceRoll = rollDice();
+    // Add each dice roll to output
+    myOutputValue = myOutputValue + ' ' + diceRoll + ' ';
+    // Increment counter at end of each iteration
+    counter = counter + 1;
+  }
+  return myOutputValue;
+};
 ```
 
-### Arrays as Dynamic Data Collections
+### Loops and Loops
 
-We can represent data that our program needs to alter as it runs. The program is responsible for keeping track of these data values, and making the array grow larger or smaller.
+{% embed url="https://youtu.be/wxUafGMsOw4" %}
 
-**Record a list of all guesses a user makes in the game.**
+### Nested Loops to Simulate Dimensions
+
+If we put a loop inside a loop we can represent 2 dimensions of output. Note we use `<br>` to create new rows. `<br>` is a newline HTML tag that can help us format our output.
 
 ```javascript
-var winningDiceGuesses = [3, 4, 2, 1, 4];
+var main = function (input) {
+  var myOutputValue = '';
+  // Initialise the outer counter, rowCounter
+  var rowCounter = 0;
+  while (rowCounter < input) {
+    // Inside the outer loop, initialise the inner counter, columnCounter
+    var columnCounter = 0;
+    // Every time the outer loop runs, the inner loop runs repeatedly until
+    // the inner loop condition is met.
+    while (columnCounter < input) {
+      // Each time the inner loop runs, it adds "x" to output
+      myOutputValue = myOutputValue + 'x';
+      columnCounter = columnCounter + 1;
+    }
+    // At the end of each outer loop, add a <br> tag to begin a new row
+    myOutputValue = myOutputValue + '<br>';
+    rowCounter = rowCounter + 1;
+  }
+  // After the outer loop has run to completion, return the output compiled
+  // by the above loops.
+  return myOutputValue;
+};
 ```
 
-#### List of the sales recorded up to the current day (whichever current date this program runs)
+## For Loops
+
+Most languages have variations on the while loop above that behave similarly. One common variation is the "for loop". For loops are a more concise syntax for looping over a fixed number of iterations. Whenever we have a fixed number of iterations we should use a for loop if possible. The 2 following examples behave the same, but the for loop syntax is more concise.
+
+### While Loop Syntax
 
 ```javascript
-var salesThisMonth = [34, 23, 12, 78, 56];
+// Initialise counter
+var counter = 0;
+// Declare loop condition
+while (counter < 10) {
+  console.log('hello');
+  // Increment counter
+  counter += 1;
+}
 ```
 
-## Array Properties
-
-Arrays have unique properties that allow us to represent data in new ways: **Position** and **order**.
-
-### Position
-
-We access elements in an array through **"indexes"** that represent the position of each array element. In the following example, element 1 is at index 0, element 2 at index 1, and element 3 at index 2. Arrays are 0-indexed, meaning the first element is always at index 0. Index 0 is always the left-most array position, and the last index is the right-most array position.
-
-```
-  0    1    2
-['a', 'b', 'c']
-```
-
-We can use square-bracket (`[]`) syntax to retrieve any element in an array by specifying that element's index in the square brackets.
+### For Loop Syntax
 
 ```javascript
-var letters = ['a', 'b', 'c'];
-var value = letters[2];
+// Initialise counter, declare loop condition, and increment counter in 1 line
+for (var counter = 0; counter < 10; counter += 1) {
+  console.log('hello');
+}
 ```
+
+The key difference in for loop syntax is that **all loop management code is consolidated in the top parenthesis group**. However, when the code runs, each step actually **happens in the same order as in the while loop example**. These steps are the following.
+
+1. Declare and initialise counter variable
+2. Evaluate condition
+3. Increment counter
+
+To solidify understanding of loops, we suggest using while loops until you are comfortable with loop mechanics.
 
 {% hint style="info" %}
-What happens when we try to access an array element that doesn't exist?
-
-```javascript
-letters[234534534534];
-```
+In other code examples you may see the incrementation step replaced by `counter++`. This adds 1 to `counter`. At Rocket we prefer ESLint's recommendation of `counter += 1` syntax. See ESLint's reasons against `++` syntax [here](https://eslint.org/docs/rules/no-plusplus).
 {% endhint %}
 
-#### Using User Input as Array Index
-
-The following example uses user input to retrieve a value at a specific index in the `letters` array.
-
-```javascript
-var letters = ['a', 'b', 'c'];
-
-var main = function (input) {
-  var myOutputValue = 'your letter: ' + letters[input];
-  return myOutputValue;
-};
-```
-
-### Order
-
-Array positions imply order, e.g. the element at index 0 comes before the element at index 1. The following array implies "a" is before "b".
-
-```javascript
-var letters = ['a', 'b', 'c'];
-```
-
-## Array Data Manipulation
-
-Let's learn how to alter, insert, and remove data from arrays. Notice the following code does not manipulate array values. It stores the value of the 3rd array element in a variable `value`, but does not alter the `letters` array.
-
-```javascript
-var letters = ['a', 'b', 'c'];
-var value = letters[2];
-```
-
-The following are methods to alter values in arrays.
-
-### Altering Existing Values in Arrays
-
-Create an array with values inside.
-
-```javascript
-var temperatures = [23, 43];
-```
-
-Alter a value inside the array by assigning a new value to the original value's location in that array. This will only alter the value at the specified location in the array, and not any other values. This allows us to reassign values in the array after we initialise the array.
-
-```javascript
-// Reassign the value at index 0 to a new value.
-temperatures[0] = 99;
-```
-
-### Inserting and Removing New Elements from Arrays
-
-There are 2 methods we will use often in SWE Fundamentals to add and remove elements from arrays: `push` and `pop`.
-
-#### `push`
-
-`push` adds a value to the **end** of an existing array. `push` accepts the value to be inserted as a parameter.
-
-```javascript
-var temperatures = [23, 43];
-// Add the parameter to push (33) to the end of the temperatures array.
-// The temperatures array will be [23, 43, 33].
-temperatures.push(33);
-```
-
-#### **`pop`**
-
-`pop` removes the **last** element from an array and _returns_ it.
-
-```javascript
-var temperatures = [23, 43];
-// Remove the last element (43) from the temperatures array.
-// The temperatures array will be [23], and lastElement will be 43.
-var lastElement = temperatures.pop();
-```
-
-### Example: Add User Input to Array
-
-The following is an example dice game that records and outputs all prior user guesses.
-
-```javascript
-// Store guesses in a global array that persists across Submits.
-var guesses = [];
-var main = function (input) {
-  // Add the user's guess to the guesses array.
-  guesses.push(input);
-  // Generate a random dice number.
-  var randomDiceNumber = rollDice();
-  // Initialise output to communicate loss.
-  // Output the record of all guesses regardless of loss or win.
-  var myOutputValue = 'You lose. Your guesses: ' + guesses;
-  // If the guess matches the dice roll, change output to communicate win.
-  if (randomDiceNumber == input) {
-    myOutputValue = 'You win. Your guesses: ' + guesses;
-  }
-  // Return output value.
-  return myOutputValue;
-};
-```
-
-## Exercises
+## Base Exercises
 
 ### Follow Along
 
-Implement the above code and verify results.
+Implement the above code.
+
+### Simple Loop with Variations
+
+1. Create a loop in the `main` function. Make the loop run 6 times, adding `"hello"` to `myOutputValue` with each loop iteration.
+2. What happens if `counter` starts as a number other than zero?
+3. What happens if, inside the loop, you alter the `counter` by adding a number other than one?
+4. What happens if you change the condition inside the loop from `counter < 6` to `counter <= 6`?
+
+### Loop within Loop
+
+1. Create nested loops in the `main` function, where the outer loop runs 3 times and the inner loop runs 3 times per outer loop. Concatenate `"hello"` to `myOutputValue` in the inner loop. How many times do we see `"hello"`?
+2. Add `"<br>"` to `myOutputValue` in the outer loop so that the program makes a new line for each outer loop.
+3. What happens if `outerCounter` starts as a number other than zero?
+4. What happens if `innerCounter` starts as a number other than zero?
+5. What happens if, inside the loop, you alter `outerCounter` by adding a number other than one?
+6. What happens if, inside the loop, you alter `innerCounter` by adding a number other than one?
+7. What happens if you change the outer loop condition from `outerCounter < 3` to `outerCounter <= 3`?
+8. What happens if you change the inner loop condition from `innerCounter < 3` to `innerCounter <= 3`?
+9. Update loop conditions to use `input` to control how many times the loops run.
+10. Update our code such that the inner loop runs twice the number of times as the outer loop. How many more times do we see `"hello"`?
+
+### Infinite Loop
+
+Make a loop that never stops running. Be prepared to stop / kill this Chrome tab, because it will freeze. We should be able to observe this tab's performance in Windows Task Manager or MacOS Activity Monitor.

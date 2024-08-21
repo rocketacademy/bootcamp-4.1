@@ -1,4 +1,4 @@
-# 9.1: JavaScript Objects
+# JavaScript Objects
 
 ## Learning Objectives
 
@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to:
 
 {% embed url="https://www.youtube.com/watch?v=11z4g8BOxXg" %}
 
-In this module we will introduce a new data structure called the JavaScript **Object**. This data structure is called different names in different contexts. For example, JS Objects are known as "hash tables" in computer science, "dictionaries" in Python, and "HashMaps" in Java. The JS Object is \***not**\* the same "object" concept referred to in Object Oriented Programming.
+In this module we will introduce a new data structure called the JavaScript **Object**. This data structure is called different names in different contexts. For example, JS Objects are known as "hash tables" in computer science, "dictionaries" in Python, and "HashMaps" in Java. The JS Object is **not** the same "object" concept referred to in Object Oriented Programming.
 
 We will use Objects to implement card games. It turns out that cards are easily represented by Objects and a clear demonstration of why Objects can be useful.
 
