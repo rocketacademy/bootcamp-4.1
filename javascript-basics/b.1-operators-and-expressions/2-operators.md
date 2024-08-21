@@ -1,0 +1,52 @@
+# 2.1: Arithmetic Operators | Mathematical Expressions
+
+## Learning Objectives
+
+* Be familiarized with the list of arithmetic operators available
+* Try writing your own mathematical expressions!
+* Use the addition operator on strings
+
+## Introduction
+
+Arithmetic operators takes numerical values as their operands (the values on both sides of the operator) and returns a single numerical value.
+
+`6 + 13 // '+' is the operator; both values, '6' and '13', are the operands`
+
+In the case above, 13, being on the right side, is added to 6, on the left.
+
+The standard arithmetic operators are addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`). These operators work as they do in most other programming languages when used with floating point numbers (decimals).
+
+Here is a list of arithmetic operators:
+
+| Operator                  | Description                                                                                                                  | Example                                              |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Addition ( + )            | <p><code>a + b</code><br>Result: adds <code>b</code> into <code>a</code>.</p>                                   | <p><code>3 + 9</code><br>Result: 12</p> |
+| Subtraction ( - )         | <p><code>a - b</code><br>Result: subtracts <code>b</code> from <code>a</code></p>                                            | <p><code>6 - 8</code><br>Result: -2</p> |
+| Multiplication ( \* )     | <p><code>a * b</code><br>Result: <code>a</code> is multiplied by <code>b</code></p>                                          | <p><code>4 * 2</code><br>Result: 8</p>               |
+| Division ( / )            | <p><code>a / b</code><br>Result: <code>a</code> is divided by <code>b</code></p>                                             | <p><code>9 / 3</code><br>Result: 3</p>  |
+| Remainder or Modulo ( % ) | <p><code>a % b</code><br>Result: remainder of <code>a</code> divided by <code>b</code></p>                                   | <p><code>10 % 6</code><br>Result: 4</p> |
+| Increment ( ++ )          | <p><code>a++</code><br>Result: adds 1 to <code>a</code></p>                                                     |                                                      |
+| Decrement ( -- )          | <p><code>a--</code><br>Result: subtracts 1 from <code>a</code></p>                                                           |                                                      |
+| Exponential ( \*\* )      | <p><code>a ** b</code><br><code></code>Result: <code>a</code> is multiplied by itself by <code>b</code> number of times.</p> |                                                      |
+
+## String Concatenation (addition operator)
+
+You are able to use the arithmetic addition operator to combine two strings together, this can also be known as concatenation of two strings. The same addition operator `+`  that is used on numbers are applied to strings in this case.&#x20;
+
+Though it should be noted that if you add two different data types together this can cause type coercion. Which is a fancy way of saying, JavaScript will alter the datatypes to accommodate the logic used. If you want to know more about type coercion please read about it [here.](https://www.geeksforgeeks.org/what-is-type-coercion-in-javascript/)  &#x20;
+
+Using the logical addition operator we can assign a combined string to a variable.
+
+{% code overflow="wrap" lineNumbers="true" %}
+```javascript
+// String Concatenation using logical operators
+
+const string = 'Good morning' + ' ' + 'class';
+
+console.log(string)
+// 'Good morning class'
+
+```
+{% endcode %}
+
+In the example above we are taking the operands strings/ values  `Good morning` ,  `' '`   and  `class` to create a single string reading  `Good morning class` . They are being combined through the  `+` sign which is the operator.&#x20;
