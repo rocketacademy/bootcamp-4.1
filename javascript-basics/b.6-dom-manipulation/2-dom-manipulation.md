@@ -17,7 +17,7 @@ Conceptually, we are still just defining **inputs** and **outputs.** Now inputs 
 
 #### Defining an Input
 
-{% embed url="https://www.youtube.com/watch?v=6fEp-k32Tv8" %}
+{% include youtube.com id="6fEp-k32Tv8" %}
 
 An input to our JavaScript program is called an **event**. Similar to how we can define functions as blocks of code that will only run when the function is called, we can write code that will only run when the user interacts with the browser via an **event**. We do this with the provided `.addEventListener()` method. The method takes in 2 inputs:
 
@@ -80,7 +80,7 @@ The function for an event is referred to as a **callback** function. In the case
 
 ## Advanced Applications in the Browser
 
-{% embed url="https://www.youtube.com/watch?v=mT-oeRViW9M" %}
+{% include youtube.com id="mT-oeRViW9M" %}
 
 The pattern of:
 

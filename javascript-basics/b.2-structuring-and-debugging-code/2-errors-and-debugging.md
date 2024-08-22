@@ -15,9 +15,7 @@ It has been told that on September 9th, 1947, [Grace Hopper](https://en.wikipedi
 
 When programs throw errors that we didn’t expect to encounter, we call those errors bugs. Programmers call the process of updating the program so that it no longer produces bugs: debugging.
 
-{% embed url="https://preview.redd.it/2o2iq7pxia981.gif?format=mp4&s=0e7e3d534e257152b1929d3cd146b55d8232b02c" %}
-Debugging a program
-{% endembed %}
+[Debugging a program]("https://preview.redd.it/2o2iq7pxia981.gif?format=mp4&s=0e7e3d534e257152b1929d3cd146b55d8232b02c")
 
 Our programs will have errors. Errors are an intrinsic part of software development for everyone, not just beginners. What differentiates beginners from more-experienced engineers is the speed with which more-experienced engineers can triage and resolve errors.
 
@@ -29,7 +27,7 @@ There are 2 broad categories of errors: **syntax** and **logical** errors. Synta
 
 We can use the console to fix both kinds.
 
-{% embed url="https://www.youtube.com/watch?v=iWmlkW6uQ-0" %}
+{% include youtube.com id="iWmlkW6uQ-0" %}
 
 ## Syntax errors
 

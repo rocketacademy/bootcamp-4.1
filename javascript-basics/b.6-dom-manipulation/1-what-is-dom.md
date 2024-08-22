@@ -4,9 +4,9 @@
 
 By the end of this lesson, you should be able to:
 
-- [ ] Briefly explain the Document Object Model (DOM).
-- [ ] Reference HTML elements using classes and IDs
-- [ ] Perform basic DOM manipulation in the browser console.
+- Briefly explain the Document Object Model (DOM).
+- Reference HTML elements using classes and IDs
+- Perform basic DOM manipulation in the browser console.
 
 ## Overview
 
@@ -23,7 +23,7 @@ In order to do that, we must first be able to _reference_ HTML elements that hav
 {% hint style="info" %}
 Similar to how we started with entering commands into the console, we will first explore and experiment with the DOM in the browser console. 
 
-{% embed url="https://youtu.be/AP8YcJ9MR64" %}
+{% include youtube.com id="AP8YcJ9MR64" %}
 
 ## DOM - Document Object Model
 
@@ -47,7 +47,7 @@ Open the console and type in the variable names `window` and `document` to see t
 
 ## Accessing Elements in the DOM
 
-{% embed url="https://youtu.be/eLYFvfY1lKU" %}
+{% include youtube.com id="eLYFvfY1lKU" %}
 
 Not every node in the DOM "tree" is pre-defined as an object. You can use JavaScript object notation to access nested _nodes_ in the document object: try `document.body` or `document.head`, or more generally: `document.children`. We can then use nested object notation to access child elements, so `document.body.children[0]` will access the first nested element in the `<body>`. This clearly isn't intuitive, what if we were looking for a specific element?
 
@@ -71,7 +71,7 @@ Can you guess what `.innerText` is or does? What happens when you execute the co
 
 ### Adding Elements to the DOM
 
-{% embed url="https://youtu.be/9E2wbG8Y6OY" %}
+{% include youtube.com id="9E2wbG8Y6OY" %}
 
 We have already seen how to use `document.querySelector()` to access elements that are already on the page. What if we wanted to create a new element and add it to the document, without having to edit `index.html`?
 

@@ -12,7 +12,7 @@ In previous lesson, we learned how to pseudo-code and use logical OR operators. 
 
 ## Code Control
 
-{% embed url="https://youtu.be/AYmtC4nWKsU" %}
+{% include youtube.com id="AYmtC4nWKsU" %}
 
 Sometimes we will want to control program inputs to verify program logic for specific inputs. This is especially relevant when we would otherwise not be able to control these inputs, for example when using a random number generator. Even though the user did not input the randomly-generated number, the number can be considered an input because it determines logic within the program.
 
@@ -106,7 +106,7 @@ var main = function (input) {
 
 ### Dice Game with 2 Dice and Snake Eyes
 
-{% embed url="https://youtu.be/Aelo-Ay71oA" %}
+{% include youtube.com id="Aelo-Ay71oA" %}
 
 Let's add another rule to our 2-dice dice game: the player loses if the 2 dice roll "snake eyes": 2 1s.
 
@@ -178,7 +178,7 @@ To express NOT snake eyes, we can negate the above boolean statement with the `!
 
 ## Conditional Debugging
 
-{% embed url="https://youtu.be/yXtC954S2W4" %}
+{% include youtube.com id="yXtC954S2W4" %}
 
 We've written pseudo-code, we've written JavaScript, we've controlled and tested our logic, yet our code could still have errors. Let's analyse common conditional errors and learn strategies to diagnose them.
 

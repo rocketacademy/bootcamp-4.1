@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% embed url="https://www.youtube.com/watch?v=11z4g8BOxXg" %}
+{% include youtube.com id="11z4g8BOxXg" %}
 
 In this module we will introduce a new data structure called the JavaScript **Object**. This data structure is called different names in different contexts. For example, JS Objects are known as "hash tables" in computer science, "dictionaries" in Python, and "HashMaps" in Java. The JS Object is **not** the same "object" concept referred to in Object Oriented Programming.
 
@@ -20,7 +20,7 @@ We will use Objects to implement card games. It turns out that cards are easily 
 
 ### How to Represent a Card Deck?
 
-{% embed url="https://www.youtube.com/watch?v=vSIm-Y9KANg" %}
+{% include youtube.com id="vSIm-Y9KANg" %}
 
 What would be the best way to represent a deck of cards in code? A deck of cards is a set of data (cards) that is of the same type (each card has the same attributes). This implies an array. We could create an array like the following.
 
@@ -133,7 +133,7 @@ When should we use Objects versus Arrays? Here is a summary.
 
 ### Card Shuffling
 
-{% embed url="https://www.youtube.com/watch?v=8DRwHSiyGe8" %}
+{% include youtube.com id="8DRwHSiyGe8" %}
 
 We can shuffle elements in an array by swapping random elements in the array repeatedly. We can apply this concept to shuffling cards, where each element in a card deck array is an object representing a playing card. The following code simulates card shuffling and will be useful for the card games we will implement.
 
@@ -167,7 +167,7 @@ var shuffleCards = function (cardDeck) {
 
 ### High Card
 
-{% embed url="https://www.youtube.com/watch?v=ZMDQwazN8I0" %}
+{% include youtube.com id="ZMDQwazN8I0" %}
 
 High Card is a card game where each player draws a random card, and the player with the highest card wins. Below is a sample implementation of High Card. We will soon be creating other card games, combining all we have learned so far in SWE Fundamentals.
 

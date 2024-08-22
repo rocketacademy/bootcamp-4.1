@@ -84,6 +84,5 @@ Do not worry if you are afraid of math. This course only involves basic math. Yo
 
 ## Further Readings
 
-{% embed url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators" %}
-MDN Documentation of JavaScript expressions and operators
-{% endembed %}
+[MDN Documentation of JavaScript expressions and operators]("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators")
+

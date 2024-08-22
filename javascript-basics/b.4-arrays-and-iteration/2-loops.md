@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% embed url="https://youtu.be/wn3G_OO32kg" %}
+{% include youtube.com id="wn3G_OO32kg" %}
 
 We've defined an array, added values to it, and inspected those values individually, but haven't yet learned how to systematically manipulate each element in the array, no matter how long the array is. To do this we will learn 1 more control structure: "**loops"**.
 
@@ -59,7 +59,7 @@ Note that except for rare exceptions, the incrementation of the counter (`counte
 
 ### Loops and Conditionals
 
-{% embed url="https://youtu.be/ozrUPHZWfIw" %}
+{% include youtube.com id="ozrUPHZWfIw" %}
 
 #### While Loop with Input-Based Condition and Conditionals Inside Loop
 
@@ -112,7 +112,7 @@ var main = function (input) {
 
 ### Loops and Functions
 
-{% embed url="https://youtu.be/5qeXMmGRhZY" %}
+{% include youtube.com id="5qeXMmGRhZY" %}
 
 We can also combine loops and functions. Functions in loops allow us to move code blocks (i.e. complex logic) outside loop definitions, breaking down our code into smaller components, helping simplify our code logic.
 
@@ -136,7 +136,7 @@ var main = function (input) {
 
 ### Loops and Loops
 
-{% embed url="https://youtu.be/wxUafGMsOw4" %}
+{% include youtube.com id="wxUafGMsOw4" %}
 
 ### Nested Loops to Simulate Dimensions
 

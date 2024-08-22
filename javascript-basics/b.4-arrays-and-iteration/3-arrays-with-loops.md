@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% embed url="https://www.youtube.com/watch?v=CMsjCb19_9s" %}
+{% include youtube.com id="CMsjCb19_9s" %}
 
 Often we want to perform actions on all elements of arrays of arbitrary length. We can use loops to run code on each array element sequentially.
 
