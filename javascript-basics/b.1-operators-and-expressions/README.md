@@ -66,11 +66,11 @@ The JavaScript language is capable of performing math operations. Enter the foll
 
 The input here is a mathematical equation typed in by the user, you. You have instructed the computer to perform a mathematical operation. The computer returned an output, the evaluation of the equation.
 
-{% hint style="info" %}
+
 These exercises may seem trivial, but mathematical operations are at the core of all computing instructions. Computers fundamentally **compute.** That being said, they can get things predictably wrong. Try: `0.1 + 0.2` in your console. Did you get what you expect?
 
 Coding Fundamentals will not cover why computers sometimes behave in odd ways, but you can read up more about this particular behaviour [here](https://0.30000000000000004.com) and [here](https://betterprogramming.pub/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476).
-{% endhint %}
+
 
 ### Operators
 
@@ -78,9 +78,9 @@ In the above code, `+` `*` `-` and `/` are known as _operators._ Specifically, t
 
 We will address all the arithmetic operators in the next section, and other operators in the following sections!.
 
-{% hint style="info" %}
+
 Do not worry if you are afraid of math. This course only involves basic math. You are here to learn how to write code and not solve math problems! Hang in there 💪
-{% endhint %}
+
 
 ## Further Readings
 

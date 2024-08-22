@@ -231,9 +231,9 @@ console.log(randomDiceNumber - 1 == input);
 
 ## Exercises
 
-{% hint style="info" %}
+
 Share your work with your section: save the code you write into another file. Name it `share.js` (A file only for sharing in the community channel.) Send the code file as a snippet in your section community channel.
-{% endhint %}
+
 
 ### Follow Along
 
@@ -248,9 +248,9 @@ Create new versions of our dice game for each of the following winning condition
 3. User wins if guess is within 1 of either dice but the user does not roll snake eyes.
 4. User wins if guess is within 1 of either dice or if the user rolls snake eyes.
 
-{% hint style="info" %}
+
 If the above exercises are taking a long time, we may wish to complete the subsequent pre-class modules before returning to these exercises.
-{% endhint %}
+
 
 ## Further Reading
 

@@ -47,17 +47,16 @@ Code blocks may or may not run depending on "[**control flow**](https://en.wikip
 
 Try inputting secret and non-secret phrases into the program. Enter the secret phrase and click the button to see the different output. Enter anything else and click the button to see the default output.
 
-{% hint style="info" %}
+
 Note the distinction in our code example between variable **declaration** and **assignment**. On line 2 we "declare" the variable `myOutputValue`. This creates the named container that we can store values inside. On line 5 we "assign" a new value to the `myOutputValue` container. The old value is overwritten and non-retrievable. Notice that declaration with the `var` keyword is only done once per variable. Please do not use `var` when assigning new values to existing variables in conditionals like if statements.
-{% endhint %}
+
 
 ### Equality
 
 We're using the "[**comparison operator**](https://www.w3schools.com/js/js_comparisons.asp)" `==` to test if `input` is equal to `'palatable papaya'`.
 
-{% hint style="info" %}
+
 There are two comparison operators in JavaScript to check for equality, `==`, known as the abstract equality operator, and `===`, the strict equality operator. For the purpose of this course, `==` will suffice, but you are free to explore and experiment. You can read more about the in-depth differences between them in [this](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons) discussion.
-{% endhint %}
 
 ## Comments
 

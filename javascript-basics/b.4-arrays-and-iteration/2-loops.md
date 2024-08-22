@@ -53,9 +53,9 @@ var main = function (input) {
 };
 ```
 
-{% hint style="warning" %}
+
 Note that except for rare exceptions, the incrementation of the counter (`counter = counter + 1`) should be the last statement in the loop block. If you find yourself writing any statements below that, it may not be what you intended.
-{% endhint %}
+
 
 ### Loops and Conditionals
 
@@ -201,9 +201,9 @@ The key difference in for loop syntax is that **all loop management code is cons
 
 To solidify understanding of loops, we suggest using while loops until you are comfortable with loop mechanics.
 
-{% hint style="info" %}
+
 In other code examples you may see the incrementation step replaced by `counter++`. This adds 1 to `counter`. At Rocket we prefer ESLint's recommendation of `counter += 1` syntax. See ESLint's reasons against `++` syntax [here](https://eslint.org/docs/rules/no-plusplus).
-{% endhint %}
+
 
 ## Base Exercises
 

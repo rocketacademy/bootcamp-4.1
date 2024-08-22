@@ -19,9 +19,9 @@ To do more than just basic math, we need to store, access and manipulate data in
 
 Variables store and contain data. We name a variable and we associate a specific data value with it. We use variables to represent data that our program will process. First, we name a variable by using the **keyword** `var`. This tells the browser that the next word is the intended name for the variable.
 
-{% hint style="info" %}
-Keywords are words that have a pre-defined meaning within a programming language, and are reserved for that use only. While all programming languages will have some way to declare a variable, different languages will do so using different keywords or _syntax_.
-{% endhint %}
+
+Keywords are words that have a pre-defined meaning within a programming language, and are reserved for that use only. While all programming languages will have some way to declare a variable, different languages will do so using different keywords or syntax.
+
 
 In order to assign a value to a variable, we use the assignment operator `=`. In programming, the equals sign has a slightly different meaning than in a mathematical equation, we are using `=` **declaratively**:
 
@@ -42,9 +42,7 @@ We can also use variables to _capture_ the result of that calculated value, and 
 var area = pi * radius * radius;
 ```
 
-{% hint style="info" %}
 Note: You may have seen `let` and `const` syntax being used to declare variables in JavaScript. `let` and `const` are both _relatively_ new ways to declare variables in JavaScript, and while `let` has a similar use case to `var,` they are different in ways which we will not delve into right now. For the purposes of Coding Fundamentals, it will suffice to use `var`, but you are free to explore and experiment.
-{% endhint %}
 
 ## **The Importance of Abstraction** <a href="#the-importance-of-abstraction" id="the-importance-of-abstraction"></a>
 

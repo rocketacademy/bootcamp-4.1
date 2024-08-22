@@ -47,9 +47,9 @@ Define a function that "abstracts" the km-to-miles conversion we did in [2.3: Ou
 2. Create a variable for our function: `var convertKmToMiles`. **Note that function variable names start with a verb by convention, to distinguish them from variables storing other data types. With few exceptions such as the `main` function, function names should almost always start with a verb.**
 3. Assign a function definition to that variable: `var convertKmToMiles = function () {}`
 
-{% hint style="info" %}
+
 Note the beginning and end of the function "block" with curly braces (`{}`). We will add function logic within these curly braces. Semicolons marked the end of a line of code, curly braces are used to mark the start and end of a **code block.**
-{% endhint %}
+
 
 ```javascript
 var convertKmToMiles = function () {};
@@ -63,9 +63,9 @@ var distanceInMiles = distanceInKm * 0.62;
 
 Use the `return` keyword to define the function's output value. For our `convertKmToMiles` function, our return value is the distance in miles.
 
-{% hint style="info" %}
+
 Note that the output of a function may not be the output of the overall program, because functions can call other functions. The output of the overall Coding Fundamentals starter code program is the return value of the `main` function.
-{% endhint %}
+
 
 ```javascript
 return distanceInMiles;
@@ -239,9 +239,9 @@ For each app, create a new copy of the Fundamentals Starter Code folder.
 
 For each exercise try to encapsulate each distinct operation inside a function that returns a value. For example, `daysToMinutes(3)` is a function that converts days to minutes, takes a number of days as input, and returns a number of minutes.
 
-{% hint style="info" %}
+
 Share your work with your section: save the code you write into another file. Name it `share.js` (A file only for sharing in the community channel.) Send the code file as a snippet in your section community channel.
-{% endhint %}
+
 
 ### Run Example Code
 

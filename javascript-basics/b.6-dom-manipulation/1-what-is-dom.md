@@ -20,7 +20,7 @@ In next lesson, we will learn how to make our web applications more interactive 
 
 In order to do that, we must first be able to _reference_ HTML elements that have already been rendered and link them to JavaScript variables, so that we can manipulate them the same way we manipulated data previously.
 
-{% hint style="info" %}
+
 Similar to how we started with entering commands into the console, we will first explore and experiment with the DOM in the browser console. 
 
 {% include youtube.com id="AP8YcJ9MR64" %}
@@ -41,9 +41,9 @@ We've already seen one: `console.log()`. To be specific, `console` is an _object
 
 Besides `console,` the other major objects that represent the DOM are `window` and `document`. We will next explore the `document` object and the `document.querySelector()` method.
 
-{% hint style="info" %}
+
 Open the console and type in the variable names `window` and `document` to see the values in the console. Click the triangles to the left of the output to see inside them. What is there?
-{% endhint %}
+
 
 ## Accessing Elements in the DOM
 

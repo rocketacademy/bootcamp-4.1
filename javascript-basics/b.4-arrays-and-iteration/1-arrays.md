@@ -23,7 +23,7 @@ Values of each data type we have seen so far can be stored inside variables, e.g
 
 Arrays are data structures that store 0 or more values of the same kind. By "kind" we don't just mean the same data type, e.g. numbers, strings, or booleans. By "kind" we also mean the same conceptual kind of data. For example, we might store computer-generated dice rolls in an array, or user guesses in an array, where both dice rolls and user guesses are numbers, but we would likely not store both dice rolls and user guesses in the same array, because each is a different "kind" of data.
 
-{% hint style="warning" %}
+
 JavaScript lets us add any data type into any array, regardless of what's already inside. The following would be considered valid JavaScript syntax.
 
 ```javascript
@@ -31,7 +31,7 @@ var myValues = [23, 'rocks', true, 0.345, 'awesome'];
 ```
 
 However, the **concept** of the array is for holding data of the same kind, e.g. numerical dice rolls, and this almost always means the data is of the same JavaScript data type. Please do not deviate from this in SWE Fundamentals.
-{% endhint %}
+
 
 ## 2 Conceptual Types of Arrays
 
@@ -107,13 +107,12 @@ var letters = ['a', 'b', 'c'];
 var value = letters[2];
 ```
 
-{% hint style="info" %}
 What happens when we try to access an array element that doesn't exist?
 
 ```javascript
 letters[234534534534];
 ```
-{% endhint %}
+
 
 #### Using User Input as Array Index
 
