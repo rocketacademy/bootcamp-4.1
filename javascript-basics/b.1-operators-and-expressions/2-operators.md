@@ -37,7 +37,6 @@ Though it should be noted that if you add two different data types together this
 
 Using the logical addition operator we can assign a combined string to a variable.
 
-{% code overflow="wrap" lineNumbers="true" %}
 ```javascript
 // String Concatenation using logical operators
 
@@ -47,6 +46,5 @@ console.log(string)
 // 'Good morning class'
 
 ```
-{% endcode %}
 
 In the example above we are taking the operands strings/ values  `Good morning` ,  `' '`   and  `class` to create a single string reading  `Good morning class` . They are being combined through the  `+` sign which is the operator.
