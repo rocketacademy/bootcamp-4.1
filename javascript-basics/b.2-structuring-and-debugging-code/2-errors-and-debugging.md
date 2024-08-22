@@ -13,9 +13,7 @@ By the end of this lesson, you should be able to do the following:
 
 It has been told that on September 9th, 1947, [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), an American computer scientist, found a moth in the Harvard Mark II computer’s logbook and reported the world’s first literal computer bug. However, the term “bug,” in the sense of technical error, dates back at least to 1878 and with Thomas Edison.
 
-![](../.gitbook/assets/grace-hopper-bug.jpeg)
-
-When programs throw errors that we didn’t expect to encounter, we call those errors _bugs_. Programmers call the process of updating the program so that it no longer produces bugs: _debugging_.
+When programs throw errors that we didn’t expect to encounter, we call those errors bugs. Programmers call the process of updating the program so that it no longer produces bugs: debugging.
 
 {% embed url="https://preview.redd.it/2o2iq7pxia981.gif?format=mp4&s=0e7e3d534e257152b1929d3cd146b55d8232b02c" %}
 Debugging a program
@@ -35,14 +33,16 @@ We can use the console to fix both kinds.
 
 ## Syntax errors
 
-These are errors where we will see red text in the console. Syntax errors can be divided into 2 kinds: _compile-time_ and _run-time_ errors.
+These are errors where we will see red text in the console. Syntax errors can be divided into 2 kinds: compile-time and run-time errors.
 
 ### Compile-Time Syntax Errors
 
-Compile-time syntax errors are errors that can be detected before our code runs. These are similar to grammatical errors caught by _auto-correct_. VSCode will point out these errors in VSCode before we run our programs by highlighting the error code with red squiggly lines. If we try to run programs with compile-time errors, the programs will not run and we will see the errors in the Chrome console.
+Compile-time syntax errors are errors that can be detected before our code runs. These are similar to grammatical errors caught by auto-correct. VSCode will point out these errors in VSCode before we run our programs by highlighting the error code with red squiggly lines. If we try to run programs with compile-time errors, the programs will not run and we will see the errors in the Chrome console.
 
-In some other programming languages, such as Java or C++, there is a compilation step before our code runs to translate human-readable code to machine code known as [binary](https://www.youtube.com/watch?v=wgbV6DLVezo).\
-\
+In some other programming languages, such as Java or C++, there is a compilation step before our code runs to translate human-readable code to machine code known as [binary](https://www.youtube.com/watch?v=wgbV6DLVezo).
+
+
+
 Languages such as JavaScript and Python are [interpreted ](additional-resources-3.md#errors)programs where there isn't a dedicated compilation step, but the terminology compile-time can still be used to refer to time after the program is written but before it is executed.
 
 Let's introduce a syntax error into our program. Replace our `kilometersToMiles` function with the one below.
@@ -76,9 +76,9 @@ Singapore, lunch! you plane
 
 Auto-correct won't catch any errors as each word is spelt correctly, grammatically valid and makes sense individually, but it's impossible to make sense of what is trying to be communicated.
 
-Run-time syntax errors are syntax errors that are only detected _during_ when our programs are running. These types of errors are not possible in compiled languages because the entire program runs through a compiler before it can be executed.&#x20;
+Run-time syntax errors are syntax errors that are only detected _during_ when our programs are running. These types of errors are not possible in compiled languages because the entire program runs through a compiler before it can be executed.
 
-JavaScript, being an _interpreted_ language, code may only be read by the computer when it is executed. This produces 'run-time syntax errors' that are common in JavaScript. Fortunately, we have VSCode to help us detect these errors before we run our programs.
+JavaScript, being an interpreted language, code may only be read by the computer when it is executed. This produces 'run-time syntax errors' that are common in JavaScript. Fortunately, we have VSCode to help us detect these errors before we run our programs.
 
 Let's create a run-time syntax error.
 

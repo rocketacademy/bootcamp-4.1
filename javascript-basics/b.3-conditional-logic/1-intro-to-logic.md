@@ -43,20 +43,20 @@ var main = function (input) {
 
 Our if statement is on line 5. The conditional inside it tests if `input` is equal to `'palatable papaya'`, our secret phrase. If `input` is equal to `'palatable papaya'`, the code runs between the curly braces on lines 5 and 7, i.e. the "if block". If `input` is not equal to our phrase, the if block does not run.
 
-Code blocks may or may not run depending on "[**control flow**](https://en.wikipedia.org/wiki/Control\_flow)", i.e. the logic of our app. The 1st way we learned to use code blocks was with functions. If statements are the second way. We'll learn a 3rd code block syntax later called loops.
+Code blocks may or may not run depending on "[**control flow**](https://en.wikipedia.org/wiki/Control_flow)", i.e. the logic of our app. The 1st way we learned to use code blocks was with functions. If statements are the second way. We'll learn a 3rd code block syntax later called loops.
 
 Try inputting secret and non-secret phrases into the program. Enter the secret phrase and click the button to see the different output. Enter anything else and click the button to see the default output.
 
 {% hint style="info" %}
-Note the distinction in our code example between variable _**declaration**_ and _**assignment**_. On line 2 we "declare" the variable `myOutputValue`. This creates the named container that we can store values inside. On line 5 we "assign" a new value to the `myOutputValue` container. The old value is overwritten and non-retrievable. Notice that declaration with the `var` keyword is only done _once_ per variable. Please do not use `var` when assigning new values to existing variables in conditionals like if statements.
+Note the distinction in our code example between variable **declaration** and **assignment**. On line 2 we "declare" the variable `myOutputValue`. This creates the named container that we can store values inside. On line 5 we "assign" a new value to the `myOutputValue` container. The old value is overwritten and non-retrievable. Notice that declaration with the `var` keyword is only done once per variable. Please do not use `var` when assigning new values to existing variables in conditionals like if statements.
 {% endhint %}
 
 ### Equality
 
-We're using the "[**comparison operator**](https://www.w3schools.com/js/js\_comparisons.asp)" `==` to test if `input` is equal to `'palatable papaya'`.
+We're using the "[**comparison operator**](https://www.w3schools.com/js/js_comparisons.asp)" `==` to test if `input` is equal to `'palatable papaya'`.
 
 {% hint style="info" %}
-There are two comparison operators in JavaScript to check for equality, `==`, known as the abstract equality operator, and `===`, the strict equality operator. For the purpose of this course, `==` will suffice, but you are free to explore and experiment. You can read more about the in-depth differences between them in [this ](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons)discussion.
+There are two comparison operators in JavaScript to check for equality, `==`, known as the abstract equality operator, and `===`, the strict equality operator. For the purpose of this course, `==` will suffice, but you are free to explore and experiment. You can read more about the in-depth differences between them in [this](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons) discussion.
 {% endhint %}
 
 ## Comments
@@ -75,9 +75,9 @@ We will be using this 'Dice Rolling function' as a base to explore Logic and Con
 
 ### Random Number Generation
 
-To simulate dice, we first need random number generation. JavaScript can produce random numbers using a built-in "**library**" called [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) (_case-sensitive_). `Math` contains functions that perform common and helpful math operations.
+To simulate dice, we first need random number generation. JavaScript can produce random numbers using a built-in "**library**" called [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) (case-sensitive). `Math` contains functions that perform common and helpful math operations.
 
-The function we need is `Math.random()`. **Note the function call using ()**_
+The function we need is `Math.random()`. **Note the function call using ()**
 
 ```javascript
 var myRandomValue = Math.random();

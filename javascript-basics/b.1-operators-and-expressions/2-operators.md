@@ -20,20 +20,20 @@ Here is a list of arithmetic operators:
 
 | Operator                  | Description                                                                                                                  | Example                                              |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| Addition ( + )            | <p><code>a + b</code><br>Result: adds <code>b</code> into <code>a</code>.</p>                                   | <p><code>3 + 9</code><br>Result: 12</p> |
-| Subtraction ( - )         | <p><code>a - b</code><br>Result: subtracts <code>b</code> from <code>a</code></p>                                            | <p><code>6 - 8</code><br>Result: -2</p> |
-| Multiplication ( \* )     | <p><code>a * b</code><br>Result: <code>a</code> is multiplied by <code>b</code></p>                                          | <p><code>4 * 2</code><br>Result: 8</p>               |
-| Division ( / )            | <p><code>a / b</code><br>Result: <code>a</code> is divided by <code>b</code></p>                                             | <p><code>9 / 3</code><br>Result: 3</p>  |
-| Remainder or Modulo ( % ) | <p><code>a % b</code><br>Result: remainder of <code>a</code> divided by <code>b</code></p>                                   | <p><code>10 % 6</code><br>Result: 4</p> |
-| Increment ( ++ )          | <p><code>a++</code><br>Result: adds 1 to <code>a</code></p>                                                     |                                                      |
-| Decrement ( -- )          | <p><code>a--</code><br>Result: subtracts 1 from <code>a</code></p>                                                           |                                                      |
-| Exponential ( \*\* )      | <p><code>a ** b</code><br><code></code>Result: <code>a</code> is multiplied by itself by <code>b</code> number of times.</p> |                                                      |
+| Addition ( + )            | <p>a + b<br>Result: adds b into a.</p>                                   | <p>3 + 9<br>Result: 12</p> |
+| Subtraction ( - )         | <p>a - b<br>Result: subtracts b from a</p>                                            | <p>6 - 8<br>Result: -2</p> |
+| Multiplication ( * )     | <p>a * b<br>Result: a is multiplied by b</p>                                          | <p>4 * 2<br>Result: 8</p>               |
+| Division ( / )            | <p>a / b<br>Result: a is divided by b</p>                                             | <p>9 / 3<br>Result: 3</p>  |
+| Remainder or Modulo ( % ) | <p>a % b<br>Result: remainder of a divided by b</p>                                   | <p>10 % 6<br>Result: 4</p> |
+| Increment ( ++ )          | <p>a++<br>Result: adds 1 to a</p>                                                     |                                                      |
+| Decrement ( -- )          | <p>a--<br>Result: subtracts 1 from a</p>                                                           |                                                      |
+| Exponential ( ** )      | <p>a ** b<br>Result: a</ is multiplied by itself by b number of times.</p> |                                                      |
 
 ## String Concatenation (addition operator)
 
-You are able to use the arithmetic addition operator to combine two strings together, this can also be known as concatenation of two strings. The same addition operator `+`  that is used on numbers are applied to strings in this case.&#x20;
+You are able to use the arithmetic addition operator to combine two strings together, this can also be known as concatenation of two strings. The same addition operator `+`  that is used on numbers are applied to strings in this case.
 
-Though it should be noted that if you add two different data types together this can cause type coercion. Which is a fancy way of saying, JavaScript will alter the datatypes to accommodate the logic used. If you want to know more about type coercion please read about it [here.](https://www.geeksforgeeks.org/what-is-type-coercion-in-javascript/)  &#x20;
+Though it should be noted that if you add two different data types together this can cause type coercion. Which is a fancy way of saying, JavaScript will alter the datatypes to accommodate the logic used. If you want to know more about type coercion please read about it [here.](https://www.geeksforgeeks.org/what-is-type-coercion-in-javascript/)
 
 Using the logical addition operator we can assign a combined string to a variable.
 
@@ -49,4 +49,4 @@ console.log(string)
 ```
 {% endcode %}
 
-In the example above we are taking the operands strings/ values  `Good morning` ,  `' '`   and  `class` to create a single string reading  `Good morning class` . They are being combined through the  `+` sign which is the operator.&#x20;
+In the example above we are taking the operands strings/ values  `Good morning` ,  `' '`   and  `class` to create a single string reading  `Good morning class` . They are being combined through the  `+` sign which is the operator.

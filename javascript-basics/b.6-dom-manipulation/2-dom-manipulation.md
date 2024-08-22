@@ -1,4 +1,4 @@
-# 10.4: DOM Manipulation
+# DOM Manipulation
 
 ## Learning Objectives:
 

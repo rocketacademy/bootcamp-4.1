@@ -194,13 +194,13 @@ var kilometersToMiles = function (distanceInKilometers) {
 };
 ```
 
-You'll get the error: `Uncaught SyntaxError: Unexpected token ')'`. This may look cryptic, but once you see this error a few times \( and you definitely will \) you'll understand what it is trying to tell you.
+You'll get the error: `Uncaught SyntaxError: Unexpected token ')'`. This may look cryptic, but once you see this error a few times (and you definitely will) you'll understand what it is trying to tell you.
 
 FIrst of all, the console is helpfully telling you which line of your code the error is occuring on.
 
 Specifically in this case the error was a missing parenthese. Javascript knew because of the `function` keyword that a function was about to be defined. It was waiting for an opening left parenthese. When it found a right parenthese it knew for sure that something was wrong.
 
-There are some spcific rules about why javascript can't know that a left parenthese was missing \( rather than a right parenthese is incorrect \) which are outside the scope of this course, but in practice, unfortunately, you as the programmer will have to know that "I didn't expect a right parenthese" infers that it was looking for a left parenthese.
+There are some spcific rules about why javascript can't know that a left parenthese was missing (rather than a right parenthese is incorrect) which are outside the scope of this course, but in practice, unfortunately, you as the programmer will have to know that "I didn't expect a right parenthese" infers that it was looking for a left parenthese.
 
 A significant amount of the feedback you will get from the computer will be these semi-cryptic messages about why your code is wrong.
 
@@ -220,7 +220,7 @@ You'll get the error `Uncaught TypeError: "hello world" is not a function`. This
 
 Specifically javascript thinks the parentheses mean that you want to run some kind of function. This error isn't too common, but notice that for this type of error, javascript didn't let you know until it tried to run the code.
 
-### 2. logical / control errors
+### 2. Logical / control errors
 
 Some of the errors your program will have will not produce any red output on the console.
 

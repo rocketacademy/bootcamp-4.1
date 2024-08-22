@@ -20,9 +20,9 @@ We can now start to group the code we're working with into "functions" and use f
 
 ## What Functions Are
 
-A function is a collection of lines of code, also known as a **"block"** of code. We run that code when we write the appropriate statement to "execute" the function. A function is a type of **"control flow"**, meaning function definitions in our code may not execute _sequentially_ through the code file. For example, we may define a function at the top of our file, but only execute that function at the bottom of our file.
+A function is a collection of lines of code, also known as a **"block"** of code. We run that code when we write the appropriate statement to "execute" the function. A function is a type of **"control flow"**, meaning function definitions in our code may not execute sequentially through the code file. For example, we may define a function at the top of our file, but only execute that function at the bottom of our file.
 
-We can think of functions as "recipes" of code; a fixed set of instructions or steps, that can take in a variable input (_e.g. number of dinner guests)_ and give a certain output (_enough food for dinner_), even though the instructions are statically defined. Functions have 3 key parts:
+We can think of functions as "recipes" of code; a fixed set of instructions or steps, that can take in a variable input (e.g. number of dinner guests) and give a certain output (enough food for dinner), even though the instructions are statically defined. Functions have 3 key parts:
 
 1. Input(s)
 2. Pre-defined operations on the input
@@ -36,8 +36,8 @@ Functions sometimes do not take in input, and sometimes do not return an output,
 
 Functions are necessary to abstract complexity away from the main logic of our applications. This allows us to break problems down into ever-smaller sub-problems, simplifying the process of coding complex applications. In this module we will see 2 use-cases of functions.
 
-1. Purpose-built data manipulators that take inputs and give outputs. These are sometimes called _"helper"_ functions. We will define our functions' inputs and outputs, and all the instructions for that function will be contained in a block of code as part of the function _definition_.
-2. Logic sequences that we wish to encapsulate in a _"sub-routine"_. We do this with our `main` function. `main` contains everything we want to happen when the user clicks Submit. It is common for sub-routine functions to rely on several other helper functions.
+1. Purpose-built data manipulators that take inputs and give outputs. These are sometimes called _"helper"_ functions. We will define our functions' inputs and outputs, and all the instructions for that function will be contained in a block of code as part of the function definition.
+2. Logic sequences that we wish to encapsulate in a "sub-routine". We do this with our `main` function. `main` contains everything we want to happen when the user clicks Submit. It is common for sub-routine functions to rely on several other helper functions.
 
 ## Define a Function
 
@@ -48,7 +48,7 @@ Define a function that "abstracts" the km-to-miles conversion we did in [2.3: Ou
 3. Assign a function definition to that variable: `var convertKmToMiles = function () {}`
 
 {% hint style="info" %}
-Note the beginning and end of the function "block" with curly braces (`{}`). We will add function logic within these curly braces. Semicolons marked the end of a line of code, curly braces are used to mark the start and end of a _**code block.**_
+Note the beginning and end of the function "block" with curly braces (`{}`). We will add function logic within these curly braces. Semicolons marked the end of a line of code, curly braces are used to mark the start and end of a **code block.**
 {% endhint %}
 
 ```javascript
@@ -88,7 +88,7 @@ var convertKmToMiles = function (distanceInKm) {
 
 ### Functions Can Have Multiple Input Parameters
 
-Functions can accept more than 1 input parameter, and input parameters are assigned based on position in the input parameter list, _not_ by variable name.
+Functions can accept more than 1 input parameter, and input parameters are assigned based on position in the input parameter list, not by variable name.
 
 For example, if we define a function with syntax like the following,
 

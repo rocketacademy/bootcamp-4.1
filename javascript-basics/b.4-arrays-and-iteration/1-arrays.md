@@ -21,7 +21,7 @@ Values of each data type we have seen so far can be stored inside variables, e.g
 
 ## Arrays Only Store 1 "Kind" of Data at a Time
 
-Arrays are data structures that store 0 or more values of the same kind. By "kind" we don't just mean the same data type, e.g. numbers, strings, or booleans. By "kind" we also mean the same _conceptual_ kind of data. For example, we might store computer-generated dice rolls in an array, or user guesses in an array, where both dice rolls and user guesses are numbers, but we would likely not store both dice rolls and user guesses in the _same_ array, because each is a different "kind" of data.
+Arrays are data structures that store 0 or more values of the same kind. By "kind" we don't just mean the same data type, e.g. numbers, strings, or booleans. By "kind" we also mean the same conceptual kind of data. For example, we might store computer-generated dice rolls in an array, or user guesses in an array, where both dice rolls and user guesses are numbers, but we would likely not store both dice rolls and user guesses in the same array, because each is a different "kind" of data.
 
 {% hint style="warning" %}
 JavaScript lets us add any data type into any array, regardless of what's already inside. The following would be considered valid JavaScript syntax.
@@ -63,7 +63,7 @@ var letters = ['a', 'b', 'c'];
 
 ### Arrays as Static-Length Collections with Dynamic Data
 
-Another way we can use arrays is to store data that may change, but will always have the _same_ _number_ of elements. An example of this is storing temperatures of each day in the past week. There are always 7 days in the past week, thus there will always be 7 elements in our array, but the _value_ of each element can change depending on the temperature on the relevant day.
+Another way we can use arrays is to store data that may change, but will always have the same number of elements. An example of this is storing temperatures of each day in the past week. There are always 7 days in the past week, thus there will always be 7 elements in our array, but the value of each element can change depending on the temperature on the relevant day.
 
 **Example: Temperatures of Each Day in Past Week**
 
@@ -179,7 +179,7 @@ temperatures.push(33);
 
 #### **`pop`**
 
-`pop` removes the **last** element from an array and _returns_ it.
+`pop` removes the **last** element from an array and returns it.
 
 ```javascript
 var temperatures = [23, 43];

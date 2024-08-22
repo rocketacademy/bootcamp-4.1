@@ -34,7 +34,7 @@ We will look into these expressions in greater detail within the sub-modules. At
 
 ## Using Chrome DevTools Console
 
-The reason we ask every student to use Google Chrome for this course is to both standardise the tools everyone uses and, in our current context, this functionality we are exploring to begin our foray into programming.&#x20;
+The reason we ask every student to use Google Chrome for this course is to both standardise the tools everyone uses and, in our current context, this functionality we are exploring to begin our foray into programming.
 
 Feel free to read up more on [Google's own documentation](https://developer.chrome.com/docs/devtools/console/)!
 
@@ -64,10 +64,10 @@ The JavaScript language is capable of performing math operations. Enter the foll
 4 - 2;
 ```
 
-The input here is a mathematical equation typed in by the user, you. You have _instructed_ the computer to perform a mathematical operation. The computer \_**returned** \_ an output, the evaluation of the equation.
+The input here is a mathematical equation typed in by the user, you. You have instructed the computer to perform a mathematical operation. The computer returned an output, the evaluation of the equation.
 
 {% hint style="info" %}
-These exercises may seem trivial, but mathematical operations are at the core of all computing instructions. Computers fundamentally _**compute.**_ That being said, they can get things predictably wrong. Try: `0.1 + 0.2` in your console. Did you get what you expect?
+These exercises may seem trivial, but mathematical operations are at the core of all computing instructions. Computers fundamentally **compute.** That being said, they can get things predictably wrong. Try: `0.1 + 0.2` in your console. Did you get what you expect?
 
 Coding Fundamentals will not cover why computers sometimes behave in odd ways, but you can read up more about this particular behaviour [here](https://0.30000000000000004.com) and [here](https://betterprogramming.pub/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476).
 {% endhint %}

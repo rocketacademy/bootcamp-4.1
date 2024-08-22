@@ -170,7 +170,7 @@ diceRoll1 == 1 && diceRoll2 == 1;
 
 **NOT Snake Eyes Boolean Statement**
 
-To express _NOT_ snake eyes, we can negate the above boolean statement with the `!` operator, making sure to surround the snake eyes statement with parentheses (`()`) to indicate that the `!` applies to the entire snake eyes statement and not just the first part. The following evaluates to `true` when the dice rolls do _not_ represent snake eyes, i.e. when `diceRoll1` and `diceRoll2` do not _both_ have the value of 1.
+To express NOT snake eyes, we can negate the above boolean statement with the `!` operator, making sure to surround the snake eyes statement with parentheses (`()`) to indicate that the `!` applies to the entire snake eyes statement and not just the first part. The following evaluates to `true` when the dice rolls do NOT represent snake eyes, i.e. when `diceRoll1` and `diceRoll2` do not both have the value of 1.
 
 ```javascript
 !(diceRoll1 == 1 && diceRoll2 == 1);
@@ -254,4 +254,4 @@ If the above exercises are taking a long time, we may wish to complete the subse
 
 ## Further Reading
 
-Past students have found this [slide deck](https://www.cs.cmu.edu/\~mrmiller/15-110/Handouts/boolean.pdf) helpful in understanding Boolean logic.
+Past students have found this [slide deck](https://www.cs.cmu.edu/~mrmiller/15-110/Handouts/boolean.pdf) helpful in understanding Boolean logic.

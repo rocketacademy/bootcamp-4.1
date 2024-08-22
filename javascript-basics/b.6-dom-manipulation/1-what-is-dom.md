@@ -1,4 +1,4 @@
-# 10.3: The Document Object Model
+# The Document Object Model
 
 ## Learning Objectives
 
