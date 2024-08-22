@@ -27,7 +27,7 @@ There are 2 broad categories of errors: **syntax** and **logical** errors. Synta
 
 We can use the console to fix both kinds.
 
-{% include youtube.com id="iWmlkW6uQ-0" %}
+{% include youtube.html id="iWmlkW6uQ-0" %}
 
 ## Syntax errors
 
@@ -37,7 +37,7 @@ These are errors where we will see red text in the console. Syntax errors can be
 
 Compile-time syntax errors are errors that can be detected before our code runs. These are similar to grammatical errors caught by auto-correct. VSCode will point out these errors in VSCode before we run our programs by highlighting the error code with red squiggly lines. If we try to run programs with compile-time errors, the programs will not run and we will see the errors in the Chrome console.
 
-In some other programming languages, such as Java or C++, there is a compilation step before our code runs to translate human-readable code to machine code known as [binary](https://www.youtube.com/watch?v=wgbV6DLVezo).
+In some other programming languages, such as Java or C++, there is a compilation step before our code runs to translate human-readable code to machine code known as [binary](https://www.youtube.html/watch?v=wgbV6DLVezo).
 
 
 

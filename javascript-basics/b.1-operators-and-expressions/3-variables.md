@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to:
 
 To do more than just basic math, we need to store, access and manipulate data in a computer's _memory_. We do this by utilizing **variables** in programming.
 
-{% include youtube.com id="mBZrHgAja78" %}
+{% include youtube.html id="mBZrHgAja78" %}
 
 ## What are Variables?
 

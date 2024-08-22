@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% include youtube.com id="CI09j_aHLE0" %}
+{% include youtube.html id="CI09j_aHLE0" %}
 
 We've built relatively complex programs using functions and conditionals with global state. In this module we will learn a new data type, or "data structure", to be precise: dynamic-length data "**arrays"**. We'll then learn how to manipulate arrays using a syntax called "**loops**". Just like each concept we've learned previously, the mechanic of the individual concepts will be relatively simple, but when we combine these concepts with previous concepts, the complexity of our apps can increase greatly.
 

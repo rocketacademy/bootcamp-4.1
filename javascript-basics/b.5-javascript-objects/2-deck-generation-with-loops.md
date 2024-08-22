@@ -8,7 +8,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% include youtube.com id="FG8QVeq5y-k" %}
+{% include youtube.html id="FG8QVeq5y-k" %}
 
 At the end of the previous lesson, we shared a hard-coded card deck. This would work for our applications, but we may wish to use loops to generate this deck to be more concise and so we can more easily modify the deck if we need to. Creating the card deck with loops is also a useful exercise in identifying patterns and automating them with loops.
 

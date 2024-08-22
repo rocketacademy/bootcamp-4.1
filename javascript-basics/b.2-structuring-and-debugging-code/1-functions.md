@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 
 ## Introduction
 
-{% include youtube.com id="VUcdDK1hSoE" %}
+{% include youtube.html id="VUcdDK1hSoE" %}
 
 We can now start to group the code we're working with into "functions" and use functions to write more realistic, complex programs. Let's explore how functions work.
 

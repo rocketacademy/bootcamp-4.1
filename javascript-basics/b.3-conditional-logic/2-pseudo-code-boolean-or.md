@@ -10,7 +10,7 @@ By the end of this lesson, you should be able to:
 
 ## Introduction
 
-{% include youtube.com id="3QgxbnIOYnw" %}
+{% include youtube.html id="3QgxbnIOYnw" %}
 
 Let's update our dice game from the previous lesson so that the user also wins if they guess within 1 of the dice roll. To encode this we will need a new kind of conditional syntax: "**logical operators**". We will also learn about "**pseudo-code**", a common method to plan logic before writing code.
 

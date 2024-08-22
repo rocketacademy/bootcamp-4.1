@@ -10,7 +10,7 @@ By the end of this lesson, you should be able to do the following:
 
 ## Introduction
 
-{% include youtube.com id="ywFgZIZXGoI" %}
+{% include youtube.html id="ywFgZIZXGoI" %}
 
 So far our apps have always performed the _same operations_, no matter the input. The next level of complexity is to create programs that perform _different_ operations, depending on the input.
 

@@ -8,7 +8,7 @@
 
 ## Video
 
-{% embed url="https://youtu.be/p24syWwKoO8" %}
+{% include youtube.html id="p24syWwKoO8" %}
 
 ## Introduction
 
