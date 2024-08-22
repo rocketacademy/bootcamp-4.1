@@ -1,4 +1,4 @@
-# 6.1: Arrays
+# Arrays
 
 ## Learning Objectives
 

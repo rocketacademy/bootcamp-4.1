@@ -1,4 +1,4 @@
-# 4.2: Pseudo-Code, Boolean Or
+# Pseudo-Code, Boolean Or
 
 ## Learning Objectives
 
@@ -96,7 +96,7 @@ To write more concise code, we'll introduce another conditional syntax: logical 
 
 ### Logical OR: Any of These Statements
 
-The logical OR operator allows us to combine 2 [boolean expressions](https://en.wikipedia.org/wiki/Boolean\_expression) into a single boolean expression. A boolean expression is an expression that evaluates to either `true` or `false`. To combine more than 2 boolean expressions in a single statement, we can use multiple OR operators.
+The logical OR operator allows us to combine 2 [boolean expressions](https://en.wikipedia.org/wiki/Boolean_expression) into a single boolean expression. A boolean expression is an expression that evaluates to either `true` or `false`. To combine more than 2 boolean expressions in a single statement, we can use multiple OR operators.
 
 Here is pseudo-code that more closely reflects OR logic.
 
@@ -140,7 +140,7 @@ if (
 }
 ```
 
-In [4.3: Boolean And, Not](4.3-boolean-and-not.md) we will learn about 2 more logical operators AND (`&&`) and NOT (`!`).
+In next lesson, we will learn about 2 more logical operators, AND (`&&`) and NOT (`!`).
 
 ## Exercises (Base)
 

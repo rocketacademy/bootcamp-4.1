@@ -1,4 +1,4 @@
-# 4.1: Intro to Logic
+# Intro to Logic
 
 ## Learning Objectives
 
@@ -22,7 +22,7 @@ To begin with logic we'll be using the most basic JavaScript logic syntax, the `
 
 ## If Statement
 
-An "**if statement**" is a control-flow "**code block**" that runs if a condition is `true`. A code block is a section of code surrounded by curly braces. We'll talk more about what `true` means when we introduce the boolean data type in [Module 4.3: Boolean And, Not](4.3-boolean-and-not.md).
+An "**if statement**" is a control-flow "**code block**" that runs if a condition is `true`. A code block is a section of code surrounded by curly braces. We'll talk more about what `true` means when we introduce the boolean data type in next lesson.
 
 ### Simple Conditional Example: Secret Phrase
 
@@ -43,7 +43,7 @@ var main = function (input) {
 
 Our if statement is on line 5. The conditional inside it tests if `input` is equal to `'palatable papaya'`, our secret phrase. If `input` is equal to `'palatable papaya'`, the code runs between the curly braces on lines 5 and 7, i.e. the "if block". If `input` is not equal to our phrase, the if block does not run.
 
-Code blocks may or may not run depending on "[**control flow**](https://en.wikipedia.org/wiki/Control\_flow)", i.e. the logic of our app. The 1st way we learned to use code blocks was with functions. If statements are a 2nd way. We'll learn a 3rd code block syntax later in [6.2: Loops](../6-arrays-and-iteration/6.2-loops.md).
+Code blocks may or may not run depending on "[**control flow**](https://en.wikipedia.org/wiki/Control\_flow)", i.e. the logic of our app. The 1st way we learned to use code blocks was with functions. If statements are the second way. We'll learn a 3rd code block syntax later called loops.
 
 Try inputting secret and non-secret phrases into the program. Enter the secret phrase and click the button to see the different output. Enter anything else and click the button to see the default output.
 
@@ -69,27 +69,27 @@ As our apps get more complicated, we can and should leave notes to ourselves and
 
 ## Knowledge Application: Dice Game
 
-Let's recap and build onto [3.1: Functions ](../3-structuring-and-debugging-code/3.1-functions.md)by building a **function** that generates random dice numbers.&#x20;
+Let's recap and build onto functions lesson by building a **function** that generates random dice numbers.
 
 We will be using this 'Dice Rolling function' as a base to explore Logic and Control Flow for the rest of this Module.
 
 ### Random Number Generation
 
-To simulate dice, we first need random number generation. JavaScript can produce random numbers using a built-in "**library**" called [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Math) (_case-sensitive_). `Math` contains functions that perform common and helpful math operations.&#x20;
+To simulate dice, we first need random number generation. JavaScript can produce random numbers using a built-in "**library**" called [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) (_case-sensitive_). `Math` contains functions that perform common and helpful math operations.
 
-The function we need is `Math.random()`. **N**_**ote the function call using ()**_
+The function we need is `Math.random()`. **Note the function call using ()**_
 
 ```javascript
 var myRandomValue = Math.random();
 ```
 
-Calling `Math.random()` returns a random decimal number between 0 and 1, inclusive of 0 and exclusive of 1.&#x20;
+Calling `Math.random()` returns a random decimal number between 0 and 1, inclusive of 0 and exclusive of 1.
 
 Note that the `Math.random()` function does not take in an input.
 
 Since we wish to simulate dice with numbers between 1 to 6 inclusive, we have to manipulate the randomly-generated number to get what we want.
 
-To convert our random number to a valid dice roll value, we'll use another `Math` function: `Math.floor()`. We will follow the random integer generation example [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Math/random) to use `Math.floor()` to convert decimals to integers.
+To convert our random number to a valid dice roll value, we'll use another `Math` function: `Math.floor()`. We will follow the random integer generation example [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) to use `Math.floor()` to convert decimals to integers.
 
 With `Math.random()` and `Math.floor()`, we can make a function that produces any random integer from 0 to a provided `max` number:
 

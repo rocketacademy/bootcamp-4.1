@@ -1,4 +1,4 @@
-# 2.2: Assignment Operators | Variables
+# Assignment Operators | Variables
 
 ## Learning Objectives
 

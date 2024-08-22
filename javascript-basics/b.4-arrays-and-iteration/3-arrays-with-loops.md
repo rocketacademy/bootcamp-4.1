@@ -1,4 +1,4 @@
-# 6.3: Loops with Arrays
+# Loops with Arrays
 
 ## Learning Objectives
 

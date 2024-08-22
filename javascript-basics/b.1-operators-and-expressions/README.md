@@ -1,4 +1,4 @@
-# 2: Operators and Expressions
+# Operators and Expressions
 
 ## Learning Objectives
 
